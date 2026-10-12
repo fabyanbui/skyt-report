@@ -1,0 +1,98 @@
+\chapter{Nội dung và thiết kế giải pháp}
+
+\section{Khảo sát vấn đề và giả thuyết}
+SCCG xuất phát từ giả thuyết rằng một luồng kiểm tra có cấu trúc có thể giảm thao tác tra cứu lặp lại và giúp lưu bằng chứng xử lý. Trước khi phát triển, cần khảo sát quy trình hiện tại, công cụ đã được sử dụng, loại dự án cần ưu tiên, chủ sở hữu chính sách và các yêu cầu bảo mật.
+
+Các câu hỏi khảo sát gồm: (i) kiểm tra license/OSS hiện diễn ra ở giai đoạn nào; (ii) có công cụ SBOM hoặc license scanning nào đang vận hành; (iii) cách xử lý trường hợp metadata thiếu hoặc mâu thuẫn; (iv) ai phê duyệt ngoại lệ; (v) dữ liệu nào được phép đưa vào công cụ; và (vi) chỉ số nào có thể dùng làm baseline.
+
+\section{Các khái niệm cần phân biệt}
+\subsection{Thành phần, phiên bản và nguồn bằng chứng}
+Một kết quả cần được gắn với định danh thành phần và phiên bản/commit cụ thể. Nguồn bằng chứng có thể gồm metadata từ registry, tệp LICENSE, thông tin phát hành, manifest, lockfile hoặc model card. Sự hiện diện của trường license không tự chứng minh rằng thông tin đó đầy đủ, chính xác hay áp dụng cho mọi thành phần đi kèm.
+
+\subsection{Kết quả chính sách và chất lượng bằng chứng}
+Hai khái niệm này phải được biểu diễn riêng. Kết quả chính sách phản ánh việc bằng chứng đã thu thập được có phù hợp với quy tắc đã được phê duyệt hay không; chất lượng bằng chứng phản ánh mức độ đầy đủ, truy xuất được và nhất quán của thông tin. Thiếu bằng chứng không đồng nghĩa với vi phạm.
+
+\begin{table}[H]
+\centering
+\caption{Phân biệt kết quả chính sách và trạng thái bằng chứng}
+\label{tab:evidence-policy}
+\begin{tabular}{p{0.24\textwidth}p{0.31\textwidth}p{0.34\textwidth}}
+\toprule
+\textbf{Chiều đánh giá} & \textbf{Giá trị đề xuất} & \textbf{Ý nghĩa} \\
+\midrule
+Kết quả chính sách & Đạt / Cần xem xét / Không đạt & So sánh bằng chứng với quy tắc được phê duyệt \\
+Chất lượng bằng chứng & Đầy đủ / Một phần / Mâu thuẫn hoặc chưa xác minh & Cho biết mức độ tin cậy và khả năng truy vết \\
+Hành động tiếp theo & Chấp nhận / Rà soát / Thay thế / Xin ngoại lệ & Hướng xử lý, không phải kết luận pháp lý tự động \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Yêu cầu chức năng}
+Các yêu cầu dưới đây là mục tiêu thiết kế của MVP, chưa phải tuyên bố về tính năng đã được triển khai.
+
+\begin{longtable}{p{0.13\textwidth}p{0.40\textwidth}p{0.37\textwidth}}
+\caption{Yêu cầu chức năng mức MVP}\label{tab:fr}\\
+\toprule
+\textbf{Mã} & \textbf{Yêu cầu} & \textbf{Tiêu chí kiểm chứng} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Mã} & \textbf{Yêu cầu} & \textbf{Tiêu chí kiểm chứng} \\
+\midrule
+\endhead
+FR-01 & Nhận URL repository/package/model hoặc danh sách thành phần & Đầu vào được kiểm tra và định danh thành phần được ghi lại \\
+FR-02 & Thu thập phiên bản, metadata license, nguồn tham khảo và thời điểm kiểm tra & Mỗi trường có nguồn hoặc được đánh dấu chưa có bằng chứng \\
+FR-03 & Thu thập dependency trực tiếp/gián tiếp trong hệ sinh thái được chọn & Báo cáo có thể truy vết đường dẫn dependency khi dữ liệu hỗ trợ \\
+FR-04 & Đối chiếu với chính sách có phiên bản do chủ sở hữu chính sách cung cấp & Kết quả chỉ dựa trên quy tắc đã cấu hình và được ghi phiên bản \\
+FR-05 & Phân biệt đạt, cần xem xét và không đạt & Thiếu hoặc mâu thuẫn dữ liệu không bị tự động coi là vi phạm \\
+FR-06 & Xuất báo cáo đọc được và JSON có cấu trúc & Có thành phần, phiên bản, kết quả, lý do, nguồn và ngày kiểm tra \\
+FR-07 & Ghi nhận ngoại lệ có người phê duyệt, lý do và phạm vi & Ngoại lệ có dấu vết kiểm toán và không bị bỏ qua âm thầm \\
+FR-08 & So sánh kết quả tự động với tập mẫu đã rà soát thủ công & Có bảng lỗi, trường hợp chưa kết luận và số liệu đánh giá \\
+\bottomrule
+\end{longtable}
+
+\section{Yêu cầu phi chức năng}
+\begin{itemize}
+    \item \textbf{Khả năng truy vết:} kết quả gắn với thành phần/phiên bản, nguồn bằng chứng, thời điểm kiểm tra và phiên bản chính sách.
+    \item \textbf{Tính tái lập:} cùng đầu vào, bằng chứng và phiên bản chính sách phải tạo ra kết quả nhất quán, ngoại trừ dữ liệu bên ngoài đã thay đổi.
+    \item \textbf{Bảo mật:} không chuyển source code hoặc metadata nội bộ ra ngoài môi trường được phê duyệt.
+    \item \textbf{Khả năng giải thích:} mỗi cảnh báo chỉ ra quy tắc, bằng chứng và hành động tiếp theo.
+    \item \textbf{Khả năng tích hợp:} ưu tiên định dạng đầu ra có thể lưu cùng PR và đọc được bởi CI ở giai đoạn sau.
+    \item \textbf{Tính an toàn vận hành:} pilot mặc định cảnh báo, không chặn merge.
+\end{itemize}
+
+\section{Kiến trúc mức cao}
+Kiến trúc đề xuất tách quá trình thu thập dữ liệu khỏi việc áp dụng chính sách. Điều này cho phép kiểm tra nguồn bằng chứng độc lập, thay đổi policy version có kiểm soát và giải thích quyết định sau này.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=0.65cm,
+  box/.style={draw,rounded corners,align=center,text width=0.78\textwidth,minimum height=0.8cm},
+  arrow/.style={-{Stealth[length=2mm]},thick}
+]
+\node[box] (input) {Đầu vào: repository / package / model URL / manifest};
+\node[box,below=of input] (discover) {Khám phá thành phần và dependency trong phạm vi hỗ trợ};
+\node[box,below=of discover] (evidence) {Thu thập và chuẩn hóa bằng chứng: phiên bản, license, URL, thời điểm};
+\node[box,below=of evidence] (quality) {Đánh giá chất lượng bằng chứng: đầy đủ / một phần / mâu thuẫn};
+\node[box,below=of quality] (policy) {Policy engine có phiên bản: đối chiếu quy tắc đã được phê duyệt};
+\node[box,below=of policy] (report) {Báo cáo: kết quả, lý do, đường dẫn dependency, nguồn và hướng xử lý};
+\draw[arrow] (input)--(discover);
+\draw[arrow] (discover)--(evidence);
+\draw[arrow] (evidence)--(quality);
+\draw[arrow] (quality)--(policy);
+\draw[arrow] (policy)--(report);
+\end{tikzpicture}
+\caption{Kiến trúc logic đề xuất cho SCCG MVP}
+\label{fig:sccg-architecture}
+\end{figure}
+
+\section{Mô hình quyết định và luồng ngoại lệ}
+Kết quả nên dùng ba trạng thái chính: \textit{Đạt}, \textit{Cần xem xét} và \textit{Không đạt theo quy tắc đã phê duyệt}. Trạng thái bằng chứng được lưu riêng để tránh biến sự thiếu thông tin thành một kết luận pháp lý. Chỉ người có thẩm quyền mới được xác nhận ngoại lệ; ngoại lệ cần lưu người duyệt, lý do, phạm vi, ngày phê duyệt và thời hạn nếu có.
+
+Trong pilot, tất cả kết quả chỉ tạo báo cáo/cảnh báo. Chỉ cân nhắc chặn merge sau khi có baseline, độ chính xác phù hợp, chủ sở hữu chính sách, quy trình khiếu nại/ngoại lệ và sự đồng ý của các bên liên quan.
+
+\section{Khảo sát công cụ liên quan}
+Các công cụ hiện có cần được đánh giá trước khi tự xây dựng toàn bộ pipeline. SPDX cung cấp chuẩn định danh và biểu diễn thông tin license/SBOM; ScanCode Toolkit có thể hỗ trợ quét thông tin license/copyright; Syft tạo SBOM cho nhiều loại artifact; các công cụ như ORT hỗ trợ các bước phân tích tuân thủ license trong quy trình phần mềm \cite{spdx,scancode,syft,ort}. Đây là các ứng viên khảo sát, không phải khẳng định rằng SCCG cần thay thế chúng hoặc đã có tính năng vượt trội.
+
+Việc lựa chọn baseline cần căn cứ vào hệ sinh thái mục tiêu, khả năng chạy nội bộ, độ bao phủ, khả năng xuất bằng chứng, chi phí tích hợp và giấy phép của chính công cụ. Kết quả khảo sát phải được ghi vào pilot trước khi chốt phạm vi phát triển.
