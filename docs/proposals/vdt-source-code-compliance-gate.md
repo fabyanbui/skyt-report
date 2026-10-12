@@ -3,7 +3,8 @@
 > **Category:** Software Engineering / DevSecOps / Legal-tech enablement  
 > **Status:** Proposed — discovery and pilot required  
 > **Owner:** Bùi Đình Bảo  
-> **Working name:** SCCG (Source Code Compliance Gate)
+> **Working name:** SCCG (Source Code Compliance Gate)  
+> **Problem definition:** [OSS and AI-Assisted Code Reuse](./problem-definition-source-code-compliance.md)
 
 ## 1. Executive summary
 
