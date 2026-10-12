@@ -1,0 +1,33 @@
+\chapter{Kết luận và hướng phát triển}
+
+\section{Tổng kết}
+SCCG được đề xuất như một bước hỗ trợ kiểm tra việc sử dụng OSS trong quy trình phát triển phần mềm, bắt đầu từ trải nghiệm cá nhân khi thử nghiệm các thành phần OSS cho AI OCR. Vấn đề cần giải quyết chưa được coi là đã xác minh; bước đầu tiên là khảo sát quy trình và công cụ hiện tại, sau đó xác định khoảng trống thực tế.
+
+Thiết kế MVP ưu tiên thu thập bằng chứng gắn với thành phần/phiên bản, phân biệt chất lượng bằng chứng với kết quả chính sách, truy vết dependency trong phạm vi hỗ trợ và tạo báo cáo giải thích được. Policy engine cần dùng quy tắc đã được phê duyệt, có phiên bản và lưu dấu vết xử lý ngoại lệ. Công cụ không tự kết luận vi phạm pháp luật, và thiếu metadata không được xem là bằng chứng tự động của vi phạm.
+
+\section{Đóng góp dự kiến}
+Nếu pilot được chấp thuận và triển khai, các đầu ra kỳ vọng gồm:
+\begin{itemize}
+    \item Bản mô tả quy trình và khoảng trống đã được xác minh với các bên liên quan.
+    \item Bộ mẫu nhỏ có kết quả rà soát thủ công và nguồn bằng chứng.
+    \item MVP thu thập thông tin, áp dụng quy tắc và xuất báo cáo có thể truy vết.
+    \item Báo cáo so sánh với rà soát thủ công và công cụ hiện có.
+    \item Khuyến nghị có căn cứ về việc tích hợp CI, mở rộng phạm vi hay dừng thử nghiệm.
+\end{itemize}
+Đây là đầu ra dự kiến, không phải kết quả đã hoàn thành.
+
+\section{Hạn chế}
+Tại thời điểm báo cáo, chưa có số liệu pilot để khẳng định độ chính xác, mức giảm thời gian, hiệu quả kinh tế hoặc tính mới. Chất lượng metadata khác nhau giữa hệ sinh thái; một số tài nguyên AI có thể không cung cấp đầy đủ thông tin về trọng số/dataset. Dependency gián tiếp chỉ có thể phân tích đáng tin cậy khi có manifest, lockfile hoặc dữ liệu tương ứng. Quy tắc chính sách và quyết định ngoại lệ phải do người có thẩm quyền cung cấp.
+
+\section{Hướng phát triển}
+Các bước tiếp theo được đề xuất theo thứ tự:
+\begin{enumerate}[label=\arabic*.]
+    \item Xác minh nhu cầu, công cụ hiện tại, chính sách và điều kiện bảo mật.
+    \item Chọn một hệ sinh thái và xác lập baseline.
+    \item Xây tập mẫu đã rà soát thủ công và xác định quy tắc đánh giá.
+    \item Triển khai MVP hẹp, ưu tiên bằng chứng và giải thích kết quả.
+    \item Đánh giá sai số, độ bao phủ và thời gian; chỉ sau đó thử tích hợp CI ở chế độ cảnh báo.
+    \item Chỉ cân nhắc chặn merge hoặc mở rộng sang AI provenance khi đã có bằng chứng, quy trình ngoại lệ và phê duyệt phù hợp.
+\end{enumerate}
+
+Kết luận cuối cùng về tính khả thi và giá trị của SCCG cần dựa trên kết quả khảo sát và thử nghiệm, không chỉ dựa trên mô tả kiến trúc.

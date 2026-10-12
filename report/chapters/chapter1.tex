@@ -1,0 +1,33 @@
+\chapter{Giới thiệu}
+
+\section{Đặt vấn đề}
+Trong quá trình phát triển phần mềm, nhóm kỹ thuật thường sử dụng thư viện, package, công cụ build và tài nguyên từ bên thứ ba để rút ngắn thời gian phát triển. Với các hệ thống AI, phạm vi tài nguyên có thể rộng hơn, gồm mã nguồn mô hình, trọng số, dataset và công cụ xử lý dữ liệu. Mỗi loại tài nguyên có thể đi kèm điều kiện sử dụng khác nhau; không nên suy luận rằng giấy phép được ghi ở một nơi tự động áp dụng cho toàn bộ tài nguyên liên quan.
+
+Thông tin về giấy phép, phiên bản và nguồn gốc có thể phân tán giữa repository, package registry, model card, tệp manifest, lockfile và tài liệu phát hành. Nếu việc kiểm tra chưa được tích hợp vào thời điểm phù hợp, người phát triển có thể phải tra cứu lặp lại hoặc xử lý lại khi thành phần đã được tích hợp sâu. Tuy nhiên, mức độ của vấn đề trong quy trình hiện tại cần được khảo sát; báo cáo không giả định rằng tổ chức chưa có công cụ hay quy trình tương đương.
+
+\section{Nguồn gốc ý tưởng}
+Ý tưởng bắt đầu từ trải nghiệm cá nhân khi thử nghiệm nhiều mô hình, repository và công cụ OSS cho pipeline AI OCR. Trong quá trình so sánh chất lượng, tốc độ và khả năng tích hợp, trọng tâm dễ nghiêng về khía cạnh kỹ thuật trong khi điều kiện sử dụng và nguồn bằng chứng cần được kiểm tra riêng.
+
+Từ đó, câu hỏi được mở rộng thành: làm thế nào để hỗ trợ nhóm phát triển nhận biết sớm những thành phần cần rà soát, phân biệt trường hợp thiếu thông tin với trường hợp không phù hợp chính sách, và lưu lại bằng chứng phục vụ kiểm tra sau này?
+
+\section{Mục tiêu báo cáo}
+Báo cáo có bốn mục tiêu:
+\begin{enumerate}[label=\arabic*.]
+    \item Mô tả vấn đề và các giả thuyết cần xác minh với nhóm kỹ thuật, DevSecOps và bộ phận phụ trách pháp chế/tuân thủ.
+    \item Đề xuất phạm vi MVP của SCCG, ưu tiên thu thập bằng chứng, phân tích dependency trong phạm vi hỗ trợ và giải thích kết quả.
+    \item Xác định kiến trúc, yêu cầu chức năng, rủi ro và quy trình pilot có thể kiểm chứng.
+    \item Đề xuất phương pháp đánh giá dựa trên baseline, kết quả rà soát thủ công và số liệu thực nghiệm thay vì khẳng định trước hiệu quả.
+\end{enumerate}
+
+\section{Câu hỏi cần trả lời}
+\begin{enumerate}[label=\textbf{RQ\arabic*:}]
+    \item Có khoảng trống nào trong quy trình hiện tại liên quan đến kiểm tra giấy phép, nguồn bằng chứng và dependency OSS?
+    \item Có thể thu thập được thông tin đủ tin cậy để gắn với thành phần và phiên bản cụ thể đến mức nào?
+    \item SCCG có thể phân biệt kết quả chính sách với chất lượng bằng chứng và đưa ra lý do dễ kiểm tra không?
+    \item So với rà soát thủ công và công cụ hiện có, SCCG có cải thiện độ bao phủ hoặc thời gian xử lý mà không tạo quá nhiều cảnh báo sai không?
+\end{enumerate}
+
+\section{Phạm vi và giới hạn}
+MVP tập trung vào một hệ sinh thái package/repository được chọn sau khảo sát, đầu vào là URL hoặc danh sách thành phần và đầu ra là báo cáo có nguồn bằng chứng. Dependency trực tiếp và gián tiếp chỉ được phân tích trong phạm vi mà công cụ có thể tái dựng đáng tin cậy.
+
+MVP chưa nhằm tự kết luận vi phạm pháp luật, chứng minh nguồn gốc mọi dòng mã, phát hiện chắc chắn mã do AI sinh ra, hay bao phủ toàn bộ mô hình, dataset, binary và container. Không được gửi mã nguồn hoặc dữ liệu nội bộ tới dịch vụ bên ngoài khi chưa được phê duyệt. Việc tích hợp CI là bước sau pilot và ban đầu chỉ chạy ở chế độ cảnh báo.

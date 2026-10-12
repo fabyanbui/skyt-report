@@ -1,0 +1,76 @@
+% Báo cáo SCCG — dựa theo cấu trúc VDT2026_MiniProject_report
+\documentclass[11pt,a4paper,oneside]{report}
+
+\usepackage{fontspec}
+\usepackage[vietnamese,english]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99]{biblatex}
+\addbibresource{references.bib}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{1.2em}
+\renewcommand{\chaptername}{Chương}
+
+\newcommand{\reportauthor}{Bùi Đình Bảo}
+\newcommand{\reportprogram}{Chương trình Viettel Digital Talent 2026}
+\newcommand{\reporttitle}{SCCG: Đề xuất kiểm tra tuân thủ OSS trong quy trình phát triển phần mềm}
+\newcommand{\reportdate}{Tháng 10 năm 2026}
+\newcommand{\reportstatus}{Báo cáo đề xuất và thiết kế pilot}
+
+\begin{document}
+\begin{titlepage}
+\centering
+\vspace*{1.2cm}
+{\Large\bfseries TẬP ĐOÀN CÔNG NGHIỆP -- VIỄN THÔNG QUÂN ĐỘI\par}
+\vspace{2.8cm}
+{\Large\bfseries BÁO CÁO SÁNG KIẾN VDT\par}
+\vspace{1cm}
+{\huge\bfseries \reporttitle\par}
+\vspace{1.5cm}
+{\Large \reportauthor\par}
+\vspace{0.5cm}
+{\large \reportprogram\par}
+\vfill
+{\large Trạng thái: \reportstatus\par}
+\vspace{0.4cm}
+{\large \reportdate\par}
+\vspace{1cm}
+\end{titlepage}
+
+\pagenumbering{roman}
+\chapter*{Lời cảm ơn}
+Báo cáo được hình thành từ trải nghiệm cá nhân trong quá trình thử nghiệm các thư viện, mô hình và công cụ mã nguồn mở phục vụ pipeline AI OCR. Tôi xin cảm ơn chương trình Viettel Digital Talent đã tạo môi trường để học tập, thực hành kỹ thuật và đề xuất những cải tiến có thể kiểm chứng. Các nội dung về quy trình, chính sách và khả năng áp dụng trong tổ chức cần tiếp tục được trao đổi với các nhóm kỹ thuật, DevSecOps và bộ phận phụ trách pháp chế/tuân thủ trước khi triển khai thử nghiệm.
+
+\chapter*{Lời mở đầu}
+Phần mềm hiện đại thường được xây dựng từ nhiều thành phần: thư viện, package, công cụ build, container, mô hình AI, trọng số và dataset. Việc lựa chọn một thành phần không chỉ phụ thuộc vào chức năng hay hiệu năng; nhóm phát triển còn cần hiểu điều kiện sử dụng, nguồn gốc và bằng chứng liên quan đến phiên bản được tích hợp. Những thông tin này có thể nằm ở nhiều nguồn khác nhau và mức độ đầy đủ không đồng nhất.
+
+Từ trải nghiệm thử nghiệm OSS trong pipeline AI OCR, tôi đặt câu hỏi liệu việc kiểm tra giấy phép, dependency và nguồn bằng chứng có thể được thực hiện sớm, nhất quán và có thể truy vết hơn hay không. Câu hỏi này là giả thuyết cá nhân, không phải kết luận rằng tổ chức hiện chưa có quy trình tương đương hoặc đã xảy ra vi phạm.
+
+Báo cáo đề xuất SCCG (Source Code Compliance Gate) như một bước hỗ trợ sàng lọc. Trọng tâm của giai đoạn đầu không phải xây dựng ngay một nền tảng CI/CD toàn diện, mà là kiểm chứng một luồng hẹp: thu thập thông tin của thành phần OSS, đánh giá chất lượng bằng chứng, đối chiếu với chính sách do đơn vị có thẩm quyền cung cấp và xuất báo cáo giải thích được. Các quyết định mơ hồ cần được chuyển cho con người xem xét; công cụ không thay thế tư vấn pháp lý.
+
+\tableofcontents
+\listoftables
+\clearpage
+\pagenumbering{arabic}
+
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+
+\printbibliography[title={Tài liệu tham khảo}]
+\end{document}
