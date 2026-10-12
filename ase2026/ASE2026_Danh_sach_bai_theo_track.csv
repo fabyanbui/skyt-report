@@ -1,0 +1,499 @@
+Track,Tieu_de
+Research,A11YRepair: Bridging Web Accessibility Barriers via Knowledge-Enhanced Divide-and-Conquer Repair
+Research,Accurate and Low-Cost Residual Risk Assessment via Sampled Profiling and Structure-Aware Coverage Amplification
+Research,A Comprehensive Evaluation of Code Language Models for Security Patch Detection
+Research,Adaptive Proof Refinement with LLM-Guided Strategy Selection
+Research,AEG-Edit: Bridging API Evolution and Code Semantics for Accurate API Usage in Code Generation
+Research,A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost after Coding-Agent Adoption
+Research,AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection
+Research,AgentExecutor: Partial Code Execution via Agentic Context Generation
+Research,Aligning User Requirement with Large Language Model in Code Generation
+Research,All or Nothing: How Library Type Annotations Affect Client-Side Errors in Python
+Research,A Longitudinal Study of Android Apps Signing Key Protection
+Research,A Low-Cost Human-in-the-Loop Investigation of Toxicity on GitHub at Scale
+Research,AlphaCu: A Transformation-Driven Synthesis Framework for LLM-Based GPU Kernel Generation
+Research,An Empirical Study of Data Access Practice in Android AR Apps to Understand User Privacy Risks
+Research,Are Reasoning Traces Faithful in LLM-Based Code Vulnerability Detection?
+Research,ArkEval: Benchmarking and Evaluating Automated Code Repair for ArkTS
+Research,ARMOR: A Robust Self-Supervised Framework for Root Cause Analysis in Microservices under Missing Modality
+Research,A Scalable Rule-Based Deep Reinforcement Learning Framework for the Next Release Problem
+Research,A Selective Undo/Redo Algorithm for Dependency-Constrained Operation Histories Based on Change Propagation
+Research,Assessing the Cross-Version Applicability of Java Library Vulnerability Exploits
+Research,Assessing Uncertainty in Performance Modeling: Conformal Prediction vs. Bayesian Regression
+Research,ATLAS: Agentic Taxonomy of LArge-Scale Software Ecosystems
+Research,A Unified Model for Cross-Domain Clone Detection via Model Merging
+Research,Automated Assertion Generation and Regression Testing for Machine Learning Notebooks
+Research,Automated Lemma Discovery in Agentic Program Verification
+Research,Automated Table Reproduction via Code Generation
+Research,AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories
+Research,Barista: Synthesizing Typestate Specifications with LLM Agents
+Research,BDiff: Block-Aware and Accurate Text-Based Code Differencing
+Research,Benchmarking Automated Security Patch Backporting: How Far Are We?
+Research,Best-Effort GR(1) Synthesis: Exploiting Environmental Cooperation under Unrealizability
+Research,Beyond Syntactic Differencing: Semantic-Aware Scheduling for Cross-Configuration Incremental Builds
+Research,Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering
+Research,Bifrost: Empowering Pretrained Language Model with Fallibility Representation for Log-Based Fault Diagnosis
+Research,Breaking Customized LLMs for Coding: Automated Red Teaming for Instruction Backdoor Attacks
+Research,Breaking the Isolation: Coordinated Multi-agent Fuzzing for Smart Contracts with Multi-dimensional Objective Learning
+Research,Bridging the Gap between Intent and Impact: An Empirical Study of GPU Optimizations in Deep Learning Frameworks
+Research,Can Large Language Models Decompose User Stories into Tasks? Exploring the Role of Prompting Strategies and Models
+Research,Certified Program Synthesis with a Multi-modal Verifier
+Research,ChangeWiki: Repository-Level Change Summarization Augmented with Architecture Semantics
+Research,Characterizing the Landscape of Open-Source Satellite Software
+Research,CiL-Agent: Compiler-in-the-Loop LLM Agent for Memory-Safe C Program Repair
+Research,CIPIHunter: Detecting Configuration-Induced Prediction Instability in Deep Learning Frameworks
+Research,Clarity: From Formal System Designs to Verified RL Controllers
+Research,Clarity Is Not Assumed: Understanding LLM-Based Code Generation under Ambiguous Requirements
+Research,CLEAR: Causal Context-Based Agentic Reasoning for Vulnerability Detection
+Research,COBug: A Bug Localization Pipeline for COBOL: Does It Work? An Exploratory Study
+Research,CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning
+Research,Code Transformation Rule Synthesis using LLMs: Potential and Limits
+Research,Compressing Code Context for LLM-Based Issue Resolution
+Research,ConfFuzz: Parameter-Aware Greybox Fuzzing for Configurable Cloud Systems
+Research,Conflict Extraction in Probabilistic Datalog Analyses
+Research,Context-Aware Trust Verification for Identity-Based Software Signing
+Research,CTForge: Automatically Generating Test Suites for Software Configuration
+Research,CtxFuzz: Context-Aware Directed Fuzzing via Runtime Fuzzer-Agent Cooperation
+Research,DAGGER: Dynamic Agentic Graph-Guided Efficient Reasoner for Container Image Dependency Optimization
+Research,Decompiling the Web: Automated Semantic Recovery of Post-compilation Abstraction Leaks
+Research,Defensive Capability Analysis for JavaScript Libraries
+Research,Demystifying Solana Bots: From GitHub Blueprints to On-Chain Fingerprints
+Research,DepUpgrade: Automating Dependency Upgrade through State-Path Exploration
+Research,DesignFix: Context-Augmented Repair of Design Rule Violations
+Research,Discovering Performance Archetypes: Critical-Path-Aware Pattern Analysis and Regression Detection
+Research,Doc2Feat-Bench: Evaluating Documentation-Driven Feature Addition
+Research,Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?
+Research,Don't Retest Everything: Auditable Regression Scoping for Safety-Critical Systems
+Research,DynCA: An Effective Algorithm for 3-Wise Combinatorial Interaction Testing in Highly Configurable Systems
+Research,Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation
+Research,EffiHolmes: Differential Profiling-Guided Repository Level Time Inefficiency Fix Localization
+Research,EMERGE: Checking Implementation Equivalence for LLMs via Rule Synthesis
+Research,Enhancing Trace-Based Root Cause Analysis for Microservice Systems via Code Change Understanding
+Research,Escaping the Self-Repair Trap: Improving Test Oracle Generation via Dual-Context Awareness
+Research,Evaluating Inference-Time Defenses against Package Hallucination in LLM-Generated Code
+Research,Evaluating the Maintainability of ViewModel Tests using Multi-modal DSLs: An Industrial Mixed-Methods Study
+Research,Every Scenario Matters: Scenario-Guided White-Box Testing for Static Code Checkers Powered by LLMs
+Research,Evidence-Grounded Logic Vulnerability Detection for Smart Contracts via Runtime Context Reasoning
+Research,Evolution-Aware Regression Test Prioritization of ML-Enabled Systems using Gradient-Based Behavior Vectors
+Research,Exact-IaC: Execution-Driven Exact Knowledge Injection for Reliable IaC Synthesis
+Research,ExcavatorFuzz: LLM-Guided Path-Difficulty-Driven Directed Greybox Fuzzing
+Research,ExeCRE: Execution-Consistency Guided Reliability Estimation for Self-Correcting Code Generation
+Research,Execution-as-Configuration: Security Smells in Model Configuration Artifacts
+Research,ExplainBench: Evaluating Code Explanations from Agents
+Research,FAiLGen: Calibrating LLM for Failing Test Generation with Monte Carlo Tree Search
+Research,Feature-Focused Test Generation
+Research,Finding Typing-Related Bugs in JVM Implementations
+Research,Formal Verification-Integrated Reinforcement Learning for Automated ORM Schema Synthesis
+Research,Formula Completion Suggestions for Alloy Models with Selection Guidance
+Research,"Fragmented Markers, Mixed Results: A Systematic Review of AI Coding Assistants and Developer Productivity"
+Research,Free Is More: Empowering Software Agents via Issue-Free Trajectory Learning and Entropy-Aware RLVR Training
+Research,From Function to Repository: Towards Understanding and an Agentic Approach for Repo-Level Directed Input Generation
+Research,From Guessing to Seeing: Enhancing LLM-Based Program Repair via Trace-Guided Multi-strategy Debate
+Research,From Plan to Action: How Well Do Agents Follow the Plan?
+Research,From Runnable Code to Shippable Applications: Test-Driven Development for Full-Stack Web Application Generation
+Research,From Thread to Pool: Modeling and Static Detection of Thread Pool Misuses in Java Programs
+Research,From Vibe to Spec: An Empirical Study to Demystify Specifications in Code Generation
+Research,Fully Automating Template Polyhedral Analysis by Leveraging LLMs
+Research,GALA: Graph-Augmented LLM Agents for Root Cause Analysis and Incident Response in Microservices
+Research,GANADI: Uncovering C/C++ OSS Reuse Genealogies via Pivotal Function-Based Clustering to Enhance Supply Chain Security
+Research,Generating Loop Invariants for Deductive Verification using Iterator Profiles
+Research,Generation of Web Apps with Agentic IDEs: An Empirical Assessment
+Research,GPU-Accelerated Belief Propagation for Program Analysis
+Research,GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment
+Research,GraphLedger: Repository-Level Vulnerability Detection via Graph-Based Compression and Assumption Validation
+Research,Gray-Box Fuzzing in Local Space
+Research,Harnessing Uncertainty in Code Language Models: Lessons from Vulnerability Detection
+Research,HERO: Hypothesis-Centered Root-Cause Analysis for Microservice Incidents
+Research,How Do LLMs Read Bug Reports? An Empirical Study of Attention in LLMs for Automated Program Repair
+Research,How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study
+Research,How Quantum Bugs Live and Die: A Lifecycle-Based Empirical Study of Bugs in Quantum Software
+Research,How Reasoning Shapes Social Bias in LLM-Generated Code?
+Research,How Well Do LLMs Generate Taxonomies in the SE Domain? A Multi-perspective Evaluation Framework
+Research,How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study
+Research,HyBinMAS: LLM-Powered Hybrid Analysis for Function Name Recovery of Stripped Binaries
+Research,Hybrid Fuzzing in Input Generation Logic
+Research,HyTri: Hybrid Triage of CI Failures via LLM Guided Semantic Reasoning and Change Attribution
+Research,IcFuzz: Fuzzing Isaac Sim with Semantic Stage Guidance and Multi-level Mutation
+Research,"Implicit, Yet Impactful: Understanding Hidden Dependencies in Java Projects"
+Research,Impossible to Hide Secret ...: Uncovering Security and Privacy Issues in LLM-Native IDEs
+Research,IncSFS: Incremental Full-Sparse Flow-Sensitive Pointer Analysis for C/C++
+Research,Inferring the Shape of Data Frames in R Programs using Abstract Interpretation
+Research,Instruction Alignment for Binary Code Representation Learning
+Research,IntOAgent: A Practical Framework for Automated Detection and Triggering of Integer Overflow Vulnerabilities
+Research,It Takes Two to Tango: Accelerating Code Generation via Cache-Inspired Hierarchical Speculative Decoding
+Research,KQFuzz: Knowledge-Guided Fuzzing for Quantum Libraries via Large Language Models
+Research,LaMAR: Latent Multi-agent Collaboration via KV-Cache Communication for Automated Program Repair
+Research,LARA: Static ReDoS Detection for Regular Expressions with Lookahead via Matching Automata
+Research,Large Language Model Enabled Symbolic Execution for Automated Functional Analysis
+Research,Latent Reuse in Agent Skills: Multi-modal Clone Detection at Ecosystem Scale
+Research,Learning the Lexical Structure of Black-Box Systems by Parsing Systematic String Edit Mutations
+Research,Learning to Triage Vulnerability Reports from Program Analysis: An Empirical Study in Node.js
+Research,Less Is More: Tuning Configurable Systems with Imperfect Fidelity
+Research,Leveraging System-Level Observations to Inform Bayesian Learning of Model Parameters for Quantitative Verification
+Research,LLM Agents Can See Code Repositories
+Research,LLM-Based Agents for Identifying Bug-Introducing Commits
+Research,Localizing Data Annotation Faults in Semantic Segmentation Systems
+Research,"Looks Good, but Does It Run? A Large-Scale Empirical Study of the Executability of Example Code in Model Cards"
+Research,"Lost in Translation, Found in Summary: Summary-Driven Supervision for Cross-Language Code Retrieval"
+Research,Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems
+Research,MalSkills: Detecting Malicious Skills in the Agentic Supply Chain via Neuro-symbolic Reasoning
+Research,Maximal Format-Free Data Repair
+Research,MicroAgent: Context-Augmented Multi-agent Framework for Automatic Microservice Decomposition
+Research,Mind the Gap: Do Widely-Used SAST Tools Really Cover the Language-Specific Top CWEs?
+Research,Mining Tactics for Automated Theorem Proving
+Research,MiniPoly: Automatic Extraction of Efficient JavaScript Polyfill from Language Specification
+Research,Mobile Bug Reproduction via Global State Reprioritization and LLM-Guided Trajectory Exploration
+Research,MultiFixer: A Coordinator-Proposer Based Multi-agent Framework for Fixing Multi-hunk Bugs
+Research,MultiKernelBench: A Multi-platform Benchmark for Kernel Generation
+Research,Multi-level Code Optimization via Mixture of Prompts
+Research,Needle in the Repo: Diagnosing Maintainability Failures in AI-Generated Repository Edits
+Research,Neuro-symbolic Requirements Elicitation: Utilizing Formal Verification Counterexamples as Contextual Prompts
+Research,Not as Sweet by Another Name: An Empirical Study of Format Robustness in LLM Document Workflows
+Research,Not In My Git Yard: Catching Backdoors at Commit and Release Time
+Research,One Is Not Enough: The Untold Story of Multiple Security Patches for One Vulnerability
+Research,On the Effects of Customized Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube Cloud
+Research,On the Reliability of Code Comprehension Proxies
+Research,Optimization-Free Repair of Code LLMs: A Closed-Form Fisher-Guided Bayesian Approach
+Research,Orbis: Guiding Symbolic Execution Techniques to Maximize Option-Related Branch Coverage
+Research,OrthCoder: Balancing Security and Utility in Secure Code Generation via Orthogonal Adaptation
+Research,PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks
+Research,Panorama: Unveiling Latent Dependencies for Microservice Autoscaling via Meta-learning
+Research,Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation
+Research,PCodeTrans: Translate Decompiled Pseudocode to Trace-Level Equivalent Source Code
+Research,PELSE: Asymmetric-Evidence-Guided MCU Peripheral Model Synthesis
+Research,"Perception, Reasoning, and Action: A ReAct-Based Vulnerability Detection Framework with Repository-Level Reasoning"
+Research,Piece by Piece: Automating Combination Interaction GUI Testing via Planning and Dual Memory
+Research,PL4SA: Optimized Partial Library Selection for Efficient Static Analysis
+Research,Planner-Fuzz: Overcoming Diagnostic Saturation in UAV Planners via Boundary-Oriented Fuzzing
+Research,Post-hoc Attention Steering of Large Language Models for Robust Code Understanding under Obfuscation
+Research,Post-quantum Cryptography in the Wild: Assessing the Readiness of Open-Source Ecosystems
+Research,Precise and Efficient Static Data Race Detection
+Research,Predicate-Guided Synthesis of Input Generators via Gentoo
+Research,Prism: A Multi-solution Reasoning and Synthesis Framework for Repository-Level Issue Resolution
+Research,Probe to Generate: Program Variant-Guided Test Augmentation for Repository-Level Repair Benchmarks
+Research,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction
+Research,"Programming by Chat: A Large-Scale Behavioral Analysis of 11,579 Real-World AI-Assisted IDE Sessions"
+Research,Property-Based Testing of Wafer Handling Robots via Model-Based Planning and Fuzzing
+Research,PropGen: Automated Property Generation for Property-Based Testing of Mobile Apps
+Research,PSearch: Search-Based Patch Generation in the Era of LLM-Based Automated Program Repair
+Research,PWCC: Probability-Weighted Combinatorial Coverage for Risk-Informed Scenario Testing of Autonomous Systems
+Research,QDoctor: Probe-Based Testing for Quantum Programs
+Research,Quantum Squeeziness: An Information Theoretical Metric for Quantum Software Testability
+Research,Quick Bug Detection through Black-Box Checking: A Systematic Evaluation
+Research,RACE-Bench: A Reasoning-Augmented Benchmark for Repository-Level Code Agents on Feature Addition
+Research,RamFuzz: LLM-Guided Greybox Fuzzing for Spatial Memory Corruption via Valid Range Violation
+Research,RAVEN: Measuring Detection Instability in Anti-virus Engines under Semantics-Preserving Perturbations
+Research,RealAIGC: Towards More Realistic Evaluation of AI-Generated Code Detection in Real-World Code Repository
+Research,RealisticTritonBench: A Benchmark for Triton-Kernel Generation in Real-World AI Frameworks
+Research,Real-World Perturbation Testing of Autonomous Driving Systems
+Research,ReCodeAgent: A Multi-agent Workflow for Language-Agnostic Translation and Validation of Large-Scale Repositories
+Research,Recovering Revisions of Pull Requests with Altered History
+Research,Refine2Diff: Detecting Protocol Specification–Implementation Inconsistencies via Specification-Driven Code Refinement
+Research,RefineAct: Automatic Runtime Verification of LLM Agent Actions
+Research,RegoMender: A Multi-agent Framework for Automated Rego Policy Repair
+Research,Regression Accumulation in Multi-turn LLM Programming Conversations
+Research,ReLog: Execution-Aware Logging with Runtime Feedback for LLM-Oriented Debugging
+Research,RepoProbe: Benchmarking Architecture-Aware Repository Comprehension with Checklists
+Research,Repository-Aware Metamorphic Relation Generation for Augmented Reality Applications using Large Language Models
+Research,ReqEvolve: User-Oriented Software Self-Evolution through Automatic Requirement Interpretation
+Research,ReSEDA: Automatic and Precise Program-Level ReDoS Triage via Interprocedural Taint Analysis and Agentic Exploit Generation
+Research,Revisiting LLMs on New Feature Implementation in Real-World Software Development Practices
+Research,RFC2TLA+: Extracting and Verifying Formal Models from RFC Documents using Continuous LLM Feedback
+Research,RustGTC: Constraint-Guided Test Generation for Rust APIs via Comment Analysis and Code Context
+Research,S2CAgent: A Self-Learning Agent Knowledge Graph Framework for Software Supply Chain Analysis
+Research,SafeDep: Detecting State Mutation Unsoundness in Rust via Dependency Slicing and LLM Reasoning
+Research,Safeguarding LLM Agents from Misalignment through Provenance Analysis
+Research,Safe Multi-site Binary Instrumentation of Running x86-64 Programs
+Research,"Same Scrutiny, More Time: Eye Tracking Insights into Reviewing LLM-Labelled Code"
+Research,SecChain: Operationalizing Security Guidelines for Multi-agent Smart Contract Generation
+Research,Self-Discovering Security Oracles: Meta-learning Vulnerability Detection Strategies through Adversarial Self-Play
+Research,SIMD-Accelerated Sparse Bit-Vectors for Pointer Analysis
+Research,SimServing: Native-Execution Simulation for Evolution-Resilient LLM Serving Configuration Tuning
+Research,Smart Brain: Semantic Anomaly Detection for Operational Time Series in Large Scale Service Systems
+Research,Smart Contract Synthesis via Multi-modal Specifications
+Research,SmartPoC: Validating Smart Contract Vulnerability Findings through PoC Generation and Execution
+Research,Sound and Efficient Statistical Model Checking for Probabilities and Bounded Rewards
+Research,Source-Free Detection and Impact Analysis of Compiler Optimization Problems in Mobile Applications
+Research,Spec2V: Planning-Guided Specification-to-Verilog Generation Framework with Verification-Driven Debugging
+Research,SpecFSM: Extracting and Repairing Finite State Machines from Protocol Specification Documents
+Research,Specification-Guided Synthesis of Deadlock-Free Communication Protocol Refinements with Large Language Models
+Research,SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients
+Research,SPSYN: Synthesizing DeFi Price-Manipulation Exploits via Semantic Recovery and State-Guided Search
+Research,Stop When It Matters: Detectability-Guided Microbenchmarking for Performance Regression Testing
+Research,Structure-Guided Semantic Deobfuscation of Android Identifiers
+Research,SustainSR: Interpretable OSS Sustainability Prediction via Symbolic Regression
+Research,SwiftGram: Dynamic Lexical Forking for Precise and Efficient Grammar-Constrained Decoding
+Research,Synthesizing File-Level Data for Unit Test Generation with Chain-of-Thoughts via Self-Debugging
+Research,Tangent: An Empirical Study of Testing Practices for LLM-Based Agent Applications
+Research,TasmScan: Continuation-Aware Taint Analysis for TVM Bytecode with Savelist Abstraction
+Research,TDiFf: Detecting Bugs in DataFrame Systems via Transferred DBMS Test Cases
+Research,TDRepro: A Neurosymbolic Approach to Reproducing Timing-Dependent Flaky Test Failures
+Research,TELLER: Non-intrusive Cross-Layer Root-Cause Analysis for LLM Inference
+Research,Tensor-Based Batch Fuzzing with Adaptive Perturbation Scaling for Deep Neural Networks
+Research,Testing IFrame Rendering in Web Browsers
+Research,Testing Static Analyzers via Semantic-Preserving Mutators Learned from Real-World Refactoring Practice
+Research,TheBotCompany: Self-Organizing Multi-agent Systems for Continuous Software Development
+Research,The CodeInverter Suite: Structure- and Data-Aware Binary Decompilation with Efficient LLMs
+Research,Think Before You Code: Dual Reasoning for the NLSafety–Utility Trade-Off in LLM Code Generation
+Research,To Ban or Not to Ban? How Open Source Projects Govern GenAI Contributions
+Research,To Think or Not to Think: Evaluating LLM Reasoning and Agents in Vulnerability Detection
+Research,Toward Inclusive Programming Support for Novice Programmers with Dyslexia: Insights from a Comparative Study
+Research,Towards Fully Automated Medical Imaging Code Generation via Validation-Based Context Engineering
+Research,Towards Verifiable Fairness Testing: Auditable Coverage over Data-Supported Input Domains
+Research,Trace-Driven Automated PoC Synthesis for On-Chain Attacks
+Research,Tracing the Invisible: Semantic Message Flow Discovery via Data Contracts in Real-World Distributed Systems
+Research,TrackTest: Trajectory Generation and Prioritization for Testing Multiple Object Tracking System
+Research,Translation Tag Team: Formal Rules and LLMs Translate More Macros Together Than Apart
+Research,"Understanding Bugs in Modern Agentic Frameworks: A Study of Symptoms, Root Causes, and Triggering Conditions"
+Research,Understanding the Code and Architectural Smells Generated by LLMs and Autonomous Agents
+Research,VARIES: Verification Harness Synthesis and Efficient Scheduling for Unsoundness Detection in Rust Libraries
+Research,Verifier-in-the-Loop LLM Solving of Heap Constraints for Concolic Execution
+Research,VeriSBOM: Secure and Verifiable SBOM Sharing via Zero-Knowledge Proofs
+Research,WebCQ: Cooperative Multi-agent Deep Reinforcement Learning for Scalable Web GUI Testing
+Research,We Must Have Missed This Comment: Detecting and Repairing Stale Function References in Linux Kernel Comments
+Research,What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants
+Research,When Ambiguity Meets Atypicality: Dual-Perspective Test Input Prioritization for DNNs
+Research,When Comments Mislead: An Empirical Study of Outdated Comments in LLM-Based Code Completion
+Research,When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents
+Research,When Dependencies Depend: A Large-Scale Study on Conditional Dependencies and Their Security Implications in C/C++
+Research,When Does AI Actually Help in Incident Response? Identifying Good First Messages in Cloud Service Incidents
+Research,When Extensions Lie: Large-Scale Study of Privacy Policy Compliance in Browser Extensions
+Research,When Knowledge Changes: Metamorphic Testing of RAG Systems with Mutations
+Research,Where Does Balance Break? Boundary Discovery for Game Balance Testing under a Finite Simulation Budget
+Research,WiDepFuzz: Finding Wi-Fi Protocol Bugs in Mobile Hotspot via Field Dependency Model
+Research,Zero-Knowledge VMs: Security and Usability in Practice
+Industry,ABACI: Automated Downstream Bug Resolution via Semantic-Aware Bisection and Convergent Backporting
+Industry,ActionNex: A Production-Grade System for Next-Best-Action Recommendation in Cloud Outage Management
+Industry,AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection
+Industry,"Airdrop Scams in Practice: An Industry-Oriented Taxonomy, Benchmark, and Tool Audit"
+Industry,AlarmClaw: Context-Enriched Alarm Management with Category-/Severity-Aware Incident Graphs
+Industry,A Longitudinal Analysis of Software Development Evolution in a Financial Organization
+Industry,An Empirical Study of Security Risks in the Android Push Notification Ecosystem
+Industry,"Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency"
+Industry,Beyond Benchmarks: A Case Study of LLM-Generated Verus Specification Failures on Asterinas Vostd
+Industry,Beyond Single-Level PGO: Understanding and Harnessing Cross-Level Optimization Effects in Industrial Systems
+Industry,Bridging Stakeholder and Product Requirements: An Empirical Study of Requirement Engineering in the Automotive Industry
+Industry,CADscanner: Automating Malware Analysis for Compiled AutoCAD Scripts in Engineering Environments
+Industry,CAPMix: Robust KPI Anomaly Detection for AIOps in Noisy and Dynamic Environments
+Industry,Catching Developers in the Flow: Low-Latency Agentic Program Repair at Google Scale
+Industry,Characterizing and Mitigating Productivity Loss in Large-Scale Model Training: An Empirical Study
+Industry,Closing the Gap: Automated Discovery of Secure Dockerfile Reference Standards via Semantic Clustering in Enterprise Inner Source
+Industry,Command Coding: A Methodological Framework for AI-Accelerated Software Development
+Industry,Continuous On-Commit Certification Testing of Railway Control Software: An Experience Report
+Industry,Continuum: Automated Construction and Retrieval of Software Decision Knowledge Graphs from Developer-AI Conversations
+Industry,ControlsDSL: A Language for Verifiable Cloud Configuration Controls
+Industry,Customizing an LLM for Enterprise Software Engineering
+Industry,DAL: Decoupled Aspect-Based Layering of I/O Processing for Automotive Software
+Industry,DBRepro: Automated Database Synthesis via a Hybrid Constraint-Solving Approach for Reproducing Slow Queries
+Industry,DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds
+Industry,Debug2Fix: Can Interactive Debugging Help Coding Agents Fix More Bugs?
+Industry,Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents
+Industry,Deployment Risk Assessment using Diff-Aware Features: A Case Study at Prime Video
+Industry,DepWareTrans: Dependency-Aware Incremental Repository Migration across Co-executable Languages
+Industry,Disassembly-Augmented Root Cause Analysis for C/C++ Segmentation Faults in SAP HANA
+Industry,Doc2Test: An Industrial Multi-agent Framework for Document-Driven End-to-End Selenium Test Generation
+Industry,"DragonCrawl: A Generative, Intent-Based Framework for Scalable Mobile End-to-End Testing"
+Industry,eARCO: Efficient Automated Root Cause Analysis with Prompt Optimization
+Industry,"EvoLLM: High-Coverage, Readable, and Token-Efficient Unit Test Generation for Industrial Java Codebases"
+Industry,Expanding Guard Reach: Online Learning-Driven Incremental Kernel Panic Diagnosis
+Industry,FlowChecker: One Command to Model Check Control-Flow Rules in Industrial Java
+Industry,FPSieve: LLM-Powered Cascade for Filtering False Positives in OS Migration Testing
+Industry,From Backlog Items to Security Guidance: Towards Continuous Security Compliance
+Industry,From Security Findings to Verified Fixes: Automated Repair of Infrastructure-as-Code Misconfigurations
+Industry,Fuzz4DB: A Practice of LLM-Agent-Guided Fuzzing for Database Feature-Level Delta Testing
+Industry,GraphQLer: Enhancing GraphQL Security with Context-Aware API Testing
+Industry,IAM Policy Autopilot: Static Analysis for Policy Generation from Application Code
+Industry,"If You Build It, Will They Come? Lessons from 20 Years of Industrial Use of a Code Transformation DSL"
+Industry,InfraAPR: An Agent-Based Repair Framework for Cloud Infrastructure-as-Code Programs
+Industry,IP-Preserving Enterprise System Modernization via LLM-Driven Specification Extraction and Multi-target Code Generation
+Industry,Kani: A Model Checker for Rust
+Industry,Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair
+Industry,KRCA: An Efficient Root Cause Analysis System in Hyper-scale Microservice Systems via Agentic AI
+Industry,KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code
+Industry,LiteScope: Revealing the Security Paradox of Android Lite Apps in Resource-Constrained Ecosystems
+Industry,Li-WaC: A Lightweight WebAssembly Container for Independently Upgradable IoT Applications in Xiaomi Vela
+Industry,LLM-Assisted Joint Ticket and Log Analysis for Incident Triage in Intelligent and Connected Vehicles
+Industry,Maintaining Control States for Initialization-Aware GRPO in Industrial LLM Workflows
+Industry,Manifesting Implicit Dependencies in Requirements Task: An Automated Method Integrating Code Awareness and Change Analysis
+Industry,MERA: A Multi-expert LLM Framework for Severity Assessment of User Tickets in Mobile OS Beta Testing
+Industry,MicroWeaver: A Constraint-Guided Structure–Semantic Aware Approach to Automated Microservice Decomposition
+Industry,Model-Guided Property-Based Testing of WeChat Pay at Billion-User Scale
+Industry,Mutation Testing of Simulink Cyber-Physical System Models: Challenges and Solutions in Practice
+Industry,"No Isolated Evolution, No Blind Search: Memory-Guided Prompt Co-evolution for Industrial Multi-agent Vulnerability Detection"
+Industry,OpsAgent: An Evolving Multi-agent System for Incident Management in Microservices
+Industry,OpsLens: Runbook-Free Root Cause Analysis via Multi-agent Collaboration and Tool Management
+Industry,Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development
+Industry,REAP: Automatic Curation of Coding Agent Benchmarks from Interactive Production Usage
+Industry,Requirements-Augmented Generation for Trustworthy Acceptance Testing of LLM-Based Software
+Industry,RiskScope: Pre-audit Triage for Incentive and Control Risks in Smart Contracts
+Industry,Search-Based Testing of Vision Language Models for In-Car Scene Understanding
+Industry,Test Suite Generation for Simulink Models: An Experience with Reactis
+Industry,Top-Down Multi-agent LLM System with Runtime Data for MISRA C Violation Detection
+Industry,Towards Reliable Alarm Flood Reduction in Data Center via Grammar-Guided Verifiable LLM Reasoning
+Industry,Towards Reliable C-to-Rust Translation with Rule-Guided Reasoning and Reinforcement Learning
+Industry,Understanding Real-World Ordering-Related Concurrency Bugs under Weak-Memory and Cross-Architecture Settings
+Industry,Understanding the Performance-Effectiveness Trade-Offs of AddressSanitizer in Real-World Programs: An Empirical Study
+Industry,Vulnerability Tracking using Normalized Scope+Offset
+Industry,When Elo Lies: Hidden Biases in Codeforces-Based Evaluation of Large Language Models in Practice
+Industry,Why Is This on My Bill? Documentation-Grounded Rule Learning for Itemized Bill Explanation
+Industry,WiseSword: An Automated Computation Graph Partitioning Tool for Industrial DLRM Deployment on Ascend NPUs
+Tools-Datasets,ACSLBench: A Verified C/ACSL Corpus and Benchmark with Compositional Call Chains for Formal Specification Synthesis
+Tools-Datasets,Agent-HAnS: Maintaining Feature and Code Traceability in Agentic Development
+Tools-Datasets,AgentSysFilter: A Multi-agent Analysis Approach for Scenario-Aware Syscall Limitation
+Tools-Datasets,AIALIB: A Threat Library for AI-Generated Code
+Tools-Datasets,AIGen: Automating AI Bill of Materials Generation through Hybrid MLOps Integration
+Tools-Datasets,AIRBORNE: Augmented fIne-grained softwaRe Bill Of mateRials geNerator for stack ovErflow
+Tools-Datasets,AISmellBench: A Reusable Benchmark of AI Code Smells in ML and LLM-Based Systems
+Tools-Datasets,A Smart Assistant for Debugging
+Tools-Datasets,AutoFLC: An LLM-Based Flowchart Generation Tool for Legacy Code Repository
+Tools-Datasets,"Baseliner: A Plugin-Oriented, Hardware-Agnostic GPU Benchmarking Library"
+Tools-Datasets,BESSER-NN: Visual Neural Network Design and Automated Code Generation with the BESSER Low-Code Platform
+Tools-Datasets,Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation
+Tools-Datasets,CAS2UML: A Handwritten Sketch-to-PlantUML Dataset for Class and Activity Diagrams
+Tools-Datasets,Cochise: A Reference Harness for Autonomous Penetration Testing
+Tools-Datasets,CppPerf: An Automated Pipeline and Dataset for Performance-Improving C++ Commits
+Tools-Datasets,DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code
+Tools-Datasets,DSpec2Test: Specification-Driven Test Generation in Dafny
+Tools-Datasets,DT-Drive: A Tool for Deterministic Replay-Based Testing and Debugging of Autonomous Driving Systems
+Tools-Datasets,E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios
+Tools-Datasets,EnergyTrackr: A Modular Energy Regressions Detection Tool
+Tools-Datasets,FairLint-DL: An IDE-Native Tool for Fairness Debugging of Deep Learning Software
+Tools-Datasets,FallibleUser: An Imperfect User Agent for Realistic Evaluation of Interactive AI Systems
+Tools-Datasets,FeatX: Editing Software by Editing Features for Repository-Level Code Evolution
+Tools-Datasets,FlakeFighters: A PyTest Plugin to Detect Flaky Test Failures
+Tools-Datasets,FlightRecorder: Tracing Fine-Grained Development with AI Assistants
+Tools-Datasets,GoLiSA: An Advanced Static Analysis Tool for Detecting Potential Risks and Vulnerabilities in Hyperledger Fabric Smart Contracts
+Tools-Datasets,Graphectory Viewer: A Tool for Process-Centric Analysis of Agentic Software Trajectories
+Tools-Datasets,InsightQL: A Unified Code Database for Fuzz Blocker Analysis
+Tools-Datasets,Introducing Safe LLM-Agent Execution via Typed Tool Mediation and World-Effect Evaluation
+Tools-Datasets,IoTutorMine: A Tool for Mining Hardware Bills of Materials from IoT Tutorial Videos
+Tools-Datasets,"JavaVulBench: A Java Vulnerability Benchmark with Realistic Splits, a Unified Multi-backend Harness, and a Leakage-Aware Evaluation Mode"
+Tools-Datasets,LintCFG: DSL-Driven Linter Configuration Generation for Coding Standards
+Tools-Datasets,Marv: An Interactive Tool for Visualising and Reviewing the Results of Mutation Analysis
+Tools-Datasets,MASSIV: A Hybrid RAG for Automated Defeater Extraction in Autonomous Driving Safety Cases
+Tools-Datasets,MergeSE: Post-Hoc Model Merging for Software Engineering Tasks without Retraining
+Tools-Datasets,MIMOS-Tools: An Integrated Toolchain for Model-Based Design of Embedded Systems
+Tools-Datasets,multiplex: A Modular LLM-Based Mutation Framework
+Tools-Datasets,NL2VBench: A Benchmark for End-to-End Natural-Language to Verifiable Rust Generation
+Tools-Datasets,OpenStack-RCA-Bench: A Reproducible IaaS Root Cause Analysis Dataset
+Tools-Datasets,PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction
+Tools-Datasets,ProofPulse: Interactive Proof Coverage Analysis for Dafny
+Tools-Datasets,QUTest: A Native Testing Framework for Quantum Programs
+Tools-Datasets,RELY-SE: A Dashboard for Measuring Operational Reliability of AI Coding Agents
+Tools-Datasets,ReproBreak: A Dataset of Reproducible Web Locator Breaks
+Tools-Datasets,SAF: An AI-Agent-Ready and Browser-Accessible Static Analysis Framework for LLVM IR
+Tools-Datasets,ScratchLog+: Live Analytics of Learners' Exercise Progress
+Tools-Datasets,SmellCC: A Tool for Automated Code Smells Remediation
+Tools-Datasets,SplitCA: An Effective Tool for Generating 4-wise Covering Arrays for Large-Scale Highly Configurable Systems
+Tools-Datasets,StarFuse: LLM Guided Multimodal Interactive Theorem Proving
+Tools-Datasets,"The ARDoCo Tool Landscape: REST API, TraceView, and TraceViz for Architecture Traceability"
+Tools-Datasets,The EVerest Dataset for Secure Software Engineering
+Tools-Datasets,ThreatCraft: Automated Attack Scenario Generation via Hybrid Rule-Based and LLM-Driven Reasoning
+Tools-Datasets,TLCrafter: Peeling the Layers of Natural Language to Reveal Temporal Logic Specifications
+Tools-Datasets,TORI: A Tool for Oracle Quality Assessment
+Tools-Datasets,TraceGate: A Framework for Policy-Controlled Failure Evidence in LLM-Assisted Program Repair
+Tools-Datasets,TypeScript Repository Indexing for Code Agent Retrieval
+Tools-Datasets,UCT: A Versatile Code Translation Framework Based on a Unified Intermediate Representation
+Tools-Datasets,UIBenchKit: A Unified Toolkit for Design-to-Code Model Evaluation
+Tools-Datasets,UltraInstinctVR: A Model-Based Tool for Automated System Testing of VR Applications
+Tools-Datasets,VerusSeek: Retrieval-Augmented LLM-Based Proof Synthesis for Rust Programs
+Tools-Datasets,VidSumEval: A Web Platform and Benchmark for Evaluating AI-Generated Programming Video Summaries
+Tools-Datasets,VidTutorAssistant: Automating Responses to Programming Tutorial Questions
+Tools-Datasets,xDECAF: An Extensible Data Flow Diagram Analysis Framework for Information Security
+NIER,"Agentic Code Review in the Terminal: A Trajectory-Level Analysis of Behavior, Cost, and Human-Alignment"
+NIER,Agents That Teach: Towards Designing Incidental Learning Back into AI-Assisted Software Development
+NIER,BanditFuzz: A Synergistic Differential Fuzzing Framework for Compilers
+NIER,Beyond the First Crash: Interaction-Aware Multi-fault Fuzzing
+NIER,Can Formal Specifications Be Synthesized from Tests Alone?
+NIER,Distributional Program Analysis: Treating Large Language Models as Program Samplers
+NIER,Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming
+NIER,ECLAIR: A Causally-Grounded AI Framework for Scientific Discovery in Empirical Software Engineering
+NIER,Empirical Computation: Prompting versus Programming
+NIER,End-to-End Regulatory Compliance Evolution Pipeline: From Legal Requirements to Developer Tests
+NIER,FaultForge: A Business-Semantics-Driven Cross-Layer Fault Injection Framework for Microservice
+NIER,Is Three the Magic Number? An Empirical Evaluation of LLM-Based Repair Loops
+NIER,K-COBAgent: A Knowledge-Driven Multi-agent Framework for COBOL Modernization
+NIER,Let's Chat about Design: A Transformation-Oriented Viewpoint for LLM-Native Software
+NIER,Phantom Fixes: Fault Interaction Ambiguity in Multi-fault Concurrent Programs
+NIER,PR2Trigger: From Concurrency-Fix PR Diffs to Executable Triggering Tests for Go
+NIER,SkillMOO: Multi-objective Optimization of Agent Skills for Software Engineering
+NIER,"Software Engineering Meets the EU AI Act: Artifacts, Patterns, and Future Directions"
+NIER,Specifying the Delegated-Autonomy Boundary: Requirements Engineering for Agentic AI
+NIER,The Ground Is Shifting: A Reflection on the Foundations of Software Measurement
+NIER,Towards Diagnostic Explainability in Workflow Verification via Shapley Attribution
+NIER,Towards Multilingual AI-Assisted Software Engineering
+NIER,UIXPOSE: Screen-Conditioned Runtime Discrepancy Analysis for Security-Aware Android GUI Exploration
+Journal-first,An empirical analysis of vulnerability detection tools for solidity smart contracts
+Journal-first,An Exploratory Study on LLM-Generated Code and Comments in Code Repositories
+Journal-first,Assessing the adoption of security policies by developers in terraform across different cloud providers
+Journal-first,Benchmarking Contextual Understanding for In-Car Conversational Systems
+Journal-first,BugMentor: Generating Answers to Follow-up Questions from Software Bug Reports using Structured Information Retrieval and Neural Text Generation
+Journal-first,Byam: Fixing Breaking Dependency Updates with Large Language Models
+Journal-first,Constrained Co-evolutionary Differential Metamorphic Testing for Autonomous Systems with an Interpretability Approach
+Journal-first,Context-Enhanced Vulnerability Detection Based on Large Language Models
+Journal-first,Diagnosing Violations of State-based Specifications in iCFTL
+Journal-first,DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis
+Journal-first,Efficient Black-Box Fault Localization for System-Level Test Code Using Large Language Models
+Journal-first,Exploring Development Methods for Reactive Synthesis Specifications
+Journal-first,"False-Positive Bug Reports in Deep Learning Compilers: Stages, Root Causes, and Mitigation"
+Journal-first,From Exploration to Revelation: App-Level Context-Aware Deceptive Pattern Detection for Mobile Applications
+Journal-first,Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation
+Journal-first,How Composite Metamorphic Relations Enhance Test Effectiveness of DNN Testing: An Empirical Study
+Journal-first,How Developer Coreness Influences the Patch-Review Process: A Mixed-Method Study
+Journal-first,Improving IR-based Bug Localization with Semantics-Driven Query Reduction
+Journal-first,Intent-Aware Defect Pattern Extraction from Singular Examples
+Journal-first,Issue-Oriented Agent-Based Framework for Automated Review Comment Generation
+Journal-first,JSTestCraft: Addressing Context Deficits in JavaScript Unit Test Generation via Agentic Multi-Level Contextual Analysis
+Journal-first,LDMDroid: Leveraging LLMs for Detecting Data Manipulation Errors in Android Apps
+Journal-first,"Less Noise, More Signal: the DRR Effect for Better Optimizations of a Range of SE Tasks"
+Journal-first,LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks
+Journal-first,Mutation-Guided Unit Test Generation with a Large Language Model
+Journal-first,Observability of web applications: an industrial case study
+Journal-first,Observing Fine-Grained Changes in Jupyter Notebooks During Development Time
+Journal-first,One Sentence Can Kill the Bug: Auto-replay Mobile App Crashes from One-sentence Overviews
+Journal-first,PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts
+Journal-first,PrevaRank: Ranking Plausible Patches by Historic Feature Frequencies
+Journal-first,RAGVA: Engineering retrieval augmented generation-based virtual assistants in practice
+Journal-first,Scenario-Guided LLM-based Mobile App GUI Testing
+Journal-first,Should I Give Up Now? Investigating LLM Pitfalls in Software Engineering
+Journal-first,Simulator Ensembles for Trustworthy Autonomous Driving Systems Testing
+Journal-first,Smelly-shot is All You Need: An Empirical Study to Compare In-Context Learning versus Fine-Tuning for Code Smell Detection
+Journal-first,SysPro: Reproducing System-Level Concurrency Bugs from Bug Reports
+Journal-first,Targeted Deep Learning System Boundary Testing
+Journal-first,UntrustVul: Automated Untrustworthy Alert Identification in Vulnerability Detection Models
+Journal-first,Using Large Language Models to Test Voice User Interfaces
+Journal-first,Visual Consistency in Formal Modeling: An Empirical Evaluation
+Journal-first,VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents
+Journal-first,"What characteristics make ChatGPT effective for software issue resolution? An empirical study of task, project, and conversational signals in GitHub issues"
+Journal-first,XMutant: XAI-based fuzzing for deep learning systems
+SRC,Adaptive Parallel Testing for Floating-Point Branch Coverage
+SRC,An Approach Toward Automated Generation of Contextual Privacy Policies for Mobile Applications
+SRC,Beyond Outcomes: Toward Process-Aware Software Agents
+SRC,Code Detectors Have a Half-Life: Obsolescence and Metric Illusions in LLM-Generated Code Detection
+SRC,Correct According to Whom? Auditing What LLM-Generated Tests Actually Check
+SRC,Danger Is a Counterfactual: Toward a Falsifiable Continuous Test Oracle for Autonomous Driving Systems
+SRC,From Accessibility to Reachability: LLM-Driven Contrastive Accessibility Testing for Android Apps
+SRC,From Automated Program Repair to Automated Agent Repair: Why Failed Trajectories Matter
+SRC,MACO-AI: Multi-Agent Code Optimization via Annotations and Intrinsics
+SRC,Making Vulnerability Proof-of-Concepts Trustworthy and Usable: From Empirical Diagnosis to Operational Validation
+SRC,Measuring the Cost of Prompt Structure in LLM Code Generation
+SRC,Multi-Modal Boundary Testing of Vision–Language Models
+SRC,Order-Aware State Elimination for Algebraic Program Analysis
+SRC,PCLA-Bridge: The Reusability of CARLA-Trained Autonomous Driving Agents Beyond the CARLA Simulator
+SRC,Reconstructing Executable Programs from Informal Bug Reports
+SRC,Secrets Without Signatures: An LLM Agent for Logic-Defined Exposures in Recovered JavaScript
+SRC,Toward Authentic and Scalable Evaluation of Terminal Agents in Real-World Environments
+SRC,Toward Automatically Detecting Cross-Engine Asymptotic Complexity Divergence in JavaScript
+SRC,"Where There's One Patch, There's Another: Taxonomy-Driven Discovery of Missing Security Patches"
+SRC,Which Camera Perturbation Should We Test First? Offline-Guided Prioritization of On-Vehicle ADS Tests
+SRC,WiseSpec: Requirements-Driven Agents for Code Generation
+Doctoral,Automated Explanation-Based Testing and Improvement of Trustworthiness in AI-Based Systems
+Doctoral,Efficient Compiler Auto-tuning via Optimization Space Reduction
+Doctoral,Evaluating and improving Quality of Experience in virtual environments
+Doctoral,Human-centered LLM-based Agents to Support Agile Task Management in Software Engineering
+Doctoral,Safeguarding the Development and Deployment of Agentic AI Applications in the Enterprise Context
+Doctoral,"Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems"
+Doctoral,Understanding Human-AI Teaming for Software Engineering Practices
+Keynote,Trust the Delta: Rethinking Software Validation in the AI Era — Michael Pradel
+Keynote,Beyond the Hype: What AI Really Did to Software Engineering — Joost Noppen
+Keynote,Lost in Automated Specifications: A Time and Space Odyssey in System Testing — Myra Cohen

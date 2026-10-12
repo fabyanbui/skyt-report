@@ -1,0 +1,45 @@
+"Can you feel the vibes?": An exploration of novice programmer engagement with vibe coding
+AI-Assisted Code Review as a Scaffold for Code Quality and Self-Regulated Learning: An Experience Report
+AI-Driven Software Development: A New Course Concept and Assessment Model for the Era of Large Language Models
+Amplifiers or Equalizers? A Longitudinal Study of LLM Evolution in Software Engineering Project-Based Learning
+An Empirical Study of Anonymous, Unmoderated, and Online Peer-to-Peer Programming Tutoring Conversations
+An Experience Report on a Pedagogically Controlled, Curriculum-Constrained AI Tutor for SE Education
+Assessing the Sustainability-Quality (SQ) Model: A Multi-Year Empirical Study in Education
+Beyond Answer Engines: LLMs as Reasoning Partners in Data Structures and Algorithms Education
+Beyond the Prompt: How Novices Engage with AI During Code SummarizationDistinguished Paper Award
+Bridging Education and Practice: Lessons Learned from 10 Years of Using Reflective Practices in a Software Engineering Studio
+But Have You Ever Deployed a Model to Production? Experiences with Teaching Machine Learning Operations in a Data Science Curriculum
+EXEMPLIFY-SEE: A Structured Approach and Portal for Example-Based Learning in Software Engineering Education
+Embedding Sustainability in Software Engineering Curriculum: A Case Study
+Enhancing Debugging Skills With AI-Powered Assistance: A Real-Time Tool for Debugging Support
+Examining Productivity in Educational Environments: Perspectives of Professors and Students on a Capstone Project
+Exploring the Community of Inquiry in Online Computing Education: Student Perceptions and Opportunities for Generative AI
+FORGET-SE: A Controlled Dataset to Investigate Memory Decay and Interference in Software Engineering Knowledge Tracing
+Fairness-First Design Thinking for Software Architecture
+From Personas to Programming: Gender-specific Effects of Design Thinking-Based Computing Education at Secondary Schools
+From Struggle to Success: Unveiling Students’ Emotional Journeys during Capstone ProjectsDistinguished Paper Award
+GenEDIt: A Context-Aware Equity, Diversity and Inclusion Principles Integration Tool for Software Engineering Education
+Integrating Mental Health, Well-Being, and Sustainability into Software Engineering Education
+Learning to Program Alongside AI: Critical Thinking, AI Ethics, and Gendered Patterns of German Secondary School Students
+Lessons Learned from Training the Next Generation of Space Software EngineersDistinguished Paper Award
+Leveling Up: Experiences and Evidence-driven Upgrades to a Game Coding Camp for Autistic High School Students
+Mapping educational software engineering content on YouTube
+On Fun for Teaching Large Programming Courses
+On-Premise Kubernetes in Software Engineering Education: An Experience Report
+Prompting Without Principles: Are Students Transferring Software Engineering Knowledge to LLM Use?
+Reasoning About Bugs in Learners’ Scratch Programs Using Large Language Models
+Scaling Assessment of Student Models with LLMs: Integrating Feedback into Practice
+Teamwork in Software Engineering Education: Exploring Team Dynamics and Challenges Across Course Projects
+The Boundary-Spanning Assistant: Understanding the Role and Usage patterns of LLMs in Project-Based Software Engineering
+The Clash of Codes: From Peer-to-Peer Duplication to AI-Generation in Introductory Programming Assignments
+The Efficacy of Exams in Assessing Student Learning in Capstones
+They Call Her ‘Miss’ and Him ‘Professor’: Lived Experiences of Women Teaching Support Staff in IT/SE Education
+Two Decades of Software Architecture Education: State of the Art, Challenges, and Future Directions
+Use-Modify-Create turned "Upside Down" by AI: Towards Higher-Level Competences via the Scientific Method
+Using Peer Evaluations and Team Contracts in Software Engineering Team Project Courses
+Utilizing Adaptive Gamification in an Intelligent Tutoring System for Software Engineering Education
+What barriers do students experience when trying to contribute to Open Source Software projects?
+When Emotions Matter: Speech-Based Emotion Detection in Capstone Project Retrospective Meetings while Working Hybrid
+Who Teaches AI Ethics? Understanding the Gaps in AI Ethics Education in Computing Programs
+Why Students Leave the LMS: Executive Function Demands and Self-Regulated Learning in Software Engineering Courses
+“I Value LeetCode Over My Coursework”: CS Students’ Preparation Strategies and Perceptions of Technical Interviews

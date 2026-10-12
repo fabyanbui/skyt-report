@@ -1,0 +1,7 @@
+Automated Explanation-Based Testing and Improvement of Trustworthiness in AI-Based Systems
+Efficient Compiler Auto-tuning via Optimization Space Reduction
+Evaluating and improving Quality of Experience in virtual environments
+Human-centered LLM-based Agents to Support Agile Task Management in Software Engineering
+Safeguarding the Development and Deployment of Agentic AI Applications in the Enterprise Context
+Studying, Identifying, and Fixing Hidden Technical Debt in AI-Intensive Cyber-Physical Systems
+Understanding Human-AI Teaming for Software Engineering Practices

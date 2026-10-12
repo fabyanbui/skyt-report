@@ -1,0 +1,21 @@
+Adaptive Parallel Testing for Floating-Point Branch Coverage
+An Approach Toward Automated Generation of Contextual Privacy Policies for Mobile Applications
+Beyond Outcomes: Toward Process-Aware Software Agents
+Code Detectors Have a Half-Life: Obsolescence and Metric Illusions in LLM-Generated Code Detection
+Correct According to Whom? Auditing What LLM-Generated Tests Actually Check
+Danger Is a Counterfactual: Toward a Falsifiable Continuous Test Oracle for Autonomous Driving Systems
+From Accessibility to Reachability: LLM-Driven Contrastive Accessibility Testing for Android Apps
+From Automated Program Repair to Automated Agent Repair: Why Failed Trajectories Matter
+MACO-AI: Multi-Agent Code Optimization via Annotations and Intrinsics
+Making Vulnerability Proof-of-Concepts Trustworthy and Usable: From Empirical Diagnosis to Operational Validation
+Measuring the Cost of Prompt Structure in LLM Code Generation
+Multi-Modal Boundary Testing of Vision–Language Models
+Order-Aware State Elimination for Algebraic Program Analysis
+PCLA-Bridge: The Reusability of CARLA-Trained Autonomous Driving Agents Beyond the CARLA Simulator
+Reconstructing Executable Programs from Informal Bug Reports
+Secrets Without Signatures: An LLM Agent for Logic-Defined Exposures in Recovered JavaScript
+Toward Authentic and Scalable Evaluation of Terminal Agents in Real-World Environments
+Toward Automatically Detecting Cross-Engine Asymptotic Complexity Divergence in JavaScript
+Where There's One Patch, There's Another: Taxonomy-Driven Discovery of Missing Security Patches
+Which Camera Perturbation Should We Test First? Offline-Guided Prioritization of On-Vehicle ADS Tests
+WiseSpec: Requirements-Driven Agents for Code Generation

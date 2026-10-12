@@ -1,0 +1,75 @@
+ABACI: Automated Downstream Bug Resolution via Semantic-Aware Bisection and Convergent Backporting
+ActionNex: A Production-Grade System for Next-Best-Action Recommendation in Cloud Outage Management
+AgenticSCR: An Autonomous Agentic Secure Code Review for Immature Vulnerabilities Detection
+Airdrop Scams in Practice: An Industry-Oriented Taxonomy, Benchmark, and Tool Audit
+AlarmClaw: Context-Enriched Alarm Management with Category-/Severity-Aware Incident Graphs
+A Longitudinal Analysis of Software Development Evolution in a Financial Organization
+An Empirical Study of Security Risks in the Android Push Notification Ecosystem
+Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency
+Beyond Benchmarks: A Case Study of LLM-Generated Verus Specification Failures on Asterinas Vostd
+Beyond Single-Level PGO: Understanding and Harnessing Cross-Level Optimization Effects in Industrial Systems
+Bridging Stakeholder and Product Requirements: An Empirical Study of Requirement Engineering in the Automotive Industry
+CADscanner: Automating Malware Analysis for Compiled AutoCAD Scripts in Engineering Environments
+CAPMix: Robust KPI Anomaly Detection for AIOps in Noisy and Dynamic Environments
+Catching Developers in the Flow: Low-Latency Agentic Program Repair at Google Scale
+Characterizing and Mitigating Productivity Loss in Large-Scale Model Training: An Empirical Study
+Closing the Gap: Automated Discovery of Secure Dockerfile Reference Standards via Semantic Clustering in Enterprise Inner Source
+Command Coding: A Methodological Framework for AI-Accelerated Software Development
+Continuous On-Commit Certification Testing of Railway Control Software: An Experience Report
+Continuum: Automated Construction and Retrieval of Software Decision Knowledge Graphs from Developer-AI Conversations
+ControlsDSL: A Language for Verifiable Cloud Configuration Controls
+Customizing an LLM for Enterprise Software Engineering
+DAL: Decoupled Aspect-Based Layering of I/O Processing for Automotive Software
+DBRepro: Automated Database Synthesis via a Hybrid Constraint-Solving Approach for Reproducing Slow Queries
+DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds
+Debug2Fix: Can Interactive Debugging Help Coding Agents Fix More Bugs?
+Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents
+Deployment Risk Assessment using Diff-Aware Features: A Case Study at Prime Video
+DepWareTrans: Dependency-Aware Incremental Repository Migration across Co-executable Languages
+Disassembly-Augmented Root Cause Analysis for C/C++ Segmentation Faults in SAP HANA
+Doc2Test: An Industrial Multi-agent Framework for Document-Driven End-to-End Selenium Test Generation
+DragonCrawl: A Generative, Intent-Based Framework for Scalable Mobile End-to-End Testing
+eARCO: Efficient Automated Root Cause Analysis with Prompt Optimization
+EvoLLM: High-Coverage, Readable, and Token-Efficient Unit Test Generation for Industrial Java Codebases
+Expanding Guard Reach: Online Learning-Driven Incremental Kernel Panic Diagnosis
+FlowChecker: One Command to Model Check Control-Flow Rules in Industrial Java
+FPSieve: LLM-Powered Cascade for Filtering False Positives in OS Migration Testing
+From Backlog Items to Security Guidance: Towards Continuous Security Compliance
+From Security Findings to Verified Fixes: Automated Repair of Infrastructure-as-Code Misconfigurations
+Fuzz4DB: A Practice of LLM-Agent-Guided Fuzzing for Database Feature-Level Delta Testing
+GraphQLer: Enhancing GraphQL Security with Context-Aware API Testing
+IAM Policy Autopilot: Static Analysis for Policy Generation from Application Code
+If You Build It, Will They Come? Lessons from 20 Years of Industrial Use of a Code Transformation DSL
+InfraAPR: An Agent-Based Repair Framework for Cloud Infrastructure-as-Code Programs
+IP-Preserving Enterprise System Modernization via LLM-Driven Specification Extraction and Multi-target Code Generation
+Kani: A Model Checker for Rust
+Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair
+KRCA: An Efficient Root Cause Analysis System in Hyper-scale Microservice Systems via Agentic AI
+KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code
+LiteScope: Revealing the Security Paradox of Android Lite Apps in Resource-Constrained Ecosystems
+Li-WaC: A Lightweight WebAssembly Container for Independently Upgradable IoT Applications in Xiaomi Vela
+LLM-Assisted Joint Ticket and Log Analysis for Incident Triage in Intelligent and Connected Vehicles
+Maintaining Control States for Initialization-Aware GRPO in Industrial LLM Workflows
+Manifesting Implicit Dependencies in Requirements Task: An Automated Method Integrating Code Awareness and Change Analysis
+MERA: A Multi-expert LLM Framework for Severity Assessment of User Tickets in Mobile OS Beta Testing
+MicroWeaver: A Constraint-Guided Structure–Semantic Aware Approach to Automated Microservice Decomposition
+Model-Guided Property-Based Testing of WeChat Pay at Billion-User Scale
+Mutation Testing of Simulink Cyber-Physical System Models: Challenges and Solutions in Practice
+No Isolated Evolution, No Blind Search: Memory-Guided Prompt Co-evolution for Industrial Multi-agent Vulnerability Detection
+OpsAgent: An Evolving Multi-agent System for Incident Management in Microservices
+OpsLens: Runbook-Free Root Cause Analysis via Multi-agent Collaboration and Tool Management
+Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development
+REAP: Automatic Curation of Coding Agent Benchmarks from Interactive Production Usage
+Requirements-Augmented Generation for Trustworthy Acceptance Testing of LLM-Based Software
+RiskScope: Pre-audit Triage for Incentive and Control Risks in Smart Contracts
+Search-Based Testing of Vision Language Models for In-Car Scene Understanding
+Test Suite Generation for Simulink Models: An Experience with Reactis
+Top-Down Multi-agent LLM System with Runtime Data for MISRA C Violation Detection
+Towards Reliable Alarm Flood Reduction in Data Center via Grammar-Guided Verifiable LLM Reasoning
+Towards Reliable C-to-Rust Translation with Rule-Guided Reasoning and Reinforcement Learning
+Understanding Real-World Ordering-Related Concurrency Bugs under Weak-Memory and Cross-Architecture Settings
+Understanding the Performance-Effectiveness Trade-Offs of AddressSanitizer in Real-World Programs: An Empirical Study
+Vulnerability Tracking using Normalized Scope+Offset
+When Elo Lies: Hidden Biases in Codeforces-Based Evaluation of Large Language Models in Practice
+Why Is This on My Bill? Documentation-Grounded Rule Learning for Itemized Bill Explanation
+WiseSword: An Automated Computation Graph Partitioning Tool for Industrial DLRM Deployment on Ascend NPUs

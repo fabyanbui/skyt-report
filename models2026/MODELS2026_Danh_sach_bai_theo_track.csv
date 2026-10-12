@@ -1,0 +1,152 @@
+Track,Tieu_de
+Educators Symposium,A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy
+Educators Symposium,A Proposal for More Realistic Case Descriptions in Modeling Exercises
+Educators Symposium,"An Alternative Process for Conducting Oral Exams: Applied Example, Experiences and Lessons Learnt"
+Educators Symposium,Domain Knowledge Debt: Why Metamodeling Still Needs Elicitation
+Educators Symposium,Enhancing Software-Design Learning by Combining UML and LLM-Assisted Feedback in a Learning Platform
+Educators Symposium,Experiences of using low-code MDE tools in student projects
+Educators Symposium,Extending the Epsilon Playground for Model-Driven Engineering Education
+Educators Symposium,Model-Driven Engineering Without a Modeller: Teaching MDE as a Software Process with Epsilon and PlantUML
+Educators Symposium,Teaching Domain-specific Modeling with a Small Robot Motion Framework
+Educators Symposium,"Teaching UML Modeling in the Age of Generative AI: Combining Manual Modeling, Prompt Engineering and Model Evaluation"
+Educators Symposium,Teaching the Development of Software Agents in Higher Education: First Insights from a European Initiative
+Industry Day,(Re)Working collaboration between industry and academia
+Industry Day,ASCEND: Toward a Common Model-Based Safety & Security Framework for an Aerospace Digital Thread
+Industry Day,After MBSE and the Digital Thread: The Agentic Engineering Stack
+Industry Day,An End-to End Agentic Assistant for Avionic V&V
+Industry Day,Beyond the Hype: Blending Gen-AI and Model-Driven Engineering for Pragmatic Enterprise Modeling
+Industry Day,Development and Validation of a Scalable Digital Twin for Anaerobic Reactors in the Agri-Food Industry
+Industry Day,From Model-Centric Machine Control to Trusted Self-Improvement
+Industry Day,Model-Driven Engineering for the TTEthernet Network of the Lunar I-HAB Module
+Industry Day,Ontology-driven modelling for corporate digital twins
+Industry Day,Standards for Models Interoperability
+Industry Day,SysV2-Repair: Towards LLM-Based repair of SysML v2 models
+Industry Day,The ESA MBSE journey: lessons learned and future outlook
+Industry Day,Your AI Agent Needs a Model
+Journal First,A model and workflow-driven approach for engineering domain-specific low-code platforms and applications
+Journal First,Automated and logically exhaustive generation of traffic scenarios at road junctions using a multi-level danger definition
+Journal First,Enhancing automated network function onboarding through language extension and code refactoring
+Journal First,EvolveDB: evolving relational database schemas in a model-driven way
+Journal First,LINDDUN MAESTRO: an architecture framework for privacy threat modeling
+Journal First,Model-based stochastic analysis with probabilistic graph query evaluation
+Journal First,SavviDriver: model-based framework for game-based testing of autonomous vehicles in diverse multi-agent traffic scenarios
+Journal First,What do we need from modeling tools for teaching? A survey of the community of higher-education modeling teachers
+NIER,ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning
+NIER,Agentic Model Transformation: Service-Mediated Orchestration for Transformation Development
+NIER,Beyond Single-Run Correctness: Nondeterminism-Aware Evaluation of LLM-Based Model Transformations
+NIER,Breaking Models to Test the Judge: A Mutation Testing Approach for Semantic Evaluators of Domain Class Diagrams
+NIER,Bridging Feature Models and Users: LLM-Generated Low-Code Configurators for Software Product Lines
+NIER,Can LLMs Substitute for Humans in Evaluating Conceptual Modeling Language Vocabularies? An Experimental Study
+NIER,Formalism-Aware Rewards: Turning Model Analysis into Training Feedback for Sketch-to-Model Generation
+NIER,Lost in Code Generation: Reimagining the Role of Software Models in AI-driven Software Engineering
+NIER,Measure What Survives: When Model Vocabulary Outlives Generated Code
+NIER,Metamodel-Based Generation of Security Models from Structured Cyber Threat Intelligence
+NIER,Model Migration by Example (MbEx): Understanding Model Co-Evolution from User Adaptations
+NIER,Model-Driven Data Contracts for Digital Twin Services
+NIER,Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility
+NIER,Models@Orbit: Model-Driven Engineering for the New Space Era
+NIER,Modular Meta-Languages for Structured Instructions: A Novel Approach for LLM Integration into Evolving Engineering Toolchains
+NIER,Physical Execution Plans for Model-Driven Engineering: Decoupling DSL Design from Runtime-Specific Representations
+NIER,Preserving Model-to-Code Traceability During LLM-Based Code Generation
+NIER,Profile for realizing Domain Specific Virtual Reality Systems
+NIER,Reasoning Scaffolds for AI-Assisted Behavioural Modelling: A Logical-Square Instantiation
+NIER,Towards Systematic Management of Semantic Variability in Real-World Executable Modeling Languages
+NIER,Towards a Methodology for Continuous Model-Driven Digital Twin Engineering
+NIER,Towards an Asset Administration Shell Maturity Model
+NIER,"Typed Edits, Reviewable Models: Toward LLM-Supported Blended Co-Modeling"
+NIER,UncertainTree: Analyzing Multi-Model Consistency under Uncertainty
+Posters,A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems
+Posters,"A Digital Twin Exemplar for Fischertechnik Production Line Analysis, Simulation, and Optimization"
+Posters,A Dual-Lens Conceptual Framework for Digital Twin V&V
+Posters,A Model-Driven Approach for Developing Families of Reinforcement Learning Environments
+Posters,A Neuro-Symbolic Pipeline for Automated Synthesis and Verification of OCL Constraints
+Posters,A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy
+Posters,A Transformation-Based Benchmark for Evaluating the Robustness of LLMs in Generating OCL
+Posters,Agentic Model Transformation: Service-Mediated Orchestration for Transformation Development
+Posters,Anchoring Co-Design on the Engineered Quantum System: A Model-Based Approach
+Posters,Assessing the Impact of MCP-Augmented LLMs in MDE Tasks: A Quantitative Comparative Evaluation Framework on Fault Tree Modeling and Analysis Through Petri Nets
+Posters,Automated Generation of Java Bytecode Models Across Scales
+Posters,Automated Quality Assessment of Metamodel Evolution: A Case Study in Java Mutation Testing
+Posters,Beyond Syntax: Method-Compliant AI Assistance for Low-Resource Modeling Languages
+Posters,Beyond single-run correctness: nondeterminism-aware evaluation of LLM-based model transformations
+Posters,Beyond the Mirror – Digital Twins for Human–AI Collaboration in Software Engineering
+Posters,Do Not Disturb: Proposing Approaches Towards Motivated Human-in-the-Loop for Less Disruptive Cross-Domain Interactive Repair
+Posters,Enabling Physical AI in Trailer Logistics: A Digital Twin Architecture with Continuous Sim-to-Real Feedback
+Posters,Engineering Digital Process Twins: Towards a Methodology Based on MDE and DevOps
+Posters,From Complex Ecosystems to Understandable Models – Evaluating a Domain-Specific Modeling Language for Digital Ecosystem Governance
+Posters,Identifying Pareto-Optimal Configurations through Integrated Impact and Tradeoff Analysis in System Design
+Posters,KERKIS: a Modeling Language for Multi-Agent System Interactions in AI-Native Software Engineering
+Posters,LLMA-UML: Extending the UML for Modeling LLM-Agent Systems
+Posters,Model-Driven Digital Twin Framework for Quantum Networks
+Posters,Model-Driven Engineering for FHIR Testing: Experiences from Australia's Sparked Accelerator
+Posters,OptiGob 2.0: A Model-Driven Approach for Exploring Agri-Sustainability Projections
+Posters,PolicyDSL: A Model-Driven Approach for the Definition and Enforcement of Fine-Grained Access Control Policies
+Posters,Software Development using Low-Code Platforms or AI Assistants: A Case Study-based Comparison
+Posters,The Impact of Software Model Slicing on Software Model Completion with Large Language Models
+Posters,The Rise of Abstraction and Organizational Change: Preserving Human Control in the Age of Artificial Intelligence
+Posters,Toward a Self-Evaluating Digital Twin for End-to-End Empty Packaging Return Management
+Posters,Towards a Model-Driven Framework for Energy Community Digital Twins
+Posters,Using LLMs for software energy-use analysis and improvement
+Posters,Validation of Famix Model Importers with Model Shuffling and Input Reduction
+Posters,VitruviusOCL: A Declarative Language for Multi-Model Consistency Specification
+Posters,When Layout Matters: Characterizing Layout-Sensitive Notations and Their Cognitive Trade-offs
+Research Papers,A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems
+Research Papers,A Model-Driven Approach for Developing Families of Reinforcement Learning Environments
+Research Papers,A Model-driven BIM2SIM Workflow for Surrogate Modeling
+Research Papers,A Transformation-Based Benchmark for Evaluating the Robustness of LLMs in Generating OCL
+Research Papers,"Anvil: LLM-Powered Synthesis, Validation, and Repair of Alloy Specifications"
+Research Papers,Automated Generation of Functionally Complete Assurance Suites for COLREGS-Compliance of Autonomous Surface Vehicles
+Research Papers,Automated Quality Assessment of Metamodel Evolution: A Case Study in Java Mutation Testing
+Research Papers,"Automatic Generation of Local-First, Collaborative Modeling Languages"
+Research Papers,From Unfinished to Done: Bridging the MDE Implementation Gap with Constrained LLMs
+Research Papers,Json-SysML: A Bidirectional JSON-Based Representation for SysML Models Enabling LLM-Augmented Model-Based Systems Engineering
+Research Papers,LLM-Based Instance Model Generation via Code Synthesis
+Research Papers,LLM-Enhanced Stochastic Generation of Class Diagram Datasets
+Research Papers,Large Language Models Assistance in core Model-Driven Engineering activities
+Research Papers,Model-Driven Engineering for FHIR Testing: Experiences from Australia's Sparked Accelerator
+Research Papers,ModiGen: A Large Language Model-Based Framework for Modelica Component Generation in Multi-Domain Systems
+Research Papers,Not All Differences Matter: Variability Exploration of Domain Models via Agentic AI
+Research Papers,On Redundancy in Alloy Models
+Research Papers,OntoSTL: Canonical Knowledge Graph Representation of Signal Temporal Logic Requirements
+Research Papers,Realizing a Model Context Protocol (MCP) Server for the Graphical Language Server Platform (GLSP)
+Research Papers,Runtime Decision Models under Uncertainty using Surprise-Based Learning for Supply Management
+Research Papers,Skyscrapers Need Solid Foundations: Pattern-Based Validation of SysML v2 Models with Refinery
+Research Papers,Software Development using Low-Code Platforms or AI-Assistants: A Case Study-based Comparison
+Research Papers,The Software Modeling Paradox in Videogames: An Empirical Evaluation of Unreal Blueprints vs. Unity Visual Scripting
+Research Papers,The impact of Software Model Slicing on Software Model Completion with Large Language Models
+Research Papers,Tool-assisted Concretization of Object-oriented Reference Models and Design Patterns
+Research Papers,Towards LLM-Assisted Business Process Modeling in an Industrial Modeling Tool: An Experience Report
+Research Papers,Towards Lightweight Domain Model Reverse Engineering from Source Code
+Research Papers,Understanding Modelling Assistance in Low-Code/No-Code Tools: An Empirical Study and the AssiStarMe Framework
+Research Papers,Well-Formed Executable Suggestions for Continuous Model-Driven Engineering
+Research Papers,Zero-Width Markers for View-to-Model Traceability
+Tools and Demonstrations,A Stage-Aware Tool for Modelling and Verifying CI/CD Security Evidence
+Tools and Demonstrations,AMIGO: Agentic Model Instance Generation
+Tools and Demonstrations,An Interactive Tool for iterative Domain Elicitation and Metamodeling
+Tools and Demonstrations,"ArchSafe Unified Modeler: Automated ASIL, Change-Impact, and Failure Analysis of Architecture and Safety"
+Tools and Demonstrations,Astro: Automated Migration of Sirius Desktop Graphical Modelling Editors to Sirius Web
+Tools and Demonstrations,CANcept: Model-based CAN Traffic Generation and Manipulation
+Tools and Demonstrations,CARLA Scenario Editor
+Tools and Demonstrations,Code2LowCode: An Interactive Tool for Lifting Code Clones into Reusable Model-Driven Abstractions
+Tools and Demonstrations,Demonstrating LowSheets: Spreadsheet-Based Low-Code Development
+Tools and Demonstrations,EMFular: Web-Native Generation and Customization of EMF-Consistent Graphical Editors
+Tools and Demonstrations,FM2C: An Agentic Workflow for Generating Low-Code Configurators from Feature Models
+Tools and Demonstrations,Facilitating model reviews in pull/change request processes with RAMA
+Tools and Demonstrations,Fastbelt: An Architecture for Efficient Language Engineering
+Tools and Demonstrations,ForeACT: A Model-Driven Workbench for Actionability Assessment of Forecast Changes
+Tools and Demonstrations,From Natural-Language Crash Reports to Executable Driving Scenarios via Model Transformation
+Tools and Demonstrations,Generating Consistent and Realistic Database Instances with PRISMA
+Tools and Demonstrations,Graphical Management of Multiple Runtime Models to Improve the Comprehension of Contextual Behavioral Programs
+Tools and Demonstrations,Interweaving Graphical and Textual Modelling using GLSP and Langium
+Tools and Demonstrations,Jjodie: A Conversational Modeling Assistant with Script-Mediated (Meta)Model Manipulation
+Tools and Demonstrations,Langium: A TypeScript-Based Language Workbench for Domain-Specific Languages
+Tools and Demonstrations,MDEO-Cloud: A Modular Cloud-Based Platform for Model-Driven Optimization
+Tools and Demonstrations,ML2++: A Dual-Mode Model-Driven Tool for Forecasting-Enabled IoT Applications
+Tools and Demonstrations,MoRE: Traffic Rule Modeling and Runtime Evaluation for Model-Based Testing of Automated Driving Systems in CARLA
+Tools and Demonstrations,ModL: A Data Model Ledger for Contract Evolution
+Tools and Demonstrations,"Model Textually, View Graphically: Automatic Class Diagram Visualization with Bidirectional Navigation and LSP Support"
+Tools and Demonstrations,"Model-driven, AI-assisted Development of Manufacturing Control Software with Cordis Suite"
+Tools and Demonstrations,RuMROS* - A Runtime Metamodeling Approach to Multi-Robot System and Swarm Programming
+Tools and Demonstrations,SceneGEMS: Scenario Generation and Execution Framework for the Safety Assurance of Maritime Autonomous Surface Vehicles
+Tools and Demonstrations,Senate: Tool for Change Propagation control in Model Federation
+Tools and Demonstrations,Who are my users? A graphical language and modeling environment for specifying end-user profiles

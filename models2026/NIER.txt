@@ -1,0 +1,24 @@
+Agentic Model Transformation: Service-Mediated Orchestration for Transformation Development
+ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning
+Beyond Single-Run Correctness: Nondeterminism-Aware Evaluation of LLM-Based Model Transformations
+Breaking Models to Test the Judge: A Mutation Testing Approach for Semantic Evaluators of Domain Class Diagrams
+Bridging Feature Models and Users: LLM-Generated Low-Code Configurators for Software Product Lines
+Can LLMs Substitute for Humans in Evaluating Conceptual Modeling Language Vocabularies? An Experimental Study
+Formalism-Aware Rewards: Turning Model Analysis into Training Feedback for Sketch-to-Model Generation
+Lost in Code Generation: Reimagining the Role of Software Models in AI-driven Software Engineering
+Measure What Survives: When Model Vocabulary Outlives Generated Code
+Metamodel-Based Generation of Security Models from Structured Cyber Threat Intelligence
+Model-Driven Data Contracts for Digital Twin Services
+Model Migration by Example (MbEx): Understanding Model Co-Evolution from User Adaptations
+Models as Governed Interfaces for AI-Native MBSE: Read-Side Adequacy and Write-Side Admissibility
+Models@Orbit: Model-Driven Engineering for the New Space Era
+Modular Meta-Languages for Structured Instructions: A Novel Approach for LLM Integration into Evolving Engineering Toolchains
+Physical Execution Plans for Model-Driven Engineering: Decoupling DSL Design from Runtime-Specific Representations
+Preserving Model-to-Code Traceability During LLM-Based Code Generation
+Profile for realizing Domain Specific Virtual Reality Systems
+Reasoning Scaffolds for AI-Assisted Behavioural Modelling: A Logical-Square Instantiation
+Towards a Methodology for Continuous Model-Driven Digital Twin Engineering
+Towards an Asset Administration Shell Maturity Model
+Towards Systematic Management of Semantic Variability in Real-World Executable Modeling Languages
+Typed Edits, Reviewable Models: Toward LLM-Supported Blended Co-Modeling
+UncertainTree: Analyzing Multi-Model Consistency under Uncertainty

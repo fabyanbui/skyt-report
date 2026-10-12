@@ -1,0 +1,59 @@
+A Comprehensive Study of Machine Learning Techniques for Log-Based Anomaly Detection
+AdaCoder: An Adaptive Planning and Multi-Agent Framework for Function-Level Code Generation
+A Large-Scale Empirical Evaluation of LLMs for Automated Self-Admitted Technical Debt Repayment
+A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling
+An Empirical Analysis of Machine Learning Model and Dataset Documentation, Supply Chain, and Licensing Challenges on Hugging Face
+An Empirical Study on Challenges of Event Management in Microservice Architectures
+An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations
+An Exploratory Eye Tracking Study on How Developers Classify and Debug Python Code in Different Paradigms
+An Exploratory Study on Fine-tuning Large Language Models for Secure Code Generation
+A Research Roadmap for Augmenting Software Engineering Processes and Software Products with Generative AI
+A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages
+A Taxonomy of Real Faults in Hybrid Quantum-Classical Architectures
+Automated Identification of Sexual Orientation and Gender Identity Discriminatory Texts from Issue Comments
+Benchmarking AI Models in Software Engineering: A Review, Search Tool, and Unified Approach for Elevating Benchmark Quality
+C2SaferRust: Transforming C Projects Into Safer Rust With NeuroSymbolic Techniques
+CARE: Context Aware Root Cause Identification Using Distributed Traces and Profiling Metrics
+Causes and Canonicalization of Unreproducible Builds in Java
+Charting Uncertain Waters: A Socio-Technical Roadmap for Sustaining Open Source Communities in the Age of GenAI
+CI/CD Configuration Practices in Open-Source Android Apps: An Empirical Study
+Classifier or Prompt: A Case Study on Legal Requirements Traceability
+CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences
+Compiler Optimization-Based SMT Simplifications: An In-Depth Study
+Directed Grammar-Based Test Generation
+Does Microservice Adoption Impact the Velocity? A Cohort Study
+Empirical Studies of Parameter Efficient Methods for Large Language Models of Code and Knowledge Transfer to R
+Enhancing Log Sentiments: An Exploratory Study of Sentiments and Emotions with Software Logs
+Exploring the impact of cloud computing on software architecture for sustainability: A practitioners' perspective
+From First Patch to Long-Term Contributor: Evaluating Onboarding Recommendations for OSS Newcomers
+Fuzzing-based mutation testing of C/C++ software in cyber-physical systems
+Galápagos: Automated N-Version Programming with LLMs
+HAFix: History-Augmented Large Language Models for Bug Fixing
+How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?
+How Execution Features Relate to Failures: An Empirical Study and Diagnosis Approach
+Human-AI experience in integrated development environments: a systematic literature review
+HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent
+Hydra-Reviewer: A holistic multi-agent system for automatic code review comment generation
+Impact of extensions on browser performance: An empirical study on google chrome
+Leveraging Risk Models to Improve Productivity for Effective Code Un-Freeze at Scale
+LPB-Gen: Systematic Large Log-Parsing Benchmarks Generation
+MetaSel: A Test Selection Approach for Fine-Tuned DNN Models
+Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions
+On the Effects of Program Slicing for Vulnerability Detection during Code Inspection (Journal First)
+On the Structure and Semantics of Identifier Names Containing Closed Syntactic Category Words
+On the synchronization between Hugging Face pre-trained language models and their upstream GitHub repository
+On the Utility of Domain Modeling Assistance with Large Language Models
+Post-Incorporating Code Structural Knowledge into Pretrained Models via ICL for Code Translation
+Predicting long time contributors with knowledge units of programming languages: an empirical study
+Programming of Automation Configuration in Smart Home Systems: Challenges and Opportunities
+Requirements Coverage-Guided Minimization for Natural Language Test Cases
+SETS: A Simple yet Effective DNN Test Selection Approach
+SMARLA: A Safety Monitoring Approach for Deep Reinforcement Learning Agents
+TaskSnap: One Task at a Time With Snapshots
+TestLoop: A Process Model Describing Human-in-the-Loop Software Test Suite Generation
+The Impact of Prompt Programming on Function-Level Code Generation
+The Price of Precision: The Cost of Preprocessing for Automated Code Revision in Code Review
+Towards Refining Developer Questions using LLM-Based Named Entity Recognition for Developer Chatroom Conversations
+Towards semantic versioning of open pre-trained language model releases on hugging face
+Typestate-based Fault Localization of API Usage Violations in a Deep Learning Program
+VLM-Fuzz: Vision Language Model Assisted Recursive Depth-First Search Exploration for Effective GUI Testing of Android Apps

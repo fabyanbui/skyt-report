@@ -1,0 +1,19 @@
+ArtifactSync: Automated Repository Synchronization through Hierarchical Change Impact Analysis
+Automated Testing of Conversational Agents with Chatbot Dōjō
+BugHunter: An Automated Tool for Bug-Aware GUI Testing via Retrieval Augmentation
+CI-Bench: A Framework for Evaluating Large Language Model Tools on CI Failures
+Code4MeV2: a Research-oriented Code-completion Platform
+FlakeSync: A Tool for Automatically Repairing Async Flaky Tests
+GDSynth: A Graph Database Testing Framework via Effective Graph Synthesis
+GUISpector: An MLLM Agent Framework for Automated Verification of Natural Language Requirements in GUI Prototypes
+LVing: A Vulnerability Detection and Visualization Platform for Rust
+Maven-Lockfile: High Integrity Rebuild of Past Java Releases
+Polaris: MIR-Level Obfuscation in LLVM for Efficient and Robust Decompiler Resistance
+PosEyeDOM: Lightweight Positional Copilot Suggestion Logger for Eye-Tracking Applications using the DOM
+PriviSense: A Frida-Based Framework for Multi-Sensor Spoofing on Android
+PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair
+RESTifAI: LLM-Based Workflow for Reusable REST API Testing
+TenderChat with Dynamic RAG: A Prompt-Adaptive RAG Framework for Australian Government Tender Analysis
+Valg: A Fast Reinforcement Learning-Based Runtime Verification Tool for Java
+WiseUT: An Intelligent Framework for Unit Test Generation
+torte: Reproducible Feature-Model Experiments à la Carte

@@ -1,0 +1,59 @@
+"Where is My Troubleshooting Procedure?": Studying the Potential of RAG in Assisting Failure Resolution of Large Cyber-Physical System
+AI Where It Matters: Where, Why, and How Developers Want AI Support in Daily Work
+Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair
+Addressing Test Flakiness: Practical Approaches in a Database-Reliant Industrial System
+Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices
+Agentic Taxation Optimization via LLM SMT-Constraint Reasoning
+An Enterprise Marketplace for Unified Access to Multi-Cloud and Enterprise Products in a Large Banking Infrastructure
+AutoOracle: High-Quality C++ Test Oracle Generation via Data Quality-Driven and Filtering-Enabled LLMs
+Automated Bug Frame Retrieval from Gameplay Videos Using Vision-Language Models
+Bridging Code and Graphic: A Cross-Mode Framework for Large-Scale Network Scenario Construction
+Building an Open AIBOM Standard in the Wild: An Experience Report on Extending the SPDX SBOM (ISO/IEC 5962:2021) for AI Supply Chains
+CASCADE: LLM-powered JavaScript Deobfuscator at Google
+Correctness isn’t Efficiency: Runtime Memory Divergence in LLM-Generated Code
+DSL or Code? Evaluating the Quality of LLM-Generated Algebraic Specifications: A Case Study in Optimization at Kinaxis
+Delta Debugging for LLM-integrated Systems
+Deploying SafeKAN for Anomaly Detection in Safety-Critical Satellite Operations: An Industry-Guided Study
+Deriving and Validating Requirements Engineering Principles for Large-Scale Agile Development: An Industrial Longitudinal Study
+Developer Needs and Feasible Features for AI Assistants in IDEs
+Developers’ Experience with Generative AI \- First Insights from an Empirical Mixed-Methods Field Study
+Empirical Evaluation of PDF Parsing and Chunking for Financial Question Answering with RAG
+Enabling Black-box RPC-API Testing with Multi-Agent Reinforcement Learning and LLMs: An Industry Case Study
+Enterprise-Scale COBOL-to-Java Translation: LLMs Augmented with Program Analysis
+EvoC2Rust: A Skeleton-guided Framework for Project-Level C-to-Rust Translation
+Finding the Needle in the Crash Stack: Industrial-Scale Crash Root Cause Localization with AutoCrashFL
+Fixing Security Vulnerabilities with Agentic AI in OSS-Fuzz
+Foiegras: Source Code Based Software Composition Analysis For C/C++ Applications
+From Rules to LLM-Enhanced Templates: A Hybrid ALPG Code Generation System
+Green LLM Techniques in Action: How Effective Are Existing Techniques for Improving the Energy Efficiency of LLM-Based Applications in Industry?
+Green Software Engineering in Practice: Quantifying the Impact of Carbon Reduction Strategies in Enterprise Software
+Group versus Individual Review Requests: Tradeoffs in Speed and Quality at Mozilla Firefox
+Hamster: A Large-Scale Study and Characterization of Developer-Written Tests
+HapCheck: DSL-Based Static Bug Detection Framework for OpenHarmony
+LLM-Based Automated Diagnosis Of Integration Test Failures At Google
+Learning from Change: Predictive Models for Incident Prevention in a Regulated IT Environment
+MagmaScope: Identifying Root-Cause Changes for Emergency Incident in Large-Scale Cloud Infrastructure
+On the Flakiness of LLM-generated Tests for Industrial and Open-Source Database Management Systems
+OpenDerisk: An Industrial Framework for AI-Driven SRE, with Design, Implementation, and Case Studies
+Opportunities and Barriers for AI-Supported Quality Planning in the Automotive Domain: An Interview Survey at Volkswagen
+PCICF: A Pedestrian Crossing Identification and Classification Framework
+PerFrame: Monitoring GUI Loading Performance in Mobile Apps via Semantic Distinguish
+Principles and Practices of Large-Scale Code Analysis at Ant Group: A Data- and Logic-Oriented Approach
+Product Manager Practices for Delegating Work to Generative AI: \`\`Accountability must not be delegated to non-human actors''
+Reducing False Positives in Static Bug Detection with LLMs: An Empirical Study in Industry
+RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian
+Scaling Mobile Chaos Testing with AI-Driven Test Execution
+Smart Paste: Automatically Fixing Copy/Paste for Google Developers
+Spec2Control: Automating PLC/DCS Control-Logic Engineering from Natural Language Requirements with LLMs \- A Multi-Plant Evaluation
+Technical Credit: Industry Views on Benefits and BarriersDistinguished Paper Award
+UnPII: Unlearning Personally Identifiable Information with Quantifiable Exposure Risk
+Understanding Task Enjoyment in Software Development: A Mixed-Methods Study on Practitioners From Poland and Brazil
+Utilizing LLMs for Industrial Process Automation: A Case Study on Modifying RAPID Programs
+Vibe Coding in Practice: Motivations, Challenges, and a Future Outlook – a Grey Literature Review
+Vision Language Model-based Testing of Industrial Autonomous Mobile Robots
+What Does Explainable AI Mean in Practice? Evaluative Requirements from a Longitudinal Clinical Case Study
+What’s DAT? Three Case Studies of Measuring Software Development Productivity at Meta With Diff Authoring Time
+What’s in a Benchmark? The Case of SWE-Bench in Automated Program Repair
+XBIDetective: Leveraging Vision Language Models for Identifying Cross-Browser Visual Inconsistencies
+XTrace: A Non-Invasive Dynamic Tracing Framework for Android Applications in Production
+“Still in the Loop”: Coping with Technostress in DevOps Teams and the Impact of GenAI

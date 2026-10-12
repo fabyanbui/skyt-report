@@ -1,0 +1,23 @@
+Agentic Code Review in the Terminal: A Trajectory-Level Analysis of Behavior, Cost, and Human-Alignment
+Agents That Teach: Towards Designing Incidental Learning Back into AI-Assisted Software Development
+BanditFuzz: A Synergistic Differential Fuzzing Framework for Compilers
+Beyond the First Crash: Interaction-Aware Multi-fault Fuzzing
+Can Formal Specifications Be Synthesized from Tests Alone?
+Distributional Program Analysis: Treating Large Language Models as Program Samplers
+Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming
+ECLAIR: A Causally-Grounded AI Framework for Scientific Discovery in Empirical Software Engineering
+Empirical Computation: Prompting versus Programming
+End-to-End Regulatory Compliance Evolution Pipeline: From Legal Requirements to Developer Tests
+FaultForge: A Business-Semantics-Driven Cross-Layer Fault Injection Framework for Microservice
+Is Three the Magic Number? An Empirical Evaluation of LLM-Based Repair Loops
+K-COBAgent: A Knowledge-Driven Multi-agent Framework for COBOL Modernization
+Let's Chat about Design: A Transformation-Oriented Viewpoint for LLM-Native Software
+Phantom Fixes: Fault Interaction Ambiguity in Multi-fault Concurrent Programs
+PR2Trigger: From Concurrency-Fix PR Diffs to Executable Triggering Tests for Go
+SkillMOO: Multi-objective Optimization of Agent Skills for Software Engineering
+Software Engineering Meets the EU AI Act: Artifacts, Patterns, and Future Directions
+Specifying the Delegated-Autonomy Boundary: Requirements Engineering for Agentic AI
+The Ground Is Shifting: A Reflection on the Foundations of Software Measurement
+Towards Diagnostic Explainability in Workflow Verification via Shapley Attribution
+Towards Multilingual AI-Assisted Software Engineering
+UIXPOSE: Screen-Conditioned Runtime Discrepancy Analysis for Security-Aware Android GUI Exploration

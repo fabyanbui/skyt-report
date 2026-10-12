@@ -1,0 +1,17 @@
+Alexander Serebrenik Keynote: Beyond chasing the medals: software development as an Olympic sport
+Final thanks from the ICSE 2026 organizers
+ICSE Distinguished Paper
+IEEE Computer Society Harlan D. Mills Award and Talk by Andreas Zeller: Should Computer Scientists Experiment Less? On the past, present, and future of software engineering research
+Introduction to ICSE 2027 in Ireland
+Introduction to ICSE 2028 in Hawaii
+Introduction to ICSE 2029 in Japan
+Jan Bosch Keynote: Towards an Awesome AI-driven Future for Software Engineering
+Laurie Williams Keynote: What We’ve Learned By Actually Talking to Practitioners about Software Supply Chain Security (and How we Do it)
+Most influential Paper ICSE N-10 Award and Talk for: Automatically learning semantic features for defect prediction
+Opening by the Awards Chairs
+Overview of the Program from the Program Chairs
+Qinghua Lu Keynote: AI Engineering: From Software-Centric Systems to AIware-Centric Systems
+Silvio Meira Keynote: Adaptive Interventionist Method (AIM): Rethinking Research Methodologies for Software Engineering and Interventionist Sciences in the Phygital Age
+Student Research Competition Awards and Distinguished Reviewer Awards
+Virgilio Almeida Keynote: Governing Software and Algorithms as Institutions
+Welcome to ICSE 2026

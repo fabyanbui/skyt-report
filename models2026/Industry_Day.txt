@@ -1,0 +1,13 @@
+After MBSE and the Digital Thread: The Agentic Engineering Stack
+An End-to End Agentic Assistant for Avionic V&V
+ASCEND: Toward a Common Model-Based Safety & Security Framework for an Aerospace Digital Thread
+Beyond the Hype: Blending Gen-AI and Model-Driven Engineering for Pragmatic Enterprise Modeling
+Development and Validation of a Scalable Digital Twin for Anaerobic Reactors in the Agri-Food Industry
+From Model-Centric Machine Control to Trusted Self-Improvement
+Model-Driven Engineering for the TTEthernet Network of the Lunar I-HAB Module
+Ontology-driven modelling for corporate digital twins
+(Re)Working collaboration between industry and academia
+Standards for Models Interoperability
+SysV2-Repair: Towards LLM-Based repair of SysML v2 models
+The ESA MBSE journey: lessons learned and future outlook
+Your AI Agent Needs a Model

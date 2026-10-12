@@ -1,0 +1,43 @@
+90% Faster, 100% Code-Free: MLLM-Driven Zero-Code 3D Game Development
+Advancing Evidence-Based Social Sustainability in Software Engineering: A Research Roadmap
+AgentReputation: A Decentralized Agentic AI Reputation Framework
+AIMS: A Content-Aware Resource Management Approach for AI Assistant Systems
+AST-PAC: AST-guided Membership Inference for Code
+At What Cost? Software Developers’ Well-Being in the Age of GenAI
+A Vision for Context-Aware CI Adoption Decisions
+Bio-Aware Software Engineering for Reproducible Research
+Causal Software Engineering: A Vision and Roadmap
+Characterizing Real-World Accessibility Issues Reported in Kotlin Mobile Apps
+Class Archetypes: Principles, Detection, Evolution
+Compilomorphic Fuzzing: Turning a Compiler Against Itself
+Context-Aware Feedback Compression in Online Judge Programming with LLMs
+DePro: Understanding the Role of LLMs in Debugging Competitive Programming Code
+DevGen: Automated Generation of Virtual Device Models for Kernel Drivers via Large Language Models
+Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation
+Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach
+Energy Flow Graph: Modeling Software Energy Consumption
+Evaluating Privilege Usage of Agents on Real-World Tools
+From GUI Tests to Conversational Interaction: A New Perspective on App-Specific Voice Assistants
+From Syntactic to Semantic Spectra for Fault Localization
+IDPVerifier: Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints
+Investigating Test Overfitting on SWE-bench
+LLM-Assisted Repository-Level Generation with Structured Spec-Driven Engineering
+Machine Learning in the Wild: Early Evidence of Non-Compliant ML-Automation in Open-Source Software
+Projectional Decoding: Towards Semantic-Aware LLM Generation
+PSR²: A Phase-based Semantic Reasoning Framework for Atomicity Violation Detection via Contract Refinement
+QuantumCode2Vec: Towards Learned Representations for Quantum Software Engineering Tasks
+Rethinking Performance Debugging: From Optimization to Collaborative Reasoning
+Rethinking Software Quality Measurement: A Vision for AI-Assisted Triangulation in the Post-Metrics Era
+Round-trip Engineering for Tactical DDD: A Constraint-Based Vision for the Masses
+RuntimeSlicer: Towards Generalizable Unified Runtime State Representation for Failure Management
+SCPatcher: Automated Smart Contract Code Repair via Retrieval-Augmented Generation and Knowledge Graph
+Software Testing Beyond Closed Worlds: Open-World Games as an Extreme Case
+The Impact of Documentation on Test Engagement in Pull Requests in OSS
+The Stylistic Blind Spot: Uncovering the Hidden Implicit Bias of Coding Style on LLM Code Evaluation
+The Watermark Paradox: How Provenance Verification Paves the Road to Camouflaged Backdoors
+Towards Automated Test Adaptation in Fork Ecosystems via Large Language Models
+Towards Output Directed Debugging of Finite Model Finders
+Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs
+Towards Reliable Testing for Machine Unlearning
+Treating Run-time Execution History as a First-Class Citizen: Co-Versioning Run-time Behavior alongside Code
+Who Wrote This Patch? Toward Accountable Automated Program Repair

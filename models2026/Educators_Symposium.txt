@@ -1,0 +1,11 @@
+An Alternative Process for Conducting Oral Exams: Applied Example, Experiences and Lessons Learnt
+A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy
+Enhancing Software-Design Learning by Combining UML and LLM-Assisted Feedback in a Learning Platform
+Teaching UML Modeling in the Age of Generative AI: Combining Manual Modeling, Prompt Engineering and Model Evaluation
+A Proposal for More Realistic Case Descriptions in Modeling Exercises
+Domain Knowledge Debt: Why Metamodeling Still Needs Elicitation
+Experiences of using low-code MDE tools in student projects
+Extending the Epsilon Playground for Model-Driven Engineering Education
+Model-Driven Engineering Without a Modeller: Teaching MDE as a Software Process with Epsilon and PlantUML
+Teaching Domain-specific Modeling with a Small Robot Motion Framework
+Teaching the Development of Software Agents in Higher Education: First Insights from a European Initiative

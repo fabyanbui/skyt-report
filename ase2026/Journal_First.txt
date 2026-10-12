@@ -1,0 +1,43 @@
+An empirical analysis of vulnerability detection tools for solidity smart contracts
+An Exploratory Study on LLM-Generated Code and Comments in Code Repositories
+Assessing the adoption of security policies by developers in terraform across different cloud providers
+Benchmarking Contextual Understanding for In-Car Conversational Systems
+BugMentor: Generating Answers to Follow-up Questions from Software Bug Reports using Structured Information Retrieval and Neural Text Generation
+Byam: Fixing Breaking Dependency Updates with Large Language Models
+Constrained Co-evolutionary Differential Metamorphic Testing for Autonomous Systems with an Interpretability Approach
+Context-Enhanced Vulnerability Detection Based on Large Language Models
+Diagnosing Violations of State-based Specifications in iCFTL
+DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis
+Efficient Black-Box Fault Localization for System-Level Test Code Using Large Language Models
+Exploring Development Methods for Reactive Synthesis Specifications
+False-Positive Bug Reports in Deep Learning Compilers: Stages, Root Causes, and Mitigation
+From Exploration to Revelation: App-Level Context-Aware Deceptive Pattern Detection for Mobile Applications
+Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation
+How Composite Metamorphic Relations Enhance Test Effectiveness of DNN Testing: An Empirical Study
+How Developer Coreness Influences the Patch-Review Process: A Mixed-Method Study
+Improving IR-based Bug Localization with Semantics-Driven Query Reduction
+Intent-Aware Defect Pattern Extraction from Singular Examples
+Issue-Oriented Agent-Based Framework for Automated Review Comment Generation
+JSTestCraft: Addressing Context Deficits in JavaScript Unit Test Generation via Agentic Multi-Level Contextual Analysis
+LDMDroid: Leveraging LLMs for Detecting Data Manipulation Errors in Android Apps
+Less Noise, More Signal: the DRR Effect for Better Optimizations of a Range of SE Tasks
+LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks
+Mutation-Guided Unit Test Generation with a Large Language Model
+Observability of web applications: an industrial case study
+Observing Fine-Grained Changes in Jupyter Notebooks During Development Time
+One Sentence Can Kill the Bug: Auto-replay Mobile App Crashes from One-sentence Overviews
+PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts
+PrevaRank: Ranking Plausible Patches by Historic Feature Frequencies
+RAGVA: Engineering retrieval augmented generation-based virtual assistants in practice
+Scenario-Guided LLM-based Mobile App GUI Testing
+Should I Give Up Now? Investigating LLM Pitfalls in Software Engineering
+Simulator Ensembles for Trustworthy Autonomous Driving Systems Testing
+Smelly-shot is All You Need: An Empirical Study to Compare In-Context Learning versus Fine-Tuning for Code Smell Detection
+SysPro: Reproducing System-Level Concurrency Bugs from Bug Reports
+Targeted Deep Learning System Boundary Testing
+UntrustVul: Automated Untrustworthy Alert Identification in Vulnerability Detection Models
+Using Large Language Models to Test Voice User Interfaces
+Visual Consistency in Formal Modeling: An Empirical Evaluation
+VUI Testing of VPA Apps via Behavior Model-Enhanced LLM Agents
+What characteristics make ChatGPT effective for software issue resolution? An empirical study of task, project, and conversational signals in GitHub issues
+XMutant: XAI-based fuzzing for deep learning systems

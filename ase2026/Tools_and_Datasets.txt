@@ -1,0 +1,63 @@
+ACSLBench: A Verified C/ACSL Corpus and Benchmark with Compositional Call Chains for Formal Specification Synthesis
+Agent-HAnS: Maintaining Feature and Code Traceability in Agentic Development
+AgentSysFilter: A Multi-agent Analysis Approach for Scenario-Aware Syscall Limitation
+AIALIB: A Threat Library for AI-Generated Code
+AIGen: Automating AI Bill of Materials Generation through Hybrid MLOps Integration
+AIRBORNE: Augmented fIne-grained softwaRe Bill Of mateRials geNerator for stack ovErflow
+AISmellBench: A Reusable Benchmark of AI Code Smells in ML and LLM-Based Systems
+A Smart Assistant for Debugging
+AutoFLC: An LLM-Based Flowchart Generation Tool for Legacy Code Repository
+Baseliner: A Plugin-Oriented, Hardware-Agnostic GPU Benchmarking Library
+BESSER-NN: Visual Neural Network Design and Automated Code Generation with the BESSER Low-Code Platform
+Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation
+CAS2UML: A Handwritten Sketch-to-PlantUML Dataset for Class and Activity Diagrams
+Cochise: A Reference Harness for Autonomous Penetration Testing
+CppPerf: An Automated Pipeline and Dataset for Performance-Improving C++ Commits
+DafnyRAG: A Retrieval-Augmented and Verification-Driven Tool for Automated Repair of Dafny Code
+DSpec2Test: Specification-Driven Test Generation in Dafny
+DT-Drive: A Tool for Deterministic Replay-Based Testing and Debugging of Autonomous Driving Systems
+E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios
+EnergyTrackr: A Modular Energy Regressions Detection Tool
+FairLint-DL: An IDE-Native Tool for Fairness Debugging of Deep Learning Software
+FallibleUser: An Imperfect User Agent for Realistic Evaluation of Interactive AI Systems
+FeatX: Editing Software by Editing Features for Repository-Level Code Evolution
+FlakeFighters: A PyTest Plugin to Detect Flaky Test Failures
+FlightRecorder: Tracing Fine-Grained Development with AI Assistants
+GoLiSA: An Advanced Static Analysis Tool for Detecting Potential Risks and Vulnerabilities in Hyperledger Fabric Smart Contracts
+Graphectory Viewer: A Tool for Process-Centric Analysis of Agentic Software Trajectories
+InsightQL: A Unified Code Database for Fuzz Blocker Analysis
+Introducing Safe LLM-Agent Execution via Typed Tool Mediation and World-Effect Evaluation
+IoTutorMine: A Tool for Mining Hardware Bills of Materials from IoT Tutorial Videos
+JavaVulBench: A Java Vulnerability Benchmark with Realistic Splits, a Unified Multi-backend Harness, and a Leakage-Aware Evaluation Mode
+LintCFG: DSL-Driven Linter Configuration Generation for Coding Standards
+Marv: An Interactive Tool for Visualising and Reviewing the Results of Mutation Analysis
+MASSIV: A Hybrid RAG for Automated Defeater Extraction in Autonomous Driving Safety Cases
+MergeSE: Post-Hoc Model Merging for Software Engineering Tasks without Retraining
+MIMOS-Tools: An Integrated Toolchain for Model-Based Design of Embedded Systems
+multiplex: A Modular LLM-Based Mutation Framework
+NL2VBench: A Benchmark for End-to-End Natural-Language to Verifiable Rust Generation
+OpenStack-RCA-Bench: A Reproducible IaaS Root Cause Analysis Dataset
+PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction
+ProofPulse: Interactive Proof Coverage Analysis for Dafny
+QUTest: A Native Testing Framework for Quantum Programs
+RELY-SE: A Dashboard for Measuring Operational Reliability of AI Coding Agents
+ReproBreak: A Dataset of Reproducible Web Locator Breaks
+SAF: An AI-Agent-Ready and Browser-Accessible Static Analysis Framework for LLVM IR
+ScratchLog+: Live Analytics of Learners' Exercise Progress
+SmellCC: A Tool for Automated Code Smells Remediation
+SplitCA: An Effective Tool for Generating 4-wise Covering Arrays for Large-Scale Highly Configurable Systems
+StarFuse: LLM Guided Multimodal Interactive Theorem Proving
+The ARDoCo Tool Landscape: REST API, TraceView, and TraceViz for Architecture Traceability
+The EVerest Dataset for Secure Software Engineering
+ThreatCraft: Automated Attack Scenario Generation via Hybrid Rule-Based and LLM-Driven Reasoning
+TLCrafter: Peeling the Layers of Natural Language to Reveal Temporal Logic Specifications
+TORI: A Tool for Oracle Quality Assessment
+TraceGate: A Framework for Policy-Controlled Failure Evidence in LLM-Assisted Program Repair
+TypeScript Repository Indexing for Code Agent Retrieval
+UCT: A Versatile Code Translation Framework Based on a Unified Intermediate Representation
+UIBenchKit: A Unified Toolkit for Design-to-Code Model Evaluation
+UltraInstinctVR: A Model-Based Tool for Automated System Testing of VR Applications
+VerusSeek: Retrieval-Augmented LLM-Based Proof Synthesis for Rust Programs
+VidSumEval: A Web Platform and Benchmark for Evaluating AI-Generated Programming Video Summaries
+VidTutorAssistant: Automating Responses to Programming Tutorial Questions
+xDECAF: An Extensible Data Flow Diagram Analysis Framework for Information Security

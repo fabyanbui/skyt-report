@@ -1,0 +1,8 @@
+A model and workflow-driven approach for engineering domain-specific low-code platforms and applications
+Automated and logically exhaustive generation of traffic scenarios at road junctions using a multi-level danger definition
+Enhancing automated network function onboarding through language extension and code refactoring
+EvolveDB: evolving relational database schemas in a model-driven way
+LINDDUN MAESTRO: an architecture framework for privacy threat modeling
+Model-based stochastic analysis with probabilistic graph query evaluation
+SavviDriver: model-based framework for game-based testing of autonomous vehicles in diverse multi-agent traffic scenarios
+What do we need from modeling tools for teaching? A survey of the community of higher-education modeling teachers

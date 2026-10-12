@@ -1,0 +1,21 @@
+An Analysis of Student Perceptions and Learning Impact of Large Language Models in Requirements Engineering Education
+Beyond Text: Understanding How Multimodal Generative AI Impacts Students Learning Software Development (Extended Abstract)
+BlocksDeFix: Guided Debugging Hints for Young Learners in Block-based Programming Environments
+Bridging the Gap in Industrial Software Education: A LLM-Based Intelligent Assistant for GNU Radio
+Building Production Software and Professional Competence: A Collaborative Model for AI-Integrated Software Engineering Practice
+Criminal Minds: How First-Year CS Students Plagiarize Code
+Deliverables Are Not Understanding in the AI Era: Reforming Full-Stack Development Education with Continuous Interactive Learning
+Domain Diversity, Motivation, Inclusion, and Feedback in Software Modelling Education
+Experience Report: Insights from Deploying Educational Static Analysis in Introductory Programming Courses
+Extended Abstract of Enabling Emotion-Aware Collaboration in Capstone Projects
+From Domain Understanding to Design Readiness: a playbook for GenAI-supported learning in Software Engineering
+Gamifying Video-Based Training: Comparing Attitudes of Software Engineering Students and Professionals
+Harnessing Hype to Teach Empirical Thinking: An Experience With AI Coding Assistants
+How Do Students Perceive Their Teammates? A Qualitative Study of Peer Evaluation in SE Course Projects
+Large Language Models for Software Testing Education: an Experience Report
+LLM Use, Cheating, and Academic Integrity in Software Engineering Education
+Overcoming the Empirical Process Control Threshold Concept through Scrum Simulation
+Persona-Conditioned LLM Interaction for Software Engineering Education (Extended Abstract)
+Pragmatic Use of Generative AI in an Introductory Programming Course (extended abstract)
+Prompt Engineering in Software Engineering Education: An Empirical Study of Demand, Supply, and Assessment
+Refactoria: A Game-Based Tool for Learning Code Refactoring

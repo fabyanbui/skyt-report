@@ -1,0 +1,11 @@
+FSE Steering Committee Meeting
+Guidelines for Empirical Studies in Software Engineering involving Large Language Models
+ICSE 2027 Organizing Committee Meeting
+ICSE 2027 Program Committee Meeting
+ICSE 2028 Organizing Committee Meeting
+JSS Board Meeting
+Reproducibility Initiatives with Chameleon Cloud: Packaging and Re-running Software Engineering Experiments
+TCSE Executive Committee Meeting
+TCSE and SIGSOFT Town Hall
+TOSEM Journal Editorial Board Meeting
+TSE Journal Editorial Board Meeting

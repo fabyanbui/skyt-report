@@ -1,0 +1,3 @@
+Trust the Delta: Rethinking Software Validation in the AI Era — Michael Pradel
+Beyond the Hype: What AI Really Did to Software Engineering — Joost Noppen
+Lost in Automated Specifications: A Time and Space Odyssey in System Testing — Myra Cohen

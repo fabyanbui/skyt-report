@@ -1,0 +1,65 @@
+Adopting Concepts for Sustainable Improvement of the Developer Experience within a Medium-sized Corporation
+Adoption of Generative Artificial Intelligence in the German Software Engineering Industry: An Empirical Study
+AI-Assisted Fixes to Code Review Comments at Scale
+AllocScope: Towards Automated Vetting of Allocation Manipulation in Smart Contracts
+Aloha: Localizing Batch Failures in Large-scale Cloud Systems via Contrast Analysis and Human-in-the-Loop Agent
+An Agentic Framework for Triaging Incidents in Production Cloud Infrastructure
+An Empirical Analysis of Rust Integration in Android Open Source Project
+An Empirical Evaluation of Generative AI in Security Requirements Engineering and Threat Modeling
+Assessing Harmful Comments and Specificity in Code Review Feedback at Scale using Large Language Models
+AstraGame: Effective and Efficient VLM Agent Serving for Large-Scale Game Testing in an Industry Setting
+Attention Enhanced Entity Recommendation for Intelligent Monitoring in Cloud Systems
+AutoChecklist: Automated Checklist Refinement for LLM Judges
+AutoCodeRover: Agentic Program Repair for SonarQube Issues
+Autonomous Refactoring for Perfective Maintenance at Scale: The Agentic RACER System and its Empirical Evaluations
+AVDA: Autonomous Vibe Detection Authoring for Cybersecurity
+BayesInsights: Modelling Software Delivery and Developer Experience with Bayesian Networks at Bloomberg
+Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice
+Beyond the Numbers: Evaluating DevOps Adoption in an Enterprise Software Development Organisation
+Bridging the Delay: Lag-Aware Spatio-Temporal Causal Inference for Microservice Root Cause Analysis
+Cerberus: Robust Endpoint Threat Detection in Practice
+Code Reviewer Recommendation for High Risk Diffs at Scale: Workflow, Recommender, and Live Experiments
+Dependency-Aware Over-the-Air Framework for Reliable Software Defined Vehicle Updates
+Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment
+Developer Perspectives on REST API Usability: A Study of REST API Guidelines
+Does In-IDE Calibration of Large Language Models work at Scale?
+Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair
+E2E-REME: Towards End-to-End Microservices Auto-Remediation via Experience-Simulation Reinforcement Fine-Tuning
+Eagle: Leveraging Operations Documents for Comprehensive Benchmark Question Generation
+Enabling Security Champions With Breakout Action Groups (BAGs) – A Longitudinal Case Study
+Engineering Pitfalls in AI Coding Tools: An Empirical Study of Bugs in Claude Code, Codex, and Gemini CLI
+Evaluating Explanatory Artefacts of DSAR-Recovered Software Architectures from Industrial Codebases
+FaultWeave: Bounded Resilience Testing with Failure Diagnosis Capability for Microservice Applications
+From Load Tests to Live Streams: Graph Embedding-Based Anomaly Detection in Microservice Architectures
+From Task to Tutorial: An Automated GUI Framework for Excel Tutorial Document and Video Creation
+Fun2spec: Code Contract Synthesis At Scale
+HalluJudge: A Reference-Free Hallucination Detection for Context Misalignment in Code Review Automation
+Holmes: Multimodal Agentic Diagnosis for Mixed-Language Mobile Crashes at Industrial Scale
+How Analysts Use AI in High-Stakes Crime Linkage: An Industrial Study
+How Far Can VLMs Go for Visual Bug Detection? Studying 19,738 Keyframes from 41 Hours of Gameplay Videos
+How to Value Open Source Contributions? An Institutional Perspective from CERN
+Human-aligned AI Model Cards with Weighted Hierarchy Architecture
+Industrial Deployment of an AI Multi-Agent System for Requirements-Driven Code Verification
+JDetect: A Fine-Grained Detecting Method for Java Source SCA by Fusing Behavioral and Code Features
+JSProtect: A Scalable Obfuscation Framework for Mini-Games in WeChat
+Just-in-Time Catching Test Generation at Meta
+LACY: Simulating Expert Mentoring for Software Onboarding with Code Tours
+Lessons from Mitigating False Positives in Google's OSS-Fuzz-Gen
+Leveraging LLMs for Alert Summarization and Mitigation Plan Generation
+LLM Agents for AIOps in Kubernetes: An Industrial Experience Report with Red Hat OpenShift
+LLM-Powered Workflow Optimization for Multidisciplinary Software Development: An Automotive Industry Case Study
+Mitigating Implicit Inconsistencies in Patch Porting
+NES: An Instruction-Free, Low-Latency Next Edit Suggestion Framework Powered by Learned Historical Editing Trajectories
+Practical Feasibility of Sustainable Software Engineering Tools and Techniques
+Practitioner Perspectives of DAST Integration in Agile Development Workflows: An Experience Report
+Predicting Intermittent Job Failure Categories for Diagnosis Using Few-Shot Fine-Tuned Language Models
+Reflex: Event-Driven Automated Fault Localization for Large-Scale LLM Training
+Replication-Free Failover: Protocol-Fenced Takeover for Stateful Services
+RepoFuse: A Dual-Context Approach to Repository-Level Code Completion at Industrial Scale
+RocketMQ-A2A: Reliable Session-Level Replayable Event Streams for Large-Scale Multi-Agent Collaboration
+Topic-wise Summarization of Support Ticket Dialogue via LLM
+TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models
+TSGen: Automated Troubleshooting Guide Generation
+Understanding and Mitigating Hallucinations in Industrial LLM-based Unit Test Generation
+What You See Is Not What You Tap: Detecting Misalignments between Visual and Interactive Boundaries in Mobile Apps
+YASA: Scalable Multi-Language Taint Analysis on the Unified AST at Ant Group

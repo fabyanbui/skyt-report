@@ -1,0 +1,11 @@
+A Log-Centric Overlay on Method Call Graphs
+An Empirical Study of Public Generative Art Repositories
+An Empirical Study on the Prevalence of Rare Logs and its Impact of Log Parsing
+A Qualitative and Quantitative Exploration of LLM-Based Test Generation Repair Loops
+Declarative Test-Native Software Fault Injection
+Does the Agent Matter? Predicting Merge Outcomes of AI-Authored Pull Requests
+Identifying Crisis-Native Patterns & Validating CNS Benchmark in a Global South Humanitarian Effort
+Integrating Static Analysis with Learning-Based Systems for Automated Code Review
+It’s Not Just Timestamps: A Study on Docker Reproducibility
+Learning to Refine Specifications for Code Generation
+Understanding Developers’ Experiences in Seeking Similar Rationale Information in Commit Messages

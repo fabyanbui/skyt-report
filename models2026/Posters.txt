@@ -1,0 +1,35 @@
+A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems
+A Digital Twin Exemplar for Fischertechnik Production Line Analysis, Simulation, and Optimization
+A Dual-Lens Conceptual Framework for Digital Twin V&V
+Agentic Model Transformation: Service-Mediated Orchestration for Transformation Development
+A Model-Driven Approach for Developing Families of Reinforcement Learning Environments
+Anchoring Co-Design on the Engineered Quantum System: A Model-Based Approach
+A Neuro-Symbolic Pipeline for Automated Synthesis and Verification of OCL Constraints
+A Pedagogy-Aware Model-Driven Engineering Approach for AI Literacy
+Assessing the Impact of MCP-Augmented LLMs in MDE Tasks: A Quantitative Comparative Evaluation Framework on Fault Tree Modeling and Analysis Through Petri Nets
+A Transformation-Based Benchmark for Evaluating the Robustness of LLMs in Generating OCL
+Automated Generation of Java Bytecode Models Across Scales
+Automated Quality Assessment of Metamodel Evolution: A Case Study in Java Mutation Testing
+Beyond single-run correctness: nondeterminism-aware evaluation of LLM-based model transformations
+Beyond Syntax: Method-Compliant AI Assistance for Low-Resource Modeling Languages
+Beyond the Mirror – Digital Twins for Human–AI Collaboration in Software Engineering
+Do Not Disturb: Proposing Approaches Towards Motivated Human-in-the-Loop for Less Disruptive Cross-Domain Interactive Repair
+Enabling Physical AI in Trailer Logistics: A Digital Twin Architecture with Continuous Sim-to-Real Feedback
+Engineering Digital Process Twins: Towards a Methodology Based on MDE and DevOps
+From Complex Ecosystems to Understandable Models – Evaluating a Domain-Specific Modeling Language for Digital Ecosystem Governance
+Identifying Pareto-Optimal Configurations through Integrated Impact and Tradeoff Analysis in System Design
+KERKIS: a Modeling Language for Multi-Agent System Interactions in AI-Native Software Engineering
+LLMA-UML: Extending the UML for Modeling LLM-Agent Systems
+Model-Driven Digital Twin Framework for Quantum Networks
+Model-Driven Engineering for FHIR Testing: Experiences from Australia's Sparked Accelerator
+OptiGob 2.0: A Model-Driven Approach for Exploring Agri-Sustainability Projections
+PolicyDSL: A Model-Driven Approach for the Definition and Enforcement of Fine-Grained Access Control Policies
+Software Development using Low-Code Platforms or AI Assistants: A Case Study-based Comparison
+The Impact of Software Model Slicing on Software Model Completion with Large Language Models
+The Rise of Abstraction and Organizational Change: Preserving Human Control in the Age of Artificial Intelligence
+Toward a Self-Evaluating Digital Twin for End-to-End Empty Packaging Return Management
+Towards a Model-Driven Framework for Energy Community Digital Twins
+Using LLMs for software energy-use analysis and improvement
+Validation of Famix Model Importers with Model Shuffling and Input Reduction
+VitruviusOCL: A Declarative Language for Multi-Model Consistency Specification
+When Layout Matters: Characterizing Layout-Sensitive Notations and Their Cognitive Trade-offs

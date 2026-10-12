@@ -1,0 +1,6 @@
+Acoda: Adversarial Code Obfuscation for Defending against LLM-based Analysis \- Solution to challenge \#19
+Connecting Industry and Academia
+DBcover: A White-box SQL Test Generation Framework for Coverage Improvement \- Solution to challenge \#9
+LLM-Based Test Case Generation in DBMS through Monte Carlo Tree Search \- Solution to challenge \#9
+Opening of the Industry Challenge Track
+PLATO: Platform-Neutral Automotive Software Development leveraging Aspect-Oriented Programming \- Solution to challenge \#8

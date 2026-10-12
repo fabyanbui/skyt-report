@@ -1,0 +1,22 @@
+Agentic Generation of Structured Clinical Specifications for Digital Healthcare Services
+Beyond the Binary: Motivations, Challenges, and Strategies of Transgender and Non-binary Software Engineering Students
+Challenges and Enablers: Remote Work for People with Disabilities in Software Development Teams
+Connecting Generations Through Code: GABI, A Community-Driven Framework for Engineering Inclusive Financial Software for the ElderlyDistinguished Paper Award
+Cyberbullying Safety Engineering by Patent: Trends, Solution Paradigms, and Societal Impacts
+Data-Dependent Goal modeling for ML-Enabled Law Enforcement Systems
+Demystifying Knowledge Hiding in Software Testing: Insights from Practitioners
+Developers’ Blind Spot: Designing Systems to Enable Stakeholders’ Understanding of Ethical Qualities
+Engineering Future Critical CPSs with Trustworthy GenAI Across the Lifecycle
+Exploring Societal Biases in Generative AI using Social Science Constructs and Theories
+FairRF: Multi-Objective Search for Single and Intersectional Software Fairness
+From Big Tech to Big Politics: Users' Discourse on the Politicization of Technology Companies
+From Gains to Strains: Modeling Developer Burnout with GenAI Adoption
+From Inclusion to Action: The Role of Allyship for Women in Software Teams
+How Fair is Software Fairness Testing?
+Invisible Load: Uncovering the Challenges of Neurodivergent Women in Software Engineering
+Negotiating Ethics in Video Game Development: Insights from Practitioners
+On the Effectiveness of Proposed Techniques to Reduce Energy Consumption in RAG Systems: A Controlled Experiment
+Once Upon a Team: Investigating Bias in LLM-Driven Software Team Composition and Task Allocation
+Perspective Coach: Exploring LLMs for Developer Reflection
+Scrolling with Caution: Perceptions of Older Adults on Ethical Issues in Social Media
+Technohealth: A Modular Framework for Reproducible Research in Precision Healthcare with Heterogeneous Wearable Data

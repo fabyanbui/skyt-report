@@ -1,0 +1,8 @@
+FSE Distinguished Artifact, Industry Track Distinguished Paper, Software Engineering Education Distinguished Paper, and Reviewer Awards
+FSE Research Track Distinguished Paper Awards Ceremony
+Keynote 4: Mary Shaw - Correctness, confidence, and context: Framing software assurance in the AI age
+Keynote 1: Benoit Baudry - Punking Up Dependency Hell
+Keynote 3: Sheila McIlraith - Towards Building Safer AI Systems
+Keynote 2: Dickson Tsai - Harness Design for Increasingly Capable Models: How Newer Claude Code Features Shape Agent Trajectories
+SIGSOFT Impact Award Talk: When do changes induce fixes?
+Test of Time Award Talk on Deep API Learning

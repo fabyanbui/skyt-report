@@ -1,0 +1,37 @@
+AccessDroid: Uncovering Screen Reader Accessibility Issues from Runtime Pages of Android Apps
+ADATracer - Towards A Software Traceability Pipeline for ADA Systems
+AISysRev - LLM-based Tool for Title-abstract Screening
+A Practical Fuzzer for the Python Runtime System
+Argus: A Guided and Traceable Mutation Testing Engine
+A Tool for Automatically Cataloguing and Selecting Pre-Trained Models and Datasets for Software Engineering
+BackportCheck: An Open-Source Tool to Support Backport Decisions in Large Software Ecosystems
+CapCo: Automating Carla-Apollo Co-Simulation and Scenario Fuzzing
+COBook: An AI-Assisted Interactive COBOL Notebook with Visualization
+CodeGreen: Towards Improving Precision and Portability in Software Energy Measurement
+CoRenameAgent: A Human-In-The-Loop, Multi-Agent Tool for Coordinated Rename Refactoring
+DependaFix: A GitHub App for Fixing Breaking Dependency Updates in CI Build for Java Projects
+EquivFusion: Unifying Hardware Equivalence Checking from Algorithms to Netlists via MLIR
+FISTS: A Field-based Security Testing Tool for Updates in Software-Defined Networks
+HarnessForge: Automated Extraction of Verification Tasks from Industry-Scale Software Projects
+IDSLab: A Low-Code Platform for End-to-End IDS Dataset Construction and Experimentation
+IssueGuard: Real-Time Secret Leak Prevention Tool for GitHub Issue Reports
+Kea2: Practical Property-based Testing for Mobile Apps
+Mapping GitHub Sponsorships: A Longitudinal Observatory for Open-Source Sustainability
+MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models
+Package Dashboard: A Cross-Ecosystem Framework for Dual-Perspective Analysis of Software Packages
+Panther: Faster and Cheaper Computations with Randomized Numerical Linear Algebra
+Path-Guider: An IDE-based Agentic AI Tool for Path-based COBOL Program Analysis
+ProfOlaf: Semi-Automated Tool for Systematic Literature Reviews
+PyMOP: A Runtime Verification Tool for Python
+PYURIFY: Purifying Python Tests for Precise Fault Localization
+ScalerEval: Automated and Consistent Evaluation Testbed for Auto-scalers in Microservices
+SCAR: Mining and Structuring Smart Contract Security Audit Reports
+Shark2Pit: Automated Test Template Generation for Protocol Fuzzing Based on Packet Parser
+SmartPatchLinker: An Open-Source Tool to Linked Changes Detection for Code Review
+SpecPylot: Python Specification Generation with Large Language Models
+SQLynx: Towards Generic Mutation-Based Fuzzing for DBMSs Across Diverse Dialects
+Supporting the Comprehension of Data Analysis Scripts
+TestAgent: A Multi-Agent LLM Framework for Repository-Level Unit Test Generation
+TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models
+TRACE: Topology-aware Reconstruction of Accidents in CARLA for AV Evaluation
+ZION: System Exploration With Class Contours

@@ -1,0 +1,17 @@
+Agentic Software Engineering Through Image-Based Multimodal Communications
+Automated Diagnosis and Testing of Game Compatibility Layers
+Awareness and Avoidance of Security Vulnerabilities in Software Tutorials
+Democratizing Legal Requirements for Context-Aware Software Systems
+From Deterministic Pipelines to Layered Automation: The Evolution of GitHub Actions in CI/CD
+From Helpful to Trustworthy: LLM Agents for Pair Programming
+From Syntactic Mimicry to Semantic Correctness: Behavioral Understanding in LLM Code Generation
+Malleable Interfaces for Reviewing Software Documentation
+Reliable and Developer-Aligned Evaluation of Agents for Software Engineering
+Testing Protocols with Formal Languages
+Toward Reliable Oracle Verification of Quantum Programs Under Noise and Resource Constraints
+Towards AI-Powered Localization of Software Bugs: From Semantic Understanding to Agentic Cognition
+Toward Scalable Automated Repository-Level Datasets for Software Vulnerability Detection
+Towards Efficient and Secure Pull-Request-Based Software Development
+Towards Trustworthy AI-Enabled Systems: From Model-Level Reliability to Systemic Assurance
+Unsupervised Extraction of Latent Structures in Software Operations Data
+When Testing Meets Refactoring

@@ -1,0 +1,34 @@
+A Selective Quantization Tuner for ONNX Models
+Abductive Reasoning for Neurosymbolic Fault Localization
+Automatic Validation of LLM-Generated Code with Prompt Paraphrasing
+Beyond Spec Conformance: A Logic for Validating Stakeholder Expectations
+Build Code is Still Code: Finding the Antidote for Pipeline Poisoning
+Characterizing and Refactoring Table-Driven Tests in Go
+Code Wars: Adversarial Self-Play for Evolving Software Validation Tools
+Context-Adaptive Requirements Defect Prediction through Human-LLM Collaboration
+Data-aware Static Analysis: Improving Semantic Fault Detection in Machine Learning Code Using Data Characteristics
+EVATest: Domain-Oriented Android GUI Testing based on Reward-Guided Retrieval-Augmented Generation
+Empirical and Sustainability Aspects of Software Engineering Research in the Era of Large Language Models: A Reflection
+From Execution to Embedding: Enriching Code Representations with Data Difference Signals for Comment Generation
+From RSE to AI4RSE: A Quadrant Model for AI-Augmented Research Software
+Generality Is Not Enough: Zero-Label Cross-System Log-Based Anomaly Detection via Knowledge-Level Collaboration
+Hypothesize-Then-Verify: Speculative Root Cause Analysis for Microservices with Pathwise Parallelism
+Large Language Model powered Test Driver Generation for High-performance Computing Library
+Model Cards for Responsible AI: Stop Carding, Start Modelling
+Not All Input Helps: What Information Should We Feed to LLMs for Vulnerability Repair?
+PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing
+QSolver: A Quantum Constraint Solver
+Reading Between the Lines: Scalable User Feedback via Implicit Sentiment in Developer PromptsDistinguished Paper Award
+Redundancy as the Shadow of Explainability: A Trade-Off Principle for AI-Intensive Systems
+Replacing Training with Reasoning: Reinterpreting Classic ML Pipelines with LLMs
+Revealing the Dark Matter: Connecting Tacit and System Knowledge in Human-AI Collaborations
+Setup AGent (SAG): A Dual-Model LLM Agent for Autonomous End-to-End Java Project Configuration
+Specification and Detection of LLM Code Smells
+Structural Causal World Models: Towards An Assurance Framework for Safety-Critical Systems and Safeguarded AI
+TaskEval: Synthesised Evaluation for Foundation-Model Tasks
+The Design Multiverse: A Scientific Model for Design Evolution and Co-evolution
+Towards Automatically Inferring Constraints to Identify Implicit Assumptions in Data Analysis
+Towards Verifiably Safe Tool Use for LLM Agents
+TraceCaps: Inline Provenance and Risk Enforcement for Agentic Software Engineering
+Translating PL/I Macro Procedures into Java Using Automatic Templatization and Large Language Models
+Turning Merge Conflicts Into Conflict-Induced Variability

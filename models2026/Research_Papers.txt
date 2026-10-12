@@ -1,0 +1,30 @@
+A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems
+A Model-Driven Approach for Developing Families of Reinforcement Learning Environments
+A Model-driven BIM2SIM Workflow for Surrogate Modeling
+Anvil: LLM-Powered Synthesis, Validation, and Repair of Alloy Specifications
+A Transformation-Based Benchmark for Evaluating the Robustness of LLMs in Generating OCL
+Automated Generation of Functionally Complete Assurance Suites for COLREGS-Compliance of Autonomous Surface Vehicles
+Automated Quality Assessment of Metamodel Evolution: A Case Study in Java Mutation Testing
+Automatic Generation of Local-First, Collaborative Modeling Languages
+From Unfinished to Done: Bridging the MDE Implementation Gap with Constrained LLMs
+Json-SysML: A Bidirectional JSON-Based Representation for SysML Models Enabling LLM-Augmented Model-Based Systems Engineering
+Large Language Models Assistance in core Model-Driven Engineering activities
+LLM-Based Instance Model Generation via Code Synthesis
+LLM-Enhanced Stochastic Generation of Class Diagram Datasets
+Model-Driven Engineering for FHIR Testing: Experiences from Australia's Sparked Accelerator
+ModiGen: A Large Language Model-Based Framework for Modelica Component Generation in Multi-Domain Systems
+Not All Differences Matter: Variability Exploration of Domain Models via Agentic AI
+On Redundancy in Alloy Models
+OntoSTL: Canonical Knowledge Graph Representation of Signal Temporal Logic Requirements
+Realizing a Model Context Protocol (MCP) Server for the Graphical Language Server Platform (GLSP)
+Runtime Decision Models under Uncertainty using Surprise-Based Learning for Supply Management
+Skyscrapers Need Solid Foundations: Pattern-Based Validation of SysML v2 Models with Refinery
+Software Development using Low-Code Platforms or AI-Assistants: A Case Study-based Comparison
+The impact of Software Model Slicing on Software Model Completion with Large Language Models
+The Software Modeling Paradox in Videogames: An Empirical Evaluation of Unreal Blueprints vs. Unity Visual Scripting
+Tool-assisted Concretization of Object-oriented Reference Models and Design Patterns
+Towards Lightweight Domain Model Reverse Engineering from Source Code
+Towards LLM-Assisted Business Process Modeling in an Industrial Modeling Tool: An Experience Report
+Understanding Modelling Assistance in Low-Code/No-Code Tools: An Empirical Study and the AssiStarMe Framework
+Well-Formed Executable Suggestions for Continuous Model-Driven Engineering
+Zero-Width Markers for View-to-Model Traceability

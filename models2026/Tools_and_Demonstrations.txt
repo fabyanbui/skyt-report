@@ -1,0 +1,30 @@
+AMIGO: Agentic Model Instance Generation
+An Interactive Tool for iterative Domain Elicitation and Metamodeling
+ArchSafe Unified Modeler: Automated ASIL, Change-Impact, and Failure Analysis of Architecture and Safety
+A Stage-Aware Tool for Modelling and Verifying CI/CD Security Evidence
+Astro: Automated Migration of Sirius Desktop Graphical Modelling Editors to Sirius Web
+CANcept: Model-based CAN Traffic Generation and Manipulation
+CARLA Scenario Editor
+Code2LowCode: An Interactive Tool for Lifting Code Clones into Reusable Model-Driven Abstractions
+Demonstrating LowSheets: Spreadsheet-Based Low-Code Development
+EMFular: Web-Native Generation and Customization of EMF-Consistent Graphical Editors
+Facilitating model reviews in pull/change request processes with RAMA
+Fastbelt: An Architecture for Efficient Language Engineering
+FM2C: An Agentic Workflow for Generating Low-Code Configurators from Feature Models
+ForeACT: A Model-Driven Workbench for Actionability Assessment of Forecast Changes
+From Natural-Language Crash Reports to Executable Driving Scenarios via Model Transformation
+Generating Consistent and Realistic Database Instances with PRISMA
+Graphical Management of Multiple Runtime Models to Improve the Comprehension of Contextual Behavioral Programs
+Interweaving Graphical and Textual Modelling using GLSP and Langium
+Jjodie: A Conversational Modeling Assistant with Script-Mediated (Meta)Model Manipulation
+Langium: A TypeScript-Based Language Workbench for Domain-Specific Languages
+MDEO-Cloud: A Modular Cloud-Based Platform for Model-Driven Optimization
+ML2++: A Dual-Mode Model-Driven Tool for Forecasting-Enabled IoT Applications
+Model-driven, AI-assisted Development of Manufacturing Control Software with Cordis Suite
+Model Textually, View Graphically: Automatic Class Diagram Visualization with Bidirectional Navigation and LSP Support
+ModL: A Data Model Ledger for Contract Evolution
+MoRE: Traffic Rule Modeling and Runtime Evaluation for Model-Based Testing of Automated Driving Systems in CARLA
+RuMROS* - A Runtime Metamodeling Approach to Multi-Robot System and Swarm Programming
+SceneGEMS: Scenario Generation and Execution Framework for the Safety Assurance of Maritime Autonomous Surface Vehicles
+Senate: Tool for Change Propagation control in Model Federation
+Who are my users? A graphical language and modeling environment for specifying end-user profiles
