@@ -45,3 +45,12 @@ Trước khi tích hợp CI/CD, nên đánh giá công cụ trên một tập m�
 ## 6. Kết luận
 
 Từ một trải nghiệm khi phát triển AI OCR, tôi muốn kiểm tra xem quy trình sử dụng OSS và mã được AI hỗ trợ có cần một bước kiểm tra rõ ràng, sớm và có thể truy vết hơn hay không. Bước tiếp theo là xác minh nhu cầu với các nhóm kỹ thuật, DevSecOps và pháp chế/tuân thủ; sau đó mới chốt yêu cầu, phạm vi thử nghiệm và cách đo hiệu quả.
+
+
+## 7. Các điểm cần làm rõ khi kiểm chứng
+
+Ngoài việc xác định có tìm được metadata hay không, cần đánh giá **chất lượng của bằng chứng**. Một thành phần có trường license không đồng nghĩa thông tin đó đã được xác minh hoặc đủ để đưa ra quyết định. Bản thử nghiệm nên phân biệt tối thiểu: có bằng chứng phù hợp; bằng chứng thiếu hoặc mâu thuẫn; và có dấu hiệu không phù hợp với chính sách đã được phê duyệt.
+
+Cũng cần phân biệt rủi ro của một thành phần với mức độ chắc chắn của kết quả kiểm tra. Chẳng hạn, chưa tìm thấy giấy phép không tự động chứng minh thành phần vi phạm; trường hợp này nên được chuyển sang trạng thái cần xem xét. Với dependency gián tiếp, cần chỉ ra đường dẫn phụ thuộc dẫn đến thành phần cần kiểm tra để người phát triển có thể xác định phạm vi ảnh hưởng.
+
+Các nội dung trên là giả thuyết thiết kế cần được thử nghiệm trên tập mẫu, không phải kết luận về chất lượng của công cụ hay quy trình hiện có tại Viettel.
