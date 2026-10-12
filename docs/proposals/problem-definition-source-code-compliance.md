@@ -20,7 +20,7 @@ Tương tự, khi dùng AI để sinh hoặc chỉnh sửa mã, cần xác đị
 
 ## 3. Một số điểm cần xác minh
 
-- **Giấy phép và điều kiện sử dụng:** Có xác định được giấy phép của thư viện, mô hình, trọng số mô hình và các tài nguyên liên quan trước khi đưa vào sản phẩm không?
+- **Giấy phép và điều kiện sử dụng:** Có xác định được giấy phép của thư viện, mã nguồn mô hình, trọng số mô hình, dataset và tài nguyên đi kèm trước khi đưa vào sản phẩm không? Các thông tin này có nguồn bằng chứng rõ ràng không?
 - **Mã được AI hỗ trợ:** Quy trình review hiện tại có hướng dẫn kiểm tra dependency mới, nguồn gốc khi có thể xác định, và các yêu cầu về bảo mật hoặc chính sách không?
 - **Dependency gián tiếp:** Nhóm có theo dõi được các thư viện phụ thuộc mà một package hoặc công cụ kéo theo không?
 - **Bằng chứng kiểm tra:** Có lưu được thành phần/phiên bản đã dùng, kết quả kiểm tra, người quyết định và lý do ngoại lệ không?
@@ -31,9 +31,9 @@ Các điểm trên là câu hỏi khảo sát, không phải khẳng định r�
 
 ## 4. Hướng cải thiện có thể xem xét
 
-Nếu quá trình khảo sát xác nhận có khoảng trống, có thể thử nghiệm một bước kiểm tra tự động trong pull request hoặc CI/CD để tổng hợp dependency, thu thập thông tin giấy phép sẵn có và cảnh báo các trường hợp thiếu thông tin hoặc cần xem xét thêm. Những trường hợp không rõ ràng cần được chuyển cho người có thẩm quyền đánh giá; công cụ không thay thế quyết định pháp lý hay chính sách nội bộ.
+Nếu quá trình khảo sát xác nhận có khoảng trống, nên bắt đầu bằng một MVP hẹp: nhập URL repository/package/model, thu thập phiên bản, giấy phép, dependency và nguồn bằng chứng có thể truy xuất; sau đó xuất báo cáo nêu rõ kết quả, lý do, liên kết nguồn, ngày kiểm tra và hướng xử lý. Với mô hình AI, cần ghi nhận riêng mã nguồn, trọng số, dataset hoặc tài nguyên liên quan khi có thông tin; thiếu bằng chứng phải được đánh dấu chưa rõ, không tự suy đoán.
 
-Nên bắt đầu trên một repository và một hệ sinh thái công nghệ, chạy ở chế độ cảnh báo trước. Chỉ xem xét chặn merge khi quy tắc đã được thống nhất, có độ tin cậy phù hợp và có quy trình ngoại lệ.
+Trước khi tích hợp CI/CD, nên đánh giá công cụ trên một tập mẫu nhỏ đã được người có chuyên môn rà soát, so sánh độ bao phủ, cảnh báo sai/bỏ sót và thời gian xử lý với cách làm thủ công. Nếu kết quả hữu ích và quy trình hiện tại phù hợp, mới thử tích hợp vào một repository ở chế độ cảnh báo. Chỉ xem xét chặn merge khi quy tắc đã được thống nhất, có độ tin cậy phù hợp và có quy trình ngoại lệ. Công cụ không thay thế quyết định pháp lý hay chính sách nội bộ.
 
 ## 5. Liên hệ với tiêu chí đánh giá sáng kiến VDT
 
