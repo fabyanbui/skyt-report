@@ -10,13 +10,15 @@
 
 Trong quá trình phát triển AI OCR, tôi nhận thấy mình có thể tập trung vào chất lượng và khả năng tích hợp của mô hình OSS mà chưa kiểm tra đầy đủ điều kiện sử dụng. Từ trải nghiệm này, tôi muốn khảo sát khả năng bổ sung một bước kiểm tra trong quy trình phát triển phần mềm.
 
-Ý tưởng SCCG là thử nghiệm một bước kiểm tra trong pull request (PR) hoặc CI/CD để tổng hợp dependency, thu thập thông tin giấy phép sẵn có, đối chiếu với chính sách được nhóm phụ trách xác định và đưa ra kết quả **đạt / cần xem xét / không đạt theo quy tắc đã thống nhất**. Kết quả được lưu cùng PR để có thể truy vết. Phạm vi ban đầu có thể tập trung vào dependency OSS; các kiểm tra liên quan đến mã do AI hỗ trợ chỉ đưa vào nếu khảo sát cho thấy phù hợp và khả thi.
+Ý tưởng SCCG là giúp nhóm phát triển kiểm tra thông tin tuân thủ của thành phần OSS trước khi tích hợp vào dự án. MVP nên bắt đầu bằng một luồng hẹp: nhập repository/package/model cần đánh giá, thu thập bằng chứng về tên, phiên bản, giấy phép, nguồn tham khảo và dependency trong phạm vi hỗ trợ, rồi đối chiếu với chính sách do đơn vị có thẩm quyền xác định. Kết quả gồm **đạt / cần xem xét / không đạt theo quy tắc đã thống nhất**, kèm lý do, nguồn bằng chứng, ngày kiểm tra và hướng xử lý.
+
+Chưa nên mặc định xây ngay một nền tảng CI/CD hoàn chỉnh. Trước tiên cần kiểm chứng trên một tập mẫu nhỏ có kết quả được rà soát thủ công; nếu có giá trị và phù hợp với quy trình hiện tại, mới tích hợp vào PR/CI ở chế độ cảnh báo. Kiểm tra mã do AI hỗ trợ và mở rộng sang nhiều loại tài nguyên chỉ thực hiện nếu khảo sát cho thấy cần thiết và khả thi.
 
 Đây là đề xuất cần được kiểm chứng, không phải kết luận rằng Viettel chưa có công cụ tương tự hoặc đang có vi phạm. SCCG không thay thế tư vấn pháp lý và không tự đưa ra kết luận vi phạm bản quyền.
 
 ## 2. Vấn đề và giả thuyết
 
-Thông tin về giấy phép, phiên bản, nguồn gốc và lỗ hổng của một thành phần có thể nằm ở repository, package registry, tài liệu mô hình hoặc hệ thống kiểm tra khác nhau. Nếu quy trình hiện tại chưa tập hợp các thông tin này tại thời điểm phù hợp, nhóm phát triển có thể mất thời gian tra cứu thủ công hoặc phải xử lý lại khi vấn đề được phát hiện muộn.
+Thông tin về giấy phép, phiên bản, nguồn gốc và lỗ hổng của một thành phần có thể nằm ở repository, package registry, model card, trang phát hành trọng số hoặc hệ thống kiểm tra khác nhau. Với mô hình AI, giấy phép của mã nguồn, trọng số, dataset và tài nguyên đi kèm có thể khác nhau; không nên mặc định rằng một giấy phép ở trang chính bao quát tất cả. Nếu quy trình hiện tại chưa tập hợp bằng chứng này tại thời điểm phù hợp, nhóm phát triển có thể mất thời gian tra cứu thủ công hoặc phải xử lý lại khi vấn đề được phát hiện muộn.
 
 **Giả thuyết cần xác minh:** Một bước kiểm tra tự động, có thể cấu hình và tích hợp vào PR/CI, sẽ giúp phát hiện sớm các trường hợp cần xem xét, giảm thao tác lặp lại và lưu lại bằng chứng xử lý.
 
@@ -26,26 +28,35 @@ Trước khi triển khai, cần xác nhận với nhóm kỹ thuật, DevSecOps
 
 ### 3.1. Luồng hoạt động dự kiến
 
+**Bước kiểm chứng ban đầu (trước CI/CD):**
+
+1. Người thử nghiệm nhập URL repository/package/model hoặc danh sách thành phần cần đánh giá.
+2. Công cụ thu thập thông tin có thể truy xuất: tên, phiên bản/commit, giấy phép được công bố, dependency nếu có, nguồn bằng chứng và thời điểm kiểm tra.
+3. Với mô hình AI, ghi nhận riêng các thành phần có thể có giấy phép/điều kiện riêng như mã nguồn, trọng số, dataset và tài nguyên đi kèm; nếu không xác minh được thì đánh dấu chưa rõ, không suy đoán.
+4. Đối chiếu với chính sách đã được đơn vị có thẩm quyền cung cấp và tạo báo cáo có lý do, liên kết nguồn, mức độ đầy đủ của bằng chứng và hướng xử lý.
+5. So sánh kết quả với đánh giá thủ công của người rà soát để xác định mức bao phủ và các loại cảnh báo sai.
+
+**Bước tích hợp sau khi kiểm chứng:**
+
 1. Khi tạo hoặc cập nhật PR, CI thu thập manifest và lockfile của dự án.
-2. Công cụ lập danh sách dependency trực tiếp và gián tiếp trong phạm vi công cụ hỗ trợ; thu thập thông tin giấy phép và nguồn tham khảo có sẵn.
-3. Tạo báo cáo gồm tên/phiên bản thành phần, thông tin giấy phép, nguồn dữ liệu, trạng thái kiểm tra và hướng xử lý.
-4. Đối chiếu với chính sách do đơn vị có thẩm quyền cung cấp:
+2. Công cụ lập danh sách dependency trực tiếp và gián tiếp trong phạm vi hỗ trợ; thu thập thông tin giấy phép và nguồn tham khảo có sẵn.
+3. Đối chiếu với chính sách do đơn vị có thẩm quyền cung cấp:
    - **Đạt:** có đủ bằng chứng theo quy tắc đã cấu hình.
    - **Cần xem xét:** thiếu hoặc mâu thuẫn thông tin, cần người phụ trách đánh giá.
    - **Không đạt:** phát hiện điều kiện đã được chính sách xác định rõ là không được chấp nhận.
-5. Lưu báo cáo cùng PR; ghi nhận người duyệt và lý do nếu có ngoại lệ.
+4. Lưu báo cáo cùng PR; ghi nhận người duyệt và lý do nếu có ngoại lệ.
 
 Kết quả tự động chỉ là công cụ hỗ trợ sàng lọc. Metadata có thể sai hoặc thiếu; trường hợp mơ hồ cần được con người xem xét.
 
 ### 3.2. Phạm vi MVP
 
-- Chọn một repository và một hệ sinh thái công nghệ để thử nghiệm.
-- Đọc dependency manifest/lockfile và thống kê dependency trong phạm vi hỗ trợ.
-- Thu thập thông tin giấy phép, cảnh báo metadata thiếu hoặc mâu thuẫn.
-- Sinh báo cáo dễ đọc trên PR và đầu ra JSON để có thể tích hợp tiếp.
-- Chạy ở chế độ cảnh báo trước; chỉ bật chặn merge với các quy tắc rõ ràng sau khi kiểm chứng.
-- Có hướng dẫn xử lý và cơ chế ghi nhận ngoại lệ.
-- Đánh giá công cụ tạo SBOM/kiểm tra giấy phép hiện có thay vì tự xây dựng mọi thành phần từ đầu.
+- **Đầu vào:** một repository/package/model URL hoặc một danh sách thành phần; chọn một hệ sinh thái công nghệ và phạm vi nhỏ để thử nghiệm.
+- **Thu thập bằng chứng:** tên và phiên bản/commit, metadata giấy phép, URL nguồn, dependency có thể truy xuất và ngày kiểm tra. Với model, ghi nhận riêng mã nguồn, trọng số, dataset/tài nguyên liên quan khi có thông tin.
+- **Đánh giá theo quy tắc:** phân loại đạt / cần xem xét / không đạt theo chính sách được phê duyệt; thiếu bằng chứng phải được đánh dấu rõ, không tự kết luận pháp lý.
+- **Đầu ra:** báo cáo dễ đọc và JSON gồm thành phần, phiên bản, kết quả, lý do, nguồn bằng chứng, ngày kiểm tra và hướng xử lý.
+- **Đánh giá thủ công:** xây dựng tập mẫu khoảng 20–30 thành phần nếu được phép, để người có chuyên môn xác minh kết quả; số lượng cuối cùng phụ thuộc vào khả năng tiếp cận và độ đa dạng của mẫu.
+- **Tích hợp CI/CD:** chưa phải yêu cầu đầu tiên. Sau khi đánh giá độ chính xác và tính hữu ích, thử tích hợp vào một repository ở chế độ cảnh báo.
+- **Tái sử dụng công cụ:** đánh giá công cụ tạo SBOM/kiểm tra giấy phép hiện có thay vì tự xây dựng mọi thành phần từ đầu.
 
 ### 3.3. Chưa thuộc phạm vi ban đầu
 
@@ -84,12 +95,12 @@ Các công cụ như SPDX, Syft hoặc ScanCode Toolkit có thể được đán
 
 Cần đo số liệu nền trước khi đặt mục tiêu. Các chỉ số đề xuất:
 
-- **Độ bao phủ:** tỷ lệ dependency được ghi nhận trạng thái giấy phép.
-- **Khả năng phát hiện sớm:** số trường hợp có thể xử lý được phát hiện trước khi merge/release.
-- **Hiệu quả xử lý:** thời gian trung vị để phân loại và giải quyết một cảnh báo; thời gian kiểm tra thủ công.
-- **Độ nhiễu:** tỷ lệ cảnh báo sai và cảnh báo chưa thể kết luận trên một mẫu được người phụ trách kiểm tra.
-- **Khả năng truy vết:** tỷ lệ PR/release thử nghiệm có báo cáo và quyết định xử lý.
-- **Ảnh hưởng đến phát triển:** thời gian CI tăng thêm và số PR bị chặn bởi các trường hợp thực sự cần xử lý.
+- **Độ bao phủ bằng chứng:** tỷ lệ thành phần trong tập mẫu có thể thu thập được thông tin giấy phép và nguồn tham khảo.
+- **Độ đúng so với rà soát thủ công:** tỷ lệ kết quả phân loại khớp với đánh giá của người có chuyên môn; ghi riêng trường hợp chưa thể kết luận.
+- **Cảnh báo sai và bỏ sót:** số lượng/tỷ lệ false positive và false negative trên tập mẫu đã được xác minh.
+- **Thời gian xử lý:** thời gian trung vị để kiểm tra thủ công so với dùng công cụ.
+- **Khả năng truy vết:** tỷ lệ kết quả có phiên bản, nguồn bằng chứng, lý do và ngày kiểm tra.
+- **Ảnh hưởng đến phát triển:** nếu tích hợp CI ở giai đoạn sau, đo thời gian CI tăng thêm và tác động tới PR.
 - **Chi phí:** công sức triển khai, bảo trì chính sách và vận hành.
 
 Không cam kết trước tỷ lệ tiết kiệm hoặc giảm rủi ro khi chưa có dữ liệu thực nghiệm.
@@ -98,10 +109,11 @@ Không cam kết trước tỷ lệ tiết kiệm hoặc giảm rủi ro khi ch�
 
 | Giai đoạn | Công việc | Kết quả |
 |---|---|---|
-| 1. Khảo sát | Xác định quy trình hiện tại, công cụ đã có, repository thử nghiệm và người phụ trách chính sách | Phạm vi và số liệu nền |
-| 2. Làm mẫu | Tích hợp công cụ kiểm kê dependency và báo cáo PR ở chế độ cảnh báo | MVP chạy được |
-| 3. Đánh giá | So sánh kết quả tự động với mẫu do người có chuyên môn rà soát; đo độ bao phủ, cảnh báo sai và thời gian CI | Báo cáo đánh giá |
-| 4. Đề xuất mở rộng | Chỉ cân nhắc chặn merge với quy tắc rõ ràng, độ tin cậy cao và có quy trình ngoại lệ | Kết luận thử nghiệm và kế hoạch tiếp theo |
+| 1. Khảo sát | Xác minh quy trình/công cụ hiện tại, chọn phạm vi và thống nhất người rà soát có chuyên môn | Khoảng trống cần giải quyết, quy tắc và số liệu nền |
+| 2. Lập tập mẫu | Chọn khoảng 20–30 package/model/thành phần nếu được phép; ghi nhận kết quả rà soát thủ công và nguồn bằng chứng | Tập mẫu đối chiếu có thể kiểm tra lại |
+| 3. Làm MVP | Thu thập metadata, phân loại theo quy tắc, xuất báo cáo và JSON; chưa bắt buộc tích hợp CI | Bản thử nghiệm chạy được |
+| 4. Đánh giá | So sánh kết quả tự động với tập mẫu đã xác minh; đo độ bao phủ, cảnh báo sai/bỏ sót và thời gian xử lý | Báo cáo đánh giá có số liệu |
+| 5. Tích hợp thử | Nếu MVP hữu ích, tích hợp một repository ở chế độ cảnh báo; chỉ cân nhắc chặn merge sau khi kiểm chứng | Kết luận thử nghiệm và đề xuất tiếp theo |
 
 Thời lượng từng giai đoạn sẽ được chốt sau khi biết độ phức tạp repository và khả năng hỗ trợ của các bên liên quan.
 
@@ -154,6 +166,6 @@ Chỉ đánh giá phần trăm hoàn thiện sau khi có tiêu chí nghiệm thu
 
 ## 10. Kiến nghị
 
-Đề xuất thực hiện bước khảo sát ngắn trước khi cam kết xây dựng đầy đủ. Nếu xác nhận có nhu cầu chưa được đáp ứng, triển khai MVP ở chế độ cảnh báo trên một repository, đo độ chính xác, thời gian kiểm tra và ảnh hưởng đến CI/CD. Chỉ đề xuất mở rộng khi kết quả cho thấy lợi ích rõ ràng so với công cụ và quy trình hiện có.
+Đề xuất thực hiện bước khảo sát ngắn trước khi cam kết xây dựng đầy đủ. Nếu xác nhận có nhu cầu chưa được đáp ứng, trước tiên xây dựng một MVP hẹp để kiểm tra repository/package/model, thu thập bằng chứng và xuất báo cáo; so sánh với một tập mẫu đã được rà soát thủ công. Chỉ sau khi có bằng chứng về độ hữu ích, độ bao phủ, cảnh báo sai và thời gian xử lý mới tích hợp thử vào một repository ở chế độ cảnh báo. Chỉ đề xuất mở rộng khi kết quả cho thấy lợi ích rõ ràng so với công cụ và quy trình hiện có.
 
 Đề xuất này ưu tiên giải quyết một vấn đề thực tế có thể kiểm chứng; tính mới, hiệu quả kinh tế, mức độ ứng dụng và độ hoàn thiện đều cần được chứng minh bằng khảo sát và thử nghiệm.
