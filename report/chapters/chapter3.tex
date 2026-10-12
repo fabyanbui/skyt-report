@@ -1,0 +1,82 @@
+\chapter{Kế hoạch pilot và đánh giá}
+
+\section{Trạng thái hiện tại}
+Tại thời điểm lập báo cáo, SCCG là đề xuất cần khảo sát và thử nghiệm; tài liệu này không khẳng định MVP đã được triển khai hoặc đã đạt các chỉ số hiệu quả. Các kết quả sẽ chỉ được đưa vào sau khi có tập mẫu, baseline, người rà soát phù hợp và dữ liệu đo có thể kiểm tra lại.
+
+\section{Phương pháp thử nghiệm}
+Đề xuất triển khai pilot theo năm giai đoạn:
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Khảo sát quy trình:} trao đổi với nhóm kỹ thuật, DevSecOps và pháp chế/tuân thủ; xác định công cụ hiện có, chính sách được áp dụng, hệ sinh thái mục tiêu và giới hạn dữ liệu.
+    \item \textbf{Xây dựng tập mẫu:} chọn khoảng 20--30 thành phần nếu được phép và đủ đa dạng; mỗi mẫu được rà soát thủ công, ghi nguồn bằng chứng và lý do phân loại. Quy mô này chỉ phục vụ thăm dò, không đại diện cho mọi hệ sinh thái.
+    \item \textbf{Chạy baseline:} đánh giá một hoặc nhiều công cụ hiện có và quy trình thủ công trên cùng tập mẫu.
+    \item \textbf{Xây dựng MVP hẹp:} triển khai thu thập metadata, phân loại bằng chứng, policy engine có phiên bản và xuất báo cáo/JSON.
+    \item \textbf{Đối chiếu và quyết định:} so sánh kết quả, phân tích lỗi và quyết định có nên tích hợp một repository vào CI ở chế độ cảnh báo.
+\end{enumerate}
+
+\section{Chỉ số đánh giá}
+\begin{longtable}{p{0.24\textwidth}p{0.36\textwidth}p{0.30\textwidth}}
+\caption{Chỉ số và cách đo trong pilot}\label{tab:metrics}\\
+\toprule
+\textbf{Chỉ số} & \textbf{Cách đo} & \textbf{Lưu ý} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Chỉ số} & \textbf{Cách đo} & \textbf{Lưu ý} \\
+\midrule
+\endhead
+Độ bao phủ bằng chứng & Tỷ lệ thành phần có thông tin license và nguồn truy xuất được & Báo cáo riêng theo hệ sinh thái và loại tài nguyên \\
+Độ đúng phân loại & So sánh kết quả với nhãn do người có chuyên môn xác minh & Trường hợp chưa kết luận phải ghi riêng \\
+Cảnh báo sai & Số cảnh báo không được xác nhận khi rà soát thủ công & Xác định quy tắc và mẫu số trước khi tính tỷ lệ \\
+Bỏ sót & Số trường hợp cần cảnh báo theo rà soát thủ công nhưng công cụ không phát hiện & Không gộp với trường hợp thiếu dữ liệu \\
+Thời gian xử lý & So sánh thời gian kiểm tra thủ công với quy trình có công cụ & Dùng cùng tập mẫu và ghi rõ thao tác được tính \\
+Khả năng truy vết & Tỷ lệ kết quả có phiên bản, nguồn, lý do và policy version & Là điều kiện quan trọng để tái kiểm tra \\
+Chi phí vận hành & Thời gian tích hợp, cập nhật rule và bảo trì & Chưa quy đổi thành tiết kiệm tiền nếu thiếu dữ liệu nền \\
+Ảnh hưởng CI & Thời gian tăng thêm và số cảnh báo phát sinh trên PR & Chỉ đo sau khi pilot được phê duyệt \\
+\bottomrule
+\end{longtable}
+
+Với tập mẫu nhỏ, nên báo cáo cả số lượng tuyệt đối lẫn tỷ lệ và không diễn giải kết quả như bằng chứng thống kê cho toàn tổ chức. Khi có đủ mẫu, có thể báo cáo precision, recall và các trường hợp false positive/false negative theo từng nhóm rủi ro.
+
+\section{Tiêu chí nghiệm thu đề xuất}
+\begin{enumerate}[label=\arabic*.]
+    \item Mỗi kết quả truy ngược được về thành phần/phiên bản, nguồn bằng chứng, thời điểm kiểm tra và phiên bản chính sách.
+    \item Thiếu hoặc mâu thuẫn bằng chứng được phân biệt với kết quả không phù hợp chính sách.
+    \item Dependency gián tiếp trong phạm vi hỗ trợ có thể truy vết theo đường dẫn.
+    \item Có báo cáo so sánh với baseline, bao gồm cảnh báo sai, bỏ sót, trường hợp chưa kết luận và thời gian xử lý.
+    \item Có hướng dẫn rà soát và ngoại lệ; chế độ mặc định không chặn merge.
+    \item Có đánh giá bảo mật và xác nhận phạm vi dữ liệu trước khi dùng trong repository thật.
+\end{enumerate}
+
+\section{Rủi ro và biện pháp giảm thiểu}
+\begin{longtable}{p{0.27\textwidth}p{0.58\textwidth}}
+\caption{Rủi ro chính của SCCG pilot}\label{tab:risks}\\
+\toprule
+\textbf{Rủi ro} & \textbf{Biện pháp giảm thiểu} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Rủi ro} & \textbf{Biện pháp giảm thiểu} \\
+\midrule
+\endhead
+Metadata thiếu hoặc sai & Lưu nguồn, thời điểm, phiên bản; hiển thị mức độ đầy đủ và chuyển trường hợp mơ hồ cho người rà soát \\
+Cảnh báo sai làm gián đoạn phát triển & Bắt đầu ở chế độ báo cáo; đo false positive trước khi cân nhắc enforcement \\
+Bỏ sót dependency & So sánh với lockfile/SBOM và rà soát thủ công; công bố hệ sinh thái chưa hỗ trợ \\
+Lộ source code hoặc metadata nội bộ & Ưu tiên chạy trong hạ tầng được phê duyệt; không gửi dữ liệu ra ngoài khi chưa có cho phép \\
+Chính sách không rõ hoặc lỗi thời & Xác định chủ sở hữu, quản lý phiên bản policy và ngày hiệu lực \\
+Trùng lặp công cụ hiện có & Thực hiện khảo sát và baseline trước khi xây; ưu tiên tích hợp công cụ phù hợp \\
+Hiểu nhầm kết quả thành tư vấn pháp lý & Ghi rõ giới hạn, lý do và quy trình chuyển cấp cho người có thẩm quyền \\
+\bottomrule
+\end{longtable}
+
+\section{Đối chiếu tiêu chí đánh giá sáng kiến VDT}
+\subsection{Hiệu quả kinh tế}
+Giá trị tiềm năng có thể đến từ giảm thời gian tra cứu lặp lại, phát hiện vấn đề sớm hơn và giảm công sức sửa đổi khi thành phần đã được tích hợp. Cần đo thời gian nền và chi phí vận hành trước khi tính hiệu quả. Báo cáo không đưa ra tỷ lệ tiết kiệm chưa được đo.
+
+\subsection{Tính mới}
+Quét license và tạo SBOM đã có công cụ chuyên dụng. Vì vậy, bản thân chức năng quét không được coi là tính mới. Cần xác định khoảng trống sau khảo sát; khác biệt có thể nằm ở tích hợp quy trình nội bộ, quản lý bằng chứng, giải thích policy và luồng ngoại lệ, nhưng phải chứng minh bằng so sánh.
+
+\subsection{Tính ứng dụng}
+Có thể bắt đầu từ một hệ sinh thái và một repository thử nghiệm, nếu phù hợp với quy trình, hạ tầng và chính sách hiện có. Mức độ sẵn sàng chỉ được đánh giá sau khi xác định được người sở hữu chính sách và điều kiện dữ liệu.
+
+\subsection{Tính hoàn thiện}
+Tài liệu thiết kế không thay thế sản phẩm và kết quả pilot. Hồ sơ hoàn thiện cần có MVP chạy được, tập mẫu đã xác minh, báo cáo đo, hướng dẫn vận hành, phân tích lỗi và giới hạn sử dụng. Chỉ đánh giá mức hoàn thiện sau khi các tiêu chí này được kiểm chứng.
