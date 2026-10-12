@@ -169,3 +169,67 @@ Chỉ đánh giá phần trăm hoàn thiện sau khi có tiêu chí nghiệm thu
 Đề xuất thực hiện bước khảo sát ngắn trước khi cam kết xây dựng đầy đủ. Nếu xác nhận có nhu cầu chưa được đáp ứng, trước tiên xây dựng một MVP hẹp để kiểm tra repository/package/model, thu thập bằng chứng và xuất báo cáo; so sánh với một tập mẫu đã được rà soát thủ công. Chỉ sau khi có bằng chứng về độ hữu ích, độ bao phủ, cảnh báo sai và thời gian xử lý mới tích hợp thử vào một repository ở chế độ cảnh báo. Chỉ đề xuất mở rộng khi kết quả cho thấy lợi ích rõ ràng so với công cụ và quy trình hiện có.
 
 Đề xuất này ưu tiên giải quyết một vấn đề thực tế có thể kiểm chứng; tính mới, hiệu quả kinh tế, mức độ ứng dụng và độ hoàn thiện đều cần được chứng minh bằng khảo sát và thử nghiệm.
+
+
+## 11. Các cải tiến thiết kế đề xuất sau khi rà soát hướng nghiên cứu
+
+Các cải tiến dưới đây được đưa vào dưới dạng yêu cầu có thể kiểm chứng, không phải tuyên bố rằng SCCG đã mới hơn hoặc tốt hơn các công cụ hiện có. Trước khi chốt phạm vi cuối cùng, cần đối chiếu chúng với các paper và công cụ liên quan mà nhóm đã lưu trong repository.
+
+### 11.1. Đánh giá chất lượng bằng chứng, không chỉ sự hiện diện của metadata
+
+Mỗi thành phần nên có trạng thái bằng chứng riêng, tối thiểu gồm:
+
+- **Đủ bằng chứng:** có nguồn truy xuất được, gắn với phiên bản/commit cụ thể và đủ thông tin theo quy tắc đang áp dụng.
+- **Thiếu hoặc mâu thuẫn:** không tìm thấy thông tin cần thiết, nhiều nguồn đưa ra thông tin khác nhau, hoặc metadata chưa thể gắn chắc chắn với phiên bản đang dùng.
+- **Có dấu hiệu không phù hợp:** bằng chứng đã thu thập được đối chiếu với một quy tắc cụ thể và cho thấy cần xử lý.
+
+Không được coi việc thiếu thông tin là bằng chứng tự động của hành vi vi phạm. Báo cáo cần tách biệt trạng thái bằng chứng, kết quả đối chiếu chính sách và hành động khuyến nghị.
+
+### 11.2. Phân tích dependency có thể truy vết
+
+Trong phạm vi hệ sinh thái được chọn, SCCG nên phân biệt dependency trực tiếp và gián tiếp. Khi một thành phần cần xem xét, báo cáo nên chỉ ra đường dẫn dependency từ dự án đến thành phần đó, phiên bản liên quan và nguồn metadata. MVP chưa cần triển khai phân tích đồ thị nâng cao; một dependency graph đủ để truy vết và giải thích là phù hợp.
+
+### 11.3. Policy engine có phiên bản và quyết định tái lập được
+
+Mỗi kết quả cần lưu tối thiểu:
+
+- Phiên bản/commit hoặc định danh đầu vào đã kiểm tra.
+- Nguồn và thời điểm thu thập bằng chứng.
+- Phiên bản quy tắc/chính sách được áp dụng.
+- Kết quả từng quy tắc, lý do phân loại và hành động tiếp theo.
+- Phiên bản công cụ kiểm tra, nếu có thể ghi nhận.
+
+Với cùng đầu vào, cùng bằng chứng và cùng phiên bản chính sách, SCCG nên tạo ra quyết định nhất quán. Ngoại lệ phải có người phê duyệt, lý do, phạm vi và thời hạn; không nên cho phép bỏ qua cảnh báo mà không để lại dấu vết.
+
+### 11.4. Mô hình kết quả: tuân thủ và độ chắc chắn là hai chiều riêng
+
+Báo cáo không nên chỉ đưa ra một điểm rủi ro tổng hợp khó giải thích. Đề xuất biểu diễn riêng:
+
+- **Kết quả chính sách:** đạt, cần xem xét hoặc không đạt theo quy tắc đã phê duyệt.
+- **Chất lượng bằng chứng:** đầy đủ, một phần, hoặc mâu thuẫn/chưa xác minh.
+- **Hành động:** chấp nhận, yêu cầu rà soát, thay thế thành phần hoặc xin ngoại lệ.
+
+Ở giai đoạn thử nghiệm, chỉ nên chạy ở chế độ báo cáo/cảnh báo. Chưa bật chặn merge cho đến khi tập quy tắc, ngưỡng xử lý và quy trình ngoại lệ được người có thẩm quyền xác nhận.
+
+### 11.5. Đánh giá bằng baseline và phân tích lỗi
+
+Ngoài độ bao phủ và thời gian xử lý, cần báo cáo precision/recall hoặc số lượng trường hợp đúng, cảnh báo sai và bỏ sót trên tập mẫu đã được xác minh. Ghi riêng các trường hợp không thể kết luận thay vì ép chúng vào nhãn đạt/không đạt. So sánh tối thiểu với quy trình thủ công và một hoặc nhiều công cụ OSS hiện có phù hợp với phạm vi thử nghiệm.
+
+Với tập mẫu nhỏ khoảng 20–30 thành phần, kết quả chỉ có giá trị thăm dò; cần công bố rõ số lượng mẫu, loại thành phần, hệ sinh thái, cách chọn mẫu và giới hạn khả năng khái quát hóa.
+
+### 11.6. Phạm vi AI provenance cần được giới hạn
+
+MVP có thể ghi nhận thông tin model card, giấy phép và nguồn của mã nguồn/trọng số/dataset khi có thể truy xuất. Không nên tuyên bố xác định chắc chắn mã nào do AI sinh ra chỉ dựa trên source code. Việc truy vết AI-assisted code chỉ nên mở rộng khi có metadata từ quy trình phát triển và được chính sách nội bộ cho phép.
+
+## 12. Tiêu chí nghiệm thu bổ sung cho MVP
+
+MVP được xem là đủ điều kiện để đề xuất tích hợp thử vào CI khi đáp ứng các điều kiện sau:
+
+1. Mỗi kết quả đều truy ngược được về thành phần/phiên bản, nguồn bằng chứng và phiên bản chính sách.
+2. Phân biệt được trường hợp thiếu bằng chứng với trường hợp không phù hợp theo chính sách.
+3. Dependency gián tiếp trong phạm vi hỗ trợ có thể truy vết đến thành phần gốc trong dependency graph.
+4. Có báo cáo đánh giá so với rà soát thủ công, bao gồm cảnh báo sai, bỏ sót, trường hợp chưa thể kết luận và thời gian xử lý.
+5. Có hướng dẫn xử lý ngoại lệ và giới hạn sử dụng; chế độ mặc định ban đầu là cảnh báo, không chặn merge.
+6. Đã khảo sát công cụ hiện có và ghi rõ phần SCCG bổ sung so với baseline; chưa tuyên bố tính mới hoặc mức tiết kiệm nếu chưa có bằng chứng.
+
+Các tiêu chí này là điều kiện đề xuất cho pilot, cần điều chỉnh sau khi thống nhất với người phụ trách chính sách và nhóm thử nghiệm.
