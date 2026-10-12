@@ -1,134 +1,47 @@
-# Problem Definition: Unverified OSS and AI-Assisted Code Reuse
+# Xác định vấn đề: Kiểm tra việc sử dụng mã nguồn mở và mã do AI hỗ trợ
 
-> **Related VDT proposal:** [Source Code Compliance Gate (SCCG)](./vdt-source-code-compliance-gate.md)  
-> **Purpose:** Define the user and engineering pain points before discussing the proposed solution.
+> **Liên quan:** [Đề xuất sáng kiến SCCG](./vdt-source-code-compliance-gate.md)
 
-## 1. Context and motivation
+## 1. Góc nhìn và bối cảnh
 
-While developing an AI OCR pipeline, I experimented with a wide range of open-source (OSS) models, repositories, and supporting tools to compare their capabilities and find a practical implementation path. In that process, my attention was mainly on technical factors—accuracy, speed, hardware requirements, integration effort, and whether the model could solve the OCR problem. I realized that I could easily overlook a separate but important question: **under what license and conditions may this model, repository, code, or associated asset be used in our intended product?**
+Khi xây dựng pipeline AI OCR, tôi đã thử nghiệm nhiều mô hình, repository và công cụ mã nguồn mở để so sánh chất lượng, tốc độ và khả năng tích hợp. Tôi nhận ra mình tập trung nhiều vào khía cạnh kỹ thuật và có thể chưa kiểm tra đầy đủ giấy phép cũng như điều kiện sử dụng của một số thành phần.
 
-This is not unique to AI OCR. In general software development, engineers increasingly reuse OSS libraries, copy examples from public repositories, install developer tools, and use AI coding assistants to generate or modify code. Yet the development workflow may not include a consistent, visible checkpoint to answer questions such as:
+Từ trải nghiệm cá nhân đó, tôi đặt câu hỏi rộng hơn: trong quy trình phát triển phần mềm, việc kiểm tra giấy phép và nguồn gốc của các thành phần OSS, cũng như mã được tạo hoặc chỉnh sửa bằng AI, đã được thực hiện ở bước nào và có nhất quán hay không?
 
-- Has the license of this model, repository, package, or tool been identified and reviewed?
-- Do its license conditions fit the intended use, modification, deployment, and distribution model?
-- Have the tool's origin, maintainer, release, integrity, and security posture been assessed to the level required by the project?
-- When AI generates code, is there a process to review provenance where relevant, dependency additions, license concerns, security risks, and policy compliance before the code is merged?
-- Can the team later show what was checked and who approved a decision?
+Đây là **quan sát và giả thuyết ban đầu của cá nhân tôi**, không phải kết luận rằng Viettel hiện chưa có quy trình kiểm soát, hoặc một thành phần cụ thể nào đã vi phạm. Cần trao đổi với các nhóm liên quan để xác minh thực trạng trước khi xác định phạm vi giải pháp.
 
-The observation is a gap in the **development process and its controls**, not an allegation that any particular OSS project or AI-generated code is unlawful or unsafe.
+## 2. Vấn đề cần tìm hiểu
 
-## 2. Core problem statement
+Khi lựa chọn thư viện, mô hình hoặc công cụ OSS, người phát triển thường cần đánh giá tính năng, độ chính xác, hiệu năng và khả năng tích hợp. Tuy nhiên, các thông tin về giấy phép, điều kiện sử dụng, nguồn gốc, bảo mật và yêu cầu của dự án có thể nằm ở nhiều nơi khác nhau.
 
-Engineering teams need to make rapid build-versus-reuse decisions, but the information required to make those decisions responsibly is fragmented across repositories, package registries, model cards, license files, documentation, security advisories, and internal policies. Developers may be able to install or integrate a component before anyone has established whether its license, provenance, security posture, and operational terms are acceptable for the target project.
+Tương tự, khi dùng AI để sinh hoặc chỉnh sửa mã, cần xác định liệu quy trình review hiện tại đã bao quát các rủi ro liên quan hay chưa. Nếu thông tin và bước kiểm tra chưa rõ ràng hoặc chưa thống nhất, nhóm phát triển có thể phát hiện vấn đề muộn, phải sửa đổi thành phần đã tích hợp hoặc mất thời gian kiểm tra lại.
 
-At the same time, AI-assisted coding can increase the volume and speed of code changes and dependency additions. Unless existing review and CI/CD controls explicitly cover these risks, a conventional code review may focus on functionality, maintainability, and tests without consistently checking licensing, approved-tool status, provenance, or supply-chain security.
+**Vấn đề giả định:** Làm thế nào để giúp nhóm phát triển nhận biết sớm những trường hợp cần kiểm tra giấy phép, nguồn gốc và chính sách sử dụng OSS/AI, đồng thời lưu lại kết quả xử lý mà không tạo thêm nhiều thao tác thủ công?
 
-The resulting pain is not simply “developers forget to check licenses.” It is that **the workflow does not reliably make the required checks visible, timely, repeatable, and auditable**.
+## 3. Một số điểm cần xác minh
 
-## 3. Pain points
+- **Giấy phép và điều kiện sử dụng:** Có xác định được giấy phép của thư viện, mô hình, trọng số mô hình và các tài nguyên liên quan trước khi đưa vào sản phẩm không?
+- **Mã được AI hỗ trợ:** Quy trình review hiện tại có hướng dẫn kiểm tra dependency mới, nguồn gốc khi có thể xác định, và các yêu cầu về bảo mật hoặc chính sách không?
+- **Dependency gián tiếp:** Nhóm có theo dõi được các thư viện phụ thuộc mà một package hoặc công cụ kéo theo không?
+- **Bằng chứng kiểm tra:** Có lưu được thành phần/phiên bản đã dùng, kết quả kiểm tra, người quyết định và lý do ngoại lệ không?
+- **Thời điểm kiểm tra:** Các vấn đề thường được phát hiện khi thử nghiệm, tạo pull request, trước khi release hay sau khi triển khai?
+- **Mức độ phù hợp với dự án:** Yêu cầu có khác nhau giữa thử nghiệm nội bộ, triển khai production và bàn giao cho khách hàng không?
 
-### P1. License and usage conditions are easy to overlook
+Các điểm trên là câu hỏi khảo sát, không phải khẳng định rằng mọi dự án đều gặp các vấn đề này.
 
-- Technical evaluation often prioritizes model quality, latency, resource consumption, and ease of integration.
-- License information may be in a separate file, model card, package page, or upstream dependency rather than in the code being evaluated.
-- “Open source,” “publicly available,” and “free to download” can be incorrectly treated as equivalent to “approved for any commercial or enterprise use.”
-- AI models may have separate terms for code, model weights, training data, datasets, or other assets. A repository's top-level license may not cover every asset.
+## 4. Hướng cải thiện có thể xem xét
 
-**Impact:** Late discovery can force component replacement, rework, a release delay, or a legal review under time pressure.
+Nếu quá trình khảo sát xác nhận có khoảng trống, có thể thử nghiệm một bước kiểm tra tự động trong pull request hoặc CI/CD để tổng hợp dependency, thu thập thông tin giấy phép sẵn có và cảnh báo các trường hợp thiếu thông tin hoặc cần xem xét thêm. Những trường hợp không rõ ràng cần được chuyển cho người có thẩm quyền đánh giá; công cụ không thay thế quyết định pháp lý hay chính sách nội bộ.
 
-### P2. No consistent policy checkpoint for AI-generated or AI-modified code
+Nên bắt đầu trên một repository và một hệ sinh thái công nghệ, chạy ở chế độ cảnh báo trước. Chỉ xem xét chặn merge khi quy tắc đã được thống nhất, có độ tin cậy phù hợp và có quy trình ngoại lệ.
 
-- AI-assisted changes may introduce new packages, copy patterns from sources that are not disclosed, or add code whose origin is difficult to establish from the diff alone.
-- Teams may have code review and automated tests but no explicit checklist or automated control for license, dependency, provenance, and security policy.
-- A code-generation tool's output is not automatically compliant merely because the tool produced it.
+## 5. Liên hệ với tiêu chí đánh giá sáng kiến VDT
 
-**Impact:** Review quality depends heavily on individual awareness and reviewer time; checks may be inconsistent across teams and repositories.
+- **Hiệu quả kinh tế:** Cần đo thời gian kiểm tra thủ công, công sức xử lý lại khi phát hiện muộn và chi phí vận hành công cụ. Chưa nên đưa ra tỷ lệ tiết kiệm khi chưa có số liệu nền.
+- **Tính mới:** Cần khảo sát các công cụ và quy trình Viettel đang sử dụng để xác định điểm khác biệt thực sự. Không mặc định rằng giải pháp hoặc công nghệ này chưa tồn tại.
+- **Tính ứng dụng:** Có thể bắt đầu bằng một thử nghiệm nhỏ trong CI/CD nếu phù hợp với công nghệ, hạ tầng và chính sách hiện có.
+- **Tính hoàn thiện:** Cần có bản thử nghiệm chạy được, kết quả kiểm tra trên repository mẫu, đánh giá độ chính xác/cảnh báo sai, hướng dẫn sử dụng và kết quả đo trước khi đề xuất mở rộng.
 
-### P3. OSS tools and models may be technically tested but not sufficiently vetted
+## 6. Kết luận
 
-- A quick proof of concept can establish that a tool runs without establishing whether its source, release, dependencies, maintainer practices, known vulnerabilities, or distribution terms are suitable.
-- Model and package metadata may be incomplete, stale, inconsistent, or hard to verify.
-- An unfamiliar project can be useful technically but still require additional security, privacy, license, or operational review before adoption.
-
-**Impact:** Teams may adopt components without a documented, risk-based decision or may repeat the same research independently.
-
-### P4. Dependency chains hide additional obligations and risks
-
-- Direct dependencies can pull in transitive packages with different licenses or known vulnerabilities.
-- Installing a model or tool can also bring scripts, plugins, native binaries, container images, model weights, or other artifacts that need separate consideration.
-- Manual review of only the top-level repository does not provide a complete view of what is included in the delivered system.
-
-**Impact:** The project may have an incomplete view of its software and model supply chain.
-
-### P5. Evidence and ownership of decisions are fragmented
-
-- A developer may inspect a license or security advisory informally without recording the source, version, date, conclusion, or reviewer.
-- Teams may not know who can approve a restricted license, accept a vulnerability, or grant a project-specific exception.
-- Repeating the same checks across projects wastes effort, while undocumented exceptions can become permanent by accident.
-
-**Impact:** Compliance reviews are slower, decisions are difficult to reproduce, and teams cannot easily demonstrate due diligence.
-
-### P6. Checks happen too late or are too disruptive
-
-- If license and tool approval happen only near release, remediation may require replacing a dependency or redesigning an integration after significant work has accumulated.
-- If a policy is introduced as a strict blocking gate without validation, false positives and ambiguous metadata can frustrate developers and encourage workarounds.
-- A useful control must distinguish clear policy violations from incomplete evidence that needs human review.
-
-**Impact:** Either risk is discovered late, or overly broad controls add friction without improving decisions.
-
-### P7. Enterprise and client delivery increase the cost of uncertainty
-
-- The acceptable risk can vary by deployment model: internal experimentation, hosted service, on-premises deployment, redistribution of binaries, or delivery to a customer.
-- Client contracts, confidentiality obligations, security requirements, and internal policies may add restrictions beyond the OSS license itself.
-- A generic license scanner cannot decide every question about a particular combination, use case, or contract.
-
-**Impact:** Teams need a traceable escalation path that involves the right engineering, security, procurement, and legal owners instead of relying on an automated verdict alone.
-
-## 4. Scope boundaries: related but distinct checks
-
-The problem should not be reduced to license scanning alone. There are at least four related control areas:
-
-| Control area | Key question | Examples of evidence |
-|---|---|---|
-| License and legal terms | Are the component's terms understood and compatible with the intended use and distribution? | License identifier and text, notices, model card, approval record |
-| Provenance and integrity | Do we know where this component came from and which version/artifact is used? | Upstream URL, version, checksum, lockfile, source record |
-| Security and maintenance | Is the component acceptable under project security requirements? | Vulnerability scan, release activity, maintainer/security policy review |
-| AI-assisted change governance | Are generated or modified changes reviewed under the same engineering and policy controls? | PR review, dependency diff, tests, scanner output, documented exceptions |
-
-These controls overlap but are not interchangeable. A permissive license does not prove a component is secure; a vulnerability-free scan does not grant permission to use copyrighted code; and a public repository does not prove that its uploader had authority to publish every included asset.
-
-## 5. Why current informal practices are insufficient
-
-Informal checks can be appropriate for low-risk experimentation, but they are unreliable as the sole control when components move into production or client-facing products. They depend on each developer remembering every relevant question, knowing where to find the evidence, interpreting different license families correctly, and documenting the decision in a consistent place.
-
-The proposed improvement is not to add a legal review meeting to every code change. It is to **automate repeatable evidence collection and policy checks**, surface uncertainty early, and reserve human review for ambiguous or high-impact decisions.
-
-## 6. What success should look like
-
-Before choosing tools or setting hard enforcement rules, a pilot should establish whether the workflow can:
-
-1. Identify the relevant direct and transitive dependencies and, where feasible, model/tool artifacts.
-2. Record license and provenance evidence with clear uncertainty when metadata is incomplete.
-3. Flag missing evidence and policy-defined high-risk conditions before merge or release.
-4. Give developers actionable remediation guidance and a clear path for human review.
-5. Record the policy version, scan result, decision owner, and any exception.
-6. Keep CI overhead and false-positive rates within agreed limits.
-7. Avoid sending proprietary code, confidential documents, or client data to unapproved external services.
-
-## 7. Questions to validate during discovery
-
-These are hypotheses to validate with engineering, DevSecOps, procurement, and Legal/Compliance stakeholders, rather than assumptions about every team:
-
-- Which repositories and AI/OSS workflows currently have mandatory license or security checks?
-- Are model weights, datasets, plugins, container images, and non-code artifacts covered by current procedures?
-- Who maintains the approved/restricted/prohibited license policy and the approved-tool inventory?
-- How are exceptions requested, approved, time-limited, and audited today?
-- At what point in the SDLC do teams first review license, provenance, and security evidence?
-- What proportion of current findings are actionable, ambiguous, or false positives?
-- Which repositories must be scanned entirely inside Viettel-controlled infrastructure?
-
-## 8. Conclusion
-
-The central pain point is a **process-control gap between fast reuse of OSS/AI assets and the evidence needed to approve them for a specific engineering context**. The proposed VDT initiative should address this gap with a risk-based workflow that combines automated inventory and evidence collection, policy checks in PR/CI, human review for uncertain cases, and auditable exceptions.
-
-The goal is responsible reuse—not preventing teams from using OSS or AI. Legal interpretation, license compatibility decisions, and exceptions must remain subject to the organization's approved governance and qualified human review.
+Từ một trải nghiệm khi phát triển AI OCR, tôi muốn kiểm tra xem quy trình sử dụng OSS và mã được AI hỗ trợ có cần một bước kiểm tra rõ ràng, sớm và có thể truy vết hơn hay không. Bước tiếp theo là xác minh nhu cầu với các nhóm kỹ thuật, DevSecOps và pháp chế/tuân thủ; sau đó mới chốt yêu cầu, phạm vi thử nghiệm và cách đo hiệu quả.
